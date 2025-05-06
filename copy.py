@@ -1,6 +1,8 @@
 import os
 import json
 import shutil
+import sys
+import subprocess
 from git import Repo
 from pathlib import Path
 
@@ -8,7 +10,7 @@ working_dir = "/home/seva/git/backup"
 json_file = "/home/seva/projects/python/conf/data.json"
 
 # Получаем список всех конфигов, кроме .git и env
-configs = [f for f in os.listdir(working_dir) if f not in {".git", "env", "copy.py"}]
+configs = [f for f in os.listdir(working_dir) if f not in {".git", "env", "copy.py", "pkglist_official.txt","pkglist_aur.txt"}]
 
 # Удаляем старые файлы
 for filename in configs:
@@ -19,6 +21,54 @@ for filename in configs:
 # Загружаем пути из JSON
 with open(json_file) as f:
     data = json.load(f)
+
+import subprocess
+
+def generate_package_lists(
+    pacman_output="pkglist_official.txt",
+    aur_output="pkglist_aur.txt"
+):
+    """Создаёт два файла: список официальных пакетов pacman и AUR-пакетов"""
+
+    # Получаем явно установленные пакеты (не зависимости)
+    result = subprocess.run(["pacman", "-Qqe"], capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError("Ошибка при выполнении pacman -Qqe")
+
+    installed_packages = result.stdout.strip().split("\n")
+
+    # Получаем все пакеты из официальных репозиториев
+    repo_result = subprocess.run(["pacman", "-Slq"], capture_output=True, text=True)
+    if repo_result.returncode != 0:
+        raise RuntimeError("Ошибка при выполнении pacman -Slq")
+
+    official_packages = set(repo_result.stdout.strip().split("\n"))
+
+    # Разделение пакетов
+    official = []
+    aur = []
+
+    for pkg in installed_packages:
+        (official if pkg in official_packages else aur).append(pkg)
+
+    # Сохраняем в файлы
+    with open(pacman_output, "w") as f:
+        f.write("\n".join(official) + "\n")
+
+    with open(aur_output, "w") as f:
+        f.write("\n".join(aur) + "\n")
+
+    print(f"[✓] Список официальных пакетов сохранён в {pacman_output}")
+    print(f"[✓] Список AUR-пакетов сохранён в {aur_output}")
+    print(f"Всего: {len(official)} официальных, {len(aur)} AUR")
+
+
+
+
+
+if len(sys.argv) > 1 and sys.argv[1] == "-pkg":
+    generate_package_lists()
+
 
 # Копируем файлы в рабочую директорию
 for src in data.values():

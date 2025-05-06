@@ -1,4 +1,3 @@
-# By knightfall01 on Github as a part of https://github.com/Knightfall01/Hyprland-config.
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
@@ -28,10 +27,9 @@ alias open="xdg-open"
 alias findme="grep -nr"
 alias nano="vim"
 alias rp="realpath"
-alias po="/home/seva/git/backup/env/bin/python /home/seva/git/backup/copy.py && yay -Syu && poweroff"
+alias po="yay -Syu && /home/seva/git/backup/env/bin/python /home/seva/git/backup/copy.py -pkg && poweroff"
 alias config="/home/seva/projects/python/conf/main.py"
 
-# Функция для crp
 function crp
     realpath $argv | wl-copy
 end
