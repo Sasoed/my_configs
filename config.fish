@@ -28,7 +28,7 @@ alias open="xdg-open"
 alias findme="grep -nr"
 alias nano="vim"
 alias rp="realpath"
-alias po="yay -Syu && poweroff"
+alias po="/home/seva/git/backup/env/bin/python /home/seva/git/backup/copy.py && yay -Syu && poweroff"
 alias config="/home/seva/projects/python/conf/main.py"
 
 # Функция для crp
