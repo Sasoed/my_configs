@@ -1,0 +1,72 @@
+.material-icons {
+    font-family: "Material Icons", sans-serif;
+    font-size: 16px;
+    color: #EFEFEF;
+}
+
+/* Основной контейнер бара */
+#waybar {
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 12px;
+    background-color: rgba(30, 33, 39, 0.9); /* Однородный фон */
+    border: 2px solid rgba(51, 204, 255, 0.9); /* Цвет рамки */
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 2px;
+}
+
+/* Элементы в левом блоке (сдвиг вправо) */
+#waybar box.horizontal.modules-left {
+    margin-left: 10px; /* Сдвиг содержимого вправо */
+}
+
+/* Уменьшение кнопок в модуле workspaces */
+#workspaces button {
+    all: unset; /* Сбрасываем ВСЕ стили по умолчанию */
+    padding: 2px 5px; /* Минимальные внутренние отступы */
+    margin: 0; /* Внешние отступы полностью убраны */
+    font-size: 12px; /* Оставляем размер шрифта */
+    color: white; /* Цвет текста */
+}
+
+/* Активная кнопка (например, текущий рабочий стол) */
+#workspaces button.active {
+	padding: 2px 5px; /* Минимальные внутренние отступы */
+	margin: 0; /* Внешние отступы полностью убраны */
+	font-size: 12px; /* Оставляем размер шрифта */
+    color: rgba(51, 204, 255, 0.9);
+    font-weight: bold;
+}
+
+
+
+
+/* Цвет активного текста (для кнопок или выбранных элементов) */
+
+/* Модули справа (например, CPU, память, звук) */
+#waybar box.horizontal.modules-right {
+    padding: 2px 4px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgba(30, 33, 39, 0.9); /* Тот же фон, что у основного бара */   
+    margin-right: 10px;
+}
+
+/* Всплывающие подсказки */
+.tooltip {
+    background-color: rgba(50, 55, 65, 0.95); /* Фон подсказки */
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff; /* Белый текст */
+}
+#tray menu{
+background-color: rgba(30, 33, 39, 0.9);
+    border-radius: 4px; /* Закругленные углы */
+}
+
+.custom-keyboard {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+}
