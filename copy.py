@@ -28,6 +28,8 @@ def generate_package_lists(
     pacman_output="pkglist_official.txt",
     aur_output="pkglist_aur.txt"
 ):
+    os.remove(os.path.join(working_dir, pacman_output))
+    os.remove(os.path.join(working_dir, aur_output))
     """Создаёт два файла: список официальных пакетов pacman и AUR-пакетов"""
 
     # Получаем явно установленные пакеты (не зависимости)

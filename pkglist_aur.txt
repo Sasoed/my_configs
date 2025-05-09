@@ -1,6 +1,0 @@
-ayugram-desktop-bin
-google-chrome-dev
-rtl8188gu-dkms-git
-tint-tetris
-yay-bin
-yay-bin-debug
