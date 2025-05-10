@@ -1,5 +1,6 @@
 import os
 import json
+from os.path import isfile
 import shutil
 import sys
 import subprocess
@@ -28,8 +29,12 @@ def generate_package_lists(
     pacman_output="pkglist_official.txt",
     aur_output="pkglist_aur.txt"
 ):
-    os.remove(os.path.join(working_dir, pacman_output))
-    os.remove(os.path.join(working_dir, aur_output))
+    aur_path=os.path.join(working_dir, aur_output)
+    pacman_path=os.path.join(working_dir, pacman_output)
+    if os.path.isfile(pacman_path):
+        os.remove(pacman_path)
+    if os.path.isfile(aur_path):
+        os.remove(aur_path)
     """Создаёт два файла: список официальных пакетов pacman и AUR-пакетов"""
 
     # Получаем явно установленные пакеты (не зависимости)
