@@ -59,10 +59,10 @@ def generate_package_lists(
         (official if pkg in official_packages else aur).append(pkg)
 
     # Сохраняем в файлы
-    with open(pacman_output, "w") as f:
+    with open(pacman_path, "w") as f:
         f.write("\n".join(official) + "\n")
 
-    with open(aur_output, "w") as f:
+    with open(aur_path, "w") as f:
         f.write("\n".join(aur) + "\n")
 
     print(f"[✓] Список официальных пакетов сохранён в {pacman_output}")
