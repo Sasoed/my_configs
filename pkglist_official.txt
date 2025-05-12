@@ -13,7 +13,9 @@ discord
 discover
 displaycal
 dolphin
+dosfstools
 drkonqi
+edk2-ovmf
 efibootmgr
 epiphany
 evince
@@ -55,6 +57,7 @@ gnome-weather
 grilo-plugins
 grim
 grub
+grub-customizer
 gvfs-afc
 gvfs-dnssd
 gvfs-goa
@@ -94,6 +97,7 @@ kwayland
 kwin
 kwrited
 layer-shell-qt
+libisoburn
 libkscreen
 libksysguard
 libplasma
@@ -106,6 +110,7 @@ ly
 mako
 malcontent
 milou
+mtools
 nautilus
 ncdu
 neovim
@@ -144,6 +149,7 @@ print-manager
 prismlauncher
 python-pip
 python-pipx
+qemu-full
 qqc2-breeze-style
 rofi
 rsync
