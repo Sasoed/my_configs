@@ -1,3 +1,4 @@
+android-file-transfer
 arch-install-scripts
 baobab
 base
@@ -167,6 +168,7 @@ sudo
 sushi
 systemsettings
 tecla
+telegram-desktop
 totem
 ttf-monoid-nerd
 usb_modeswitch
