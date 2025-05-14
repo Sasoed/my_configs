@@ -30,6 +30,9 @@ alias rp="realpath"
 alias po="yay -Syu && /home/seva/git/backup/env/bin/python /home/seva/git/backup/copy.py -pkg && poweroff"
 alias config="/home/seva/projects/python/conf/main.py"
 alias syncr="/home/seva/git/backup/env/bin/python /home/seva/git/backup/copy.py -pkg"
+alias mpv="mpv --vo=kitty"
+
+
 
 function crp
     realpath $argv | wl-copy
