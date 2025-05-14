@@ -9,6 +9,7 @@ breeze
 breeze-gtk
 breeze-plymouth
 copyq
+cups
 decibels
 discord
 discover
@@ -26,6 +27,7 @@ firefox
 fish
 flatpak-kcm
 gdm
+gdu
 gimp
 git
 github-cli
@@ -113,7 +115,6 @@ malcontent
 milou
 mtools
 nautilus
-ncdu
 neovim
 network-manager-applet
 nodejs
@@ -166,6 +167,7 @@ starship
 steam
 sudo
 sushi
+system-config-printer
 systemsettings
 tecla
 telegram-desktop

@@ -2,6 +2,7 @@ ayugram-desktop-bin
 google-chrome-dev
 hyprsysteminfo
 legendary
+pantum-driver
 portproton
 r2modman-bin
 rtl8188gu-dkms-git
