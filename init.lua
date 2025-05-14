@@ -14,7 +14,7 @@ vim.cmd([[
   Plug 'morhetz/gruvbox'                             " Цветовая схема gruvbox
   Plug 'ghifarit53/tokyonight-vim'                   " Цветовая схема tokyonight
   Plug 'jiangmiao/auto-pairs'                        " Автоскобки
-
+  Plug 'fladson/vim-kitty'                           " Kitty синтаксис
   call plug#end()
 ]])
 
