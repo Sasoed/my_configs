@@ -1,5 +1,5 @@
 {
-  "config":"/home/seva/projects/python/conf/data.json",
+  "config":"/home/seva/.config/conf/data.json",
   "config.py":"/home/seva/projects/python/conf/main.py",
   "hyprland":"/home/seva/.config/hypr/hyprland.conf",
   "waybar": "/home/seva/.config/waybar/config",
