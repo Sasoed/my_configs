@@ -24,6 +24,7 @@ docker-compose
 dolphin
 dosfstools
 drkonqi
+dunst
 edk2-ovmf
 efibootmgr
 epiphany
