@@ -38,7 +38,6 @@ function crp
     realpath $argv | wl-copy
 end
 
-
 function vv
     set -l D (pwd)
     set -l FILE "venv/bin/activate.fish"
@@ -52,6 +51,19 @@ function vv
         end
         cd ..
     end
-    echo "$FILE not found"
     cd $D
+    read -r -p "$FILE not found, do you want to create venv? [y/N]" ans
+    switch %ans
+        case y Y
+            if python3 -m venv venv; then
+                source $FILE
+                echo "$FILE was created and activated"
+                return 0
+            else
+                echo "Not sucsecfully"
+                return 1
+            end
+        case '*'
+            return 1
+    end
 end
