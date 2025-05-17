@@ -4,5 +4,7 @@ group-by=app-name
 # Средняя кнопка мыши закрывает все уведомления от текущего приложения
 on-button-middle=dismiss-group
 
+# Звук при уведомлениях с app-name "notify-send"
 [app-name="notify-send"]
-exec=/home/seva/projects/python/sounds/main.py NwN
+exec /home/seva/projects/python/sounds/main.py NwN
+

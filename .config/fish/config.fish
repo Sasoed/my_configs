@@ -38,3 +38,20 @@ function crp
     realpath $argv | wl-copy
 end
 
+
+function vv
+    set -l D (pwd)
+    set -l FILE "venv/bin/activate.fish"
+
+    while test "$PWD" != "/"
+        if test -f $FILE
+            source $FILE
+            echo "Activated: "(pwd)/$FILE
+            cd $D
+            return
+        end
+        cd ..
+    end
+    echo "$FILE not found"
+    cd $D
+end
