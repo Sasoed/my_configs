@@ -52,8 +52,8 @@ function vv
         cd ..
     end
     cd $D
-    read -l -P "$FILE not found, do you want to create venv? [y/N]" ans
-    switch %ans
+    read -l -P "$FILE not found, do you want to create venv? [y/N] " ans
+    switch $ans
         case y Y
             if python3 -m venv venv; then
                 source $FILE
