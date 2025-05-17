@@ -1,0 +1,13 @@
+{
+  "config":"/home/seva/projects/python/conf/data.json",
+  "config.py":"/home/seva/projects/python/conf/main.py",
+  "hyprland":"/home/seva/.config/hypr/hyprland.conf",
+  "waybar": "/home/seva/.config/waybar/config",
+  "waybar-css": "/home/seva/.config/waybar/style.css",
+  "keybindings": "/home/seva/.config/hypr/custom/keybindings.conf",
+  "autostart":"/home/seva/.config/hypr/custom/autostart.conf",
+  "kitty":"/home/seva/.config/kitty/kitty.conf",
+  "nvim":"/home/seva/.config/nvim/init.lua",
+  "fish":"/home/seva/.config/fish/config.fish"
+}
+
