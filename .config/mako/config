@@ -1,0 +1,8 @@
+# Группируем уведомления по приложению
+group-by=app-name
+
+# Средняя кнопка мыши закрывает все уведомления от текущего приложения
+on-button-middle=dismiss-group
+
+[app-name="notify-send"]
+exec=/home/seva/projects/python/sounds/main.py NwN
