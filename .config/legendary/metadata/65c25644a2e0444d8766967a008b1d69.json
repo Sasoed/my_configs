@@ -1,0 +1,337 @@
+{
+  "app_name": "65c25644a2e0444d8766967a008b1d69",
+  "app_title": "DREDGE",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "65c25644a2e0444d8766967a008b1d69",
+      "asset_id": "65c25644a2e0444d8766967a008b1d69",
+      "build_version": "prod-windows-2994",
+      "catalog_item_id": "eac6533129434f98a6b04a81cbcaf357",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "422cb8171c0249ccad70aab57b0c5d1f",
+        "update_type": "PATCH"
+      },
+      "namespace": "8b454b47f5544fc6829cf0fed42ebae0"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2023-10-05T13:36:46.899Z",
+    "customAttributes": {
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/../LocalLow/Black Salt Games/DREDGE/eos/saves/"
+      },
+      "CloudSaveFolder_MAC": {
+        "type": "STRING",
+        "value": "{AppData}/Black Salt Games/DREDGE/eos/saves/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "DREDGEmKMzx"
+      }
+    },
+    "description": "DREDGE\u00a0\u2014 \u044d\u0442\u043e \u043e\u0434\u0438\u043d\u043e\u0447\u043d\u0430\u044f \u0438\u0433\u0440\u0430, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0432\u0430\u043c \u043f\u0440\u0435\u0434\u0441\u0442\u043e\u0438\u0442 \u043b\u043e\u0432\u0438\u0442\u044c \u0440\u044b\u0431\u0443 \u0438 \u0440\u0430\u0441\u043a\u0440\u044b\u0432\u0430\u0442\u044c \u0437\u043b\u043e\u0432\u0435\u0449\u0438\u0435 \u0442\u0430\u0439\u043d\u044b \u0433\u043b\u0443\u0431\u0438\u043d. \u041f\u0440\u043e\u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u043b\u043e\u0432, \u0443\u043b\u0443\u0447\u0448\u0430\u0439\u0442\u0435 \u0441\u0432\u043e\u0435 \u0441\u0443\u0434\u0435\u043d\u044b\u0448\u043a\u043e \u0438 \u043f\u0440\u043e\u0447\u0435\u0441\u044b\u0432\u0430\u0439\u0442\u0435 \u0434\u043d\u043e \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0434\u0430\u0432\u043d\u043e \u043f\u043e\u0433\u0440\u0435\u0431\u0435\u043d\u043d\u044b\u0445 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u0432.",
+    "developer": "Team17 Digital Ltd",
+    "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2024-09-24T11:25:11.968Z",
+        "description": "DREDGE - Expansion Bundle_SeasonPassAudience",
+        "developer": "Team17 Digital Ltd",
+        "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+        "endOfSupport": false,
+        "entitlementName": "2a040b67d07f4c64b4522b88fe977ff9",
+        "entitlementType": "AUDIENCE",
+        "id": "2a040b67d07f4c64b4522b88fe977ff9",
+        "itemType": "DURABLE",
+        "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+        "mainGameItem": {
+          "id": "eac6533129434f98a6b04a81cbcaf357",
+          "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "eac6533129434f98a6b04a81cbcaf357",
+            "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DREDGE - Expansion Bundle_SeasonPassAudience",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2024-09-24T12:36:24.414Z",
+        "description": "DREDGE - Complete Edition Upgrade Bundle_SeasonPassAudience",
+        "developer": "Team17 Digital Ltd",
+        "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+        "endOfSupport": false,
+        "entitlementName": "fb396afeff004f4c9fdf628ee004ac4b",
+        "entitlementType": "AUDIENCE",
+        "id": "fb396afeff004f4c9fdf628ee004ac4b",
+        "itemType": "DURABLE",
+        "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+        "mainGameItem": {
+          "id": "eac6533129434f98a6b04a81cbcaf357",
+          "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "eac6533129434f98a6b04a81cbcaf357",
+            "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DREDGE - Complete Edition Upgrade Bundle_SeasonPassAudience",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2024-08-28T13:56:22.859Z",
+        "description": "\u0421 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435\u043c The Iron Rig \u043d\u0430 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0435 \u0432\u0430\u0448\u0438\u0445 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439 \u0432 DREDGE \u043f\u043e\u044f\u0432\u0438\u0442\u0441\u044f \u043d\u043e\u0432\u044b\u0439 \u0440\u0430\u0441\u0448\u0438\u0440\u044f\u0435\u043c\u044b\u0439 \u0433\u043e\u0440\u043e\u0434\u043e\u043a. \u0418\u0441\u0441\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0434\u0440\u0435\u0432\u043d\u0438\u0435 \u0432\u043e\u0437\u043c\u0443\u0449\u0435\u043d\u0438\u044f \u0433\u043b\u0443\u0431\u0438\u043d \u0438 \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435, \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b \u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043d\u043e\u0432\u044b\u043c\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u044b\u043c\u0438. \u0417\u0430 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 \u0432\u0441\u0435\u0433\u0434\u0430 \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u043f\u043b\u0430\u0442\u0438\u0442\u044c.",
+        "developer": "Team17 Digital Ltd",
+        "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+        "endOfSupport": false,
+        "entitlementName": "4e8f4a86697048ea82b8d7eb305fa476",
+        "entitlementType": "EXECUTABLE",
+        "id": "4e8f4a86697048ea82b8d7eb305fa476",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "DREDGE DREDGE: The Iron Rig Offer",
+            "height": 1440,
+            "md5": "db9b1d59b3c6303a3d720507f199a336",
+            "size": 511964,
+            "type": "DieselGameBox",
+            "uploadedDate": "2024-10-09T10:14:21.083Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-96yut.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download DREDGE DREDGE: The Iron Rig Offer",
+            "height": 1600,
+            "md5": "126bc7d68d4616295c3523b6bc0f8fb3",
+            "size": 297625,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2024-10-09T10:14:20.870Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-1h65u.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+        "mainGameItem": {
+          "id": "eac6533129434f98a6b04a81cbcaf357",
+          "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "eac6533129434f98a6b04a81cbcaf357",
+            "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DREDGE: The Iron Rig",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2024-08-28T13:54:51.173Z",
+        "description": "\u0422\u0430\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f \u043d\u0430 \u0411\u0430\u0437\u0430\u043b\u044c\u0442\u043e\u0432\u043e\u043c \u043e\u0441\u0442\u0440\u043e\u0432\u0435 \u0437\u0430\u043f\u0435\u0440\u0442\u0430 \u043d\u0430 \u0437\u0430\u043c\u043e\u043a. \u0412\u043d\u0443\u0442\u0440\u0438 \u043f\u044b\u043b\u044f\u0442\u0441\u044f \u0437\u0430\u0431\u044b\u0442\u044b\u0435 \u0437\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0435 \u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f, \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0436\u0435\u0441\u0442\u043e\u043a\u0438\u0445 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u043e\u0432 \u0431\u044b\u0432\u0448\u0438\u0445 \u0445\u043e\u0437\u044f\u0435\u0432.",
+        "developer": "Team17 Digital Ltd",
+        "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+        "endOfSupport": false,
+        "entitlementName": "3cd5312aba0248afa7d13ce792ccaa14",
+        "entitlementType": "EXECUTABLE",
+        "id": "3cd5312aba0248afa7d13ce792ccaa14",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "DREDGE DREDGE: Blackstone Key Offer",
+            "height": 1440,
+            "md5": "d9a2d789a81c871a112190dd2bb24676",
+            "size": 325395,
+            "type": "DieselGameBox",
+            "uploadedDate": "2024-10-09T10:12:44.765Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-qxj86.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download DREDGE DREDGE: Blackstone Key Offer",
+            "height": 1600,
+            "md5": "572a63a0be068affa6f6650453cb3cd1",
+            "size": 194881,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2024-10-09T10:12:44.456Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-dxpaw.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+        "mainGameItem": {
+          "id": "eac6533129434f98a6b04a81cbcaf357",
+          "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "eac6533129434f98a6b04a81cbcaf357",
+            "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DREDGE: Blackstone Key",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2024-08-28T13:55:52.633Z",
+        "description": "\u0412 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 The Pale Reach \u0434\u043b\u044f DREDGE \u0432\u0430\u043c \u043f\u0440\u0435\u0434\u0441\u0442\u043e\u0438\u0442 \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f \u0432 \u043d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0435 \u0432\u043e\u0434\u044b.",
+        "developer": "Team17 Digital Ltd",
+        "developerId": "o-uvtztrtfjdn3xgrwyhbuwwb5z42mbv",
+        "endOfSupport": false,
+        "entitlementName": "f8be7509fbdd491cabe3c9ff6120f54d",
+        "entitlementType": "EXECUTABLE",
+        "id": "f8be7509fbdd491cabe3c9ff6120f54d",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "DREDGE DREDGE: The Pale Reach Offer",
+            "height": 1440,
+            "md5": "b000a08e5e659e4061a0db450946101a",
+            "size": 401815,
+            "type": "DieselGameBox",
+            "uploadedDate": "2024-10-09T10:14:43.869Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-4jmwm.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download DREDGE DREDGE: The Pale Reach Offer",
+            "height": 1600,
+            "md5": "7d4da040a02013f67e914d4746ad0567",
+            "size": 234407,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2024-10-09T10:14:44.162Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-b2wzx.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+        "mainGameItem": {
+          "id": "eac6533129434f98a6b04a81cbcaf357",
+          "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "eac6533129434f98a6b04a81cbcaf357",
+            "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DREDGE: The Pale Reach",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "eac6533129434f98a6b04a81cbcaf357",
+    "entitlementType": "EXECUTABLE",
+    "id": "eac6533129434f98a6b04a81cbcaf357",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "DREDGE Offer",
+        "height": 1440,
+        "md5": "e7f50ab8854eff0c117ed9e89a5da577",
+        "size": 489149,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-09-26T12:42:12.477Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-1k3u5.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download DREDGE Offer",
+        "height": 1600,
+        "md5": "96b45cb9d8e328bfab04329ab88d450d",
+        "size": 293526,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-09-26T12:42:13.221Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/068f920aa2e3477db96c60a00aebf8a3/dredge-1tu9m.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-01-13T11:15:06.362Z",
+    "mainGameItemList": [],
+    "namespace": "8b454b47f5544fc6829cf0fed42ebae0",
+    "releaseInfo": [
+      {
+        "appId": "65c25644a2e0444d8766967a008b1d69",
+        "id": "1a1b29dc7ef946edaa9fbf05e6a3d329",
+        "platform": [
+          "Win32",
+          "Windows",
+          "Mac"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "DREDGE",
+    "unsearchable": false
+  }
+}

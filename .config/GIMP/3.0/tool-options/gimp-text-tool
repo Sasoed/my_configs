@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(palette "Предыдущие цвета")
+(font "Sans-serif")
+(font-size 23)
+(box-mode fixed)
+
+# end of gimp-text-tool options

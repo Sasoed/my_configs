@@ -1,0 +1,10 @@
+[GuiConfig]
+captureDelay=1
+captureMode=5
+
+[ImageSave]
+lastImageSaveLocation=file:///home/seva/Pictures/Screenshots/Снимок экрана_20250506_103016.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

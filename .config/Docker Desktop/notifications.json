@@ -1,0 +1,38 @@
+{
+	"notifications": [
+		{
+			"guid": "23a84fbb-3712-4c96-a415-fd69242ecae8",
+			"timestamp": 1747338600711,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "13cd0769-eb32-4eb0-8bb1-afaed5af7686",
+			"timestamp": 1747379763006,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Some components are ready to update. You can update without restarting Docker Desktop.",
+				"actionText": "Update components",
+				"action": {
+					"action": "update-module-available"
+				},
+				"type": "update"
+			}
+		}
+	]
+}

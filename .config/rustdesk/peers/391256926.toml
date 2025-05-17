@@ -1,0 +1,124 @@
+password = [
+    48,
+    48,
+    82,
+    110,
+    106,
+    97,
+    109,
+    43,
+    81,
+    54,
+    114,
+    122,
+    54,
+    57,
+    98,
+    71,
+    54,
+    70,
+    107,
+    104,
+    69,
+    85,
+    51,
+    52,
+    116,
+    74,
+    78,
+    43,
+    55,
+    84,
+    88,
+    117,
+    65,
+    71,
+    113,
+    98,
+    73,
+    110,
+    65,
+    85,
+    84,
+    114,
+    86,
+    56,
+    57,
+    75,
+    88,
+    88,
+    121,
+    72,
+    73,
+    82,
+    75,
+    99,
+    105,
+    113,
+    51,
+    120,
+    80,
+    57,
+    76,
+    110,
+    54,
+    79,
+    90,
+    72,
+]
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = 'original'
+scroll_style = 'scrollauto'
+image_quality = 'balanced'
+custom_image_quality = [50]
+show_remote_cursor = true
+lock_after_session_end = false
+privacy_mode = false
+allow_swap_key = false
+port_forwards = []
+direct_failures = 0
+disable_audio = false
+disable_clipboard = false
+enable-file-copy-paste = true
+show_quality_monitor = false
+follow_remote_cursor = false
+follow_remote_window = false
+keyboard_mode = 'map'
+view_only = false
+sync-init-clipboard = false
+
+[options]
+touch-mode = ''
+i444 = ''
+custom-fps = '30'
+codec-preference = 'auto'
+swap-left-right-mouse = ''
+zoom-cursor = ''
+
+[ui_flutter]
+
+[info]
+username = 'sevaed'
+hostname = 'archlinux'
+platform = 'Linux'
+
+[transfer]
+write_jobs = []
+read_jobs = []

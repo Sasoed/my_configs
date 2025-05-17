@@ -1,0 +1,10 @@
+# GIMP gimp-eraser-tool options
+
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(palette "Предыдущие цвета")
+(brush-size 17)
+(brush-force 1)
+(dynamics-enabled no)
+
+# end of gimp-eraser-tool options

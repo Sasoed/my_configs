@@ -1,0 +1,42 @@
+add_newline = false
+format = '  [](bold #1793D1) $python ([](green) $git_branch $git_status)$directory $character'
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[python]
+format = '[ $virtualenv]($style) '
+style = 'bold #63ADF2'
+detect_extensions = []
+detect_files = []
+detect_folders = []
+
+[character]
+success_symbol = "[>](bold #6E9075) "
+
+[hostname]
+ssh_only = true
+format = "[@$hostname](dimmed green)"
+
+[time]
+disabled = true
+format = "[$time]($style)"
+time_format = "%H:%M:%S"
+style = "#CC998D"
+
+[directory]
+format = "[$path]($style)"
+style = "bold #A03E99"
+
+[git_branch]
+format = '[ $branch](bold purple) '
+only_attached = true
+
+[git_status]
+format = '($staged$modified$untracked)'
+staged = '[✚+$count](green) '
+modified = '[~$count](yellow) '
+untracked = '[?$count](red) '
+
+[nodejs]
+format = 'on [󰎙 $version](bold green)'
+

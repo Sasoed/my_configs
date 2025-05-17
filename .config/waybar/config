@@ -1,0 +1,108 @@
+	{
+  "layer": "top",
+  "position": "top",
+  "exclusive":"true",
+  "height": 32,
+  "spacing": 10,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["custom/window"],
+  "modules-right": ["hyprland/language", "custom/cpu_temp", "cpu", "memory","custom/gpu-usage","pulseaudio", "clock", "tray", "custom/power"],
+
+"custom/gpu-usage": {
+  "format": "{} {icon}",
+  "exec": "gpu-usage-waybar",
+  "return-type": "json",
+  "format-icons": "󰾲",
+  "on-click": "kitty nvtop",
+},
+
+
+"hyprland/workspaces": {
+	 "active-only":false,
+	 "all-outputs": true,
+	 "show-special": true,
+     "format": "◯ {name}",
+     "sort-by": "id",
+     "move-to-monitor":true,
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1",
+},
+	"hyprland/language": {
+	    "format": "{}",
+	    "format-en": "EN",
+	    "format-ru": "RU",
+	},
+
+	
+	"custom/cpu_temp": {
+	  "exec": "~/.config/waybar/modules/cpu_temp.sh",
+	  "return-type":"json",
+	  "interval": 1,
+	  "tooltip": true
+	},
+	
+
+  "custom/network_speed": {
+    "exec": "~/.config/waybar/modules/network_speed.sh",
+    "return-type":"json",
+    "interval": 1,
+    "tooltip": true
+  },
+ 
+
+  "custom/power": {
+    "exec": "echo ⏻",
+    "interval": 1,
+    "tooltip": false,
+    "on-click": "~/.config/rofi/power-menu.sh"
+  },
+
+  "clock": {
+    "format": "{0:%H:%M:%S}",
+    "interval": 1,
+    "tooltip-format": "{:%A, %d %B %Y}",
+    "tooltip": true,
+    "calendar": {
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b>{}</b></span>"
+      }
+    }
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-icons": {
+      "default": ["\uf026", "\uf027", "\uf028"]
+    },
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "format-muted": "\uf00d {volume}%"
+  },
+
+  "style": {
+    "background": "#1e2127",
+    "border-color": "#282c34",
+    "border-size": 1,
+    "border-radius": 8,
+    "padding": 8
+  },
+
+  "workspaces": {
+    "exec": "~/.config/waybar/modules/workspaces",
+    "interval": 1
+  },
+
+  "custom/window": {
+    "exec": "~/.config/waybar/modules/window.sh",
+    "interval": 1,
+    "max-length": 100,
+    "tooltip": false
+  },
+
+  "custom/workspaces": {
+    "exec": "~/.config/waybar/modules/workspaces.sh",
+    "interval": 1,
+    "tooltip": false
+  }
+}

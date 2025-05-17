@@ -1,0 +1,22 @@
+[Default Applications]
+text/html=google-chrome-unstable.desktop
+x-scheme-handler/http=google-chrome-unstable.desktop
+x-scheme-handler/https=google-chrome-unstable.desktop
+x-scheme-handler/about=google-chrome-unstable.desktop
+x-scheme-handler/unknown=google-chrome-unstable.desktop
+application/pdf=org.gnome.Evince.desktop
+application/yaml=org.gnome.TextEditor.desktop
+application/x-desktop=org.gnome.TextEditor.desktop
+text/plain=org.gnome.TextEditor.desktop
+application/x-ms-dos-executable;application/x-wine-extension-msp;application/x-msi;application/x-msdos-program;text/win-bat;=PortProton.desktop
+x-scheme-handler/tg=org.telegram.desktop.desktop
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+
+[Added Associations]
+application/pdf=org.gnome.Evince.desktop;
+application/yaml=org.gnome.TextEditor.desktop;
+application/octet-stream=nvim.desktop;
+application/x-desktop=org.gnome.TextEditor.desktop;
+text/plain=org.gnome.TextEditor.desktop;
+x-scheme-handler/tg=org.telegram.desktop.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
