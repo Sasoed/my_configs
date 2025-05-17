@@ -122,7 +122,6 @@ linux-firmware
 loupe
 lutris
 ly
-mako
 malcontent
 milou
 mtools
