@@ -82,6 +82,7 @@ gvfs-smb
 gvfs-wsdd
 hyprland
 hyprsysteminfo
+input-remapper-bin
 jq
 kactivitymanagerd
 kcron
@@ -166,6 +167,7 @@ prismlauncher
 python-pip
 python-pipx
 qemu-full
+qmk
 qqc2-breeze-style
 r2modman-bin
 rclone
@@ -183,6 +185,7 @@ spectacle
 speedtest-cli
 starship
 steam
+strace
 sudo
 sushi
 system-config-printer
@@ -198,6 +201,7 @@ via-bin
 vim
 wacomtablet
 waybar
+wev
 wine
 winetricks
 wl-clipboard

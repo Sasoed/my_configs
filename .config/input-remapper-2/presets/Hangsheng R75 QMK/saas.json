@@ -1,0 +1,38 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "9d7db7413f0a8910454130c37f8181bb"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioPause",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 99,
+                "origin_hash": "9d7db7413f0a8910454130c37f8181bb"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "End",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 107,
+                "origin_hash": "9d7db7413f0a8910454130c37f8181bb"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_PRINT",
+        "mapping_type": "key_macro"
+    }
+]
