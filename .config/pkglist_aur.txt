@@ -19,6 +19,8 @@ rtl8188gu-dkms-git
 rustdesk-bin
 tint-tetris
 tint-tetris-debug
+via-bin
+via-bin-debug
 xwaylandvideobridge
 xwaylandvideobridge-debug
 yay-bin

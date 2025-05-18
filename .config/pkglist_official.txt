@@ -157,6 +157,7 @@ plasma-workspace
 plasma-workspace-wallpapers
 plasma5support
 plymouth-kcm
+polkit-gnome
 polkit-kde-agent
 portproton
 powerdevil
@@ -193,6 +194,7 @@ totem
 ttf-monoid-nerd
 usb_modeswitch
 usbutils
+via-bin
 vim
 wacomtablet
 waybar
