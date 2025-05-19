@@ -1,5 +1,18 @@
-2025/05/18-20:26:52.522 216b3 Reusing MANIFEST /home/seva/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
-2025/05/18-20:26:52.522 216b3 Recovering log #20
-2025/05/18-20:26:52.522 216b3 Reusing old log /home/seva/.config/via-nativia/Local Storage/leveldb/000020.log 
-2025/05/18-20:27:25.680 216c3 Level-0 table #23: started
-2025/05/18-20:27:25.683 216c3 Level-0 table #23: 28279 bytes OK
+2025/05/19-18:38:13.889 c6f75 Reusing MANIFEST /home/seva/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
+2025/05/19-18:38:13.890 c6f75 Recovering log #20
+2025/05/19-18:38:13.891 c6f75 Level-0 table #22: started
+2025/05/19-18:38:13.895 c6f75 Level-0 table #22: 28279 bytes OK
+2025/05/19-18:38:13.895 c6f75 Recovering log #22
+2025/05/19-18:38:13.895 c6f75 Level-0 table #23: started
+2025/05/19-18:38:13.898 c6f75 Level-0 table #23: 28182 bytes OK
+2025/05/19-18:38:13.900 c6f75 Delete type=0 #20
+2025/05/19-18:38:13.900 c6f75 Delete type=0 #22
+2025/05/19-18:38:13.900 c6f76 Compacting 4@0 + 1@1 files
+2025/05/19-18:38:13.905 c6f76 Generated table #25@0: 3 keys, 28229 bytes
+2025/05/19-18:38:13.905 c6f76 Compacted 4@0 + 1@1 files => 28229 bytes
+2025/05/19-18:38:13.906 c6f76 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/19-18:38:13.907 c6f76 Delete type=2 #19
+2025/05/19-18:38:13.907 c6f76 Delete type=2 #23
+2025/05/19-18:38:13.907 c6f76 Delete type=2 #22
+2025/05/19-18:38:13.907 c6f76 Delete type=2 #16
+2025/05/19-18:38:13.907 c6f76 Delete type=2 #18

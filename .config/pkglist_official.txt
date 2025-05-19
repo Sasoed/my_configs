@@ -130,6 +130,7 @@ nautilus
 neovim
 network-manager-applet
 nodejs
+noisetorch
 npm
 nvidia
 obs-studio

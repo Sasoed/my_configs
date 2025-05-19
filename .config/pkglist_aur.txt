@@ -11,6 +11,8 @@ input-remapper-bin
 legendary
 linux-discord-rich-presence
 linux-discord-rich-presence-debug
+noisetorch
+noisetorch-debug
 pantum-driver
 pantum-driver-debug
 portproton
