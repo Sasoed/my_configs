@@ -8,6 +8,8 @@ grub-customizer-debug
 hyprsysteminfo
 hyprsysteminfo-debug
 input-remapper-bin
+kew
+kew-debug
 legendary
 linux-discord-rich-presence
 linux-discord-rich-presence-debug
@@ -22,8 +24,6 @@ rtl8188gu-dkms-git
 rustdesk-bin
 tint-tetris
 tint-tetris-debug
-via-bin
-via-bin-debug
 xwaylandvideobridge
 xwaylandvideobridge-debug
 yay-bin

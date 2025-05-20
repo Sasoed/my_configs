@@ -1,3 +1,2 @@
-2025/05/19-18:38:14.734 c6fa6 Reusing MANIFEST /home/seva/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/19-18:38:14.734 c6fa6 Recovering log #3
-2025/05/19-18:38:14.734 c6fa6 Reusing old log /home/seva/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/000003.log 
+2025/05/20-19:29:34.511 35380 Creating DB /home/seva/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb since it was missing.
+2025/05/20-19:29:34.514 35380 Reusing MANIFEST /home/seva/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/MANIFEST-000001
