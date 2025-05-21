@@ -1,2 +1,3 @@
-2025/05/20-19:29:33.222 3537f Creating DB /home/seva/.config/via-nativia/Session Storage since it was missing.
-2025/05/20-19:29:33.226 3537f Reusing MANIFEST /home/seva/.config/via-nativia/Session Storage/MANIFEST-000001
+2025/05/21-13:16:49.449 1cba6 Reusing MANIFEST /home/seva/.config/via-nativia/Session Storage/MANIFEST-000001
+2025/05/21-13:16:49.449 1cba6 Recovering log #3
+2025/05/21-13:16:49.450 1cba6 Reusing old log /home/seva/.config/via-nativia/Session Storage/000003.log 

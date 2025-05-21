@@ -199,6 +199,7 @@ totem
 ttf-monoid-nerd
 usb_modeswitch
 usbutils
+via-bin
 vim
 wacomtablet
 waybar

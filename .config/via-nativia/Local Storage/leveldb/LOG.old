@@ -1,5 +1,8 @@
-2025/05/18-20:26:52.522 216b3 Reusing MANIFEST /home/seva/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
-2025/05/18-20:26:52.522 216b3 Recovering log #20
-2025/05/18-20:26:52.522 216b3 Reusing old log /home/seva/.config/via-nativia/Local Storage/leveldb/000020.log 
-2025/05/18-20:27:25.680 216c3 Level-0 table #23: started
-2025/05/18-20:27:25.683 216c3 Level-0 table #23: 28279 bytes OK
+2025/05/20-19:29:32.534 35380 Creating DB /home/seva/.config/via-nativia/Local Storage/leveldb since it was missing.
+2025/05/20-19:29:32.544 35380 Reusing MANIFEST /home/seva/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
+2025/05/20-19:30:33.223 35380 Level-0 table #5: started
+2025/05/20-19:30:33.227 35380 Level-0 table #5: 28208 bytes OK
+2025/05/20-19:30:33.230 35380 Delete type=0 #3
+2025/05/20-19:31:33.251 35380 Level-0 table #7: started
+2025/05/20-19:31:33.254 35380 Level-0 table #7: 28201 bytes OK
+2025/05/20-19:31:33.256 35380 Delete type=0 #4

@@ -61,8 +61,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Сцена 2",
-    "current_program_scene": "Сцена 2",
+    "current_scene": "Сцена",
+    "current_program_scene": "Сцена",
     "scene_order": [
         {
             "name": "Сцена"
