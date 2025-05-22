@@ -125,6 +125,7 @@ loupe
 lutris
 ly
 malcontent
+man-db
 milou
 mtools
 nautilus
