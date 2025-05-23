@@ -1,1 +1,11 @@
-{}
+{
+  "coc-json|global": {
+    "json-schema-cache": {
+      "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json": {
+        "etag": "W/\"85602e232ffb25d26daff22e10445ea75b12840f885f7a61eeb4751fb1a0b4a5\"",
+        "fileName": "4bae5c5b4ab0bf5d19f6c5e2461ec038.schema.json",
+        "updateTime": 1748032723540
+      }
+    }
+  }
+}
