@@ -40,7 +40,7 @@ def save_package_lists():
         except subprocess.CalledProcessError as e:
             print(f"❌ Не удалось получить список пакетов ({' '.join(cmd)}): {e}")
             sys.exit(1)
-    print(f"✅ Списки пакетов сохранены:\n   - {PACMAN_FILE}\n   - {AUR_FILE}")
+    print(f"✅ Списки пакетов сохранены:\n   ✅ {PACMAN_FILE}\n  ✅ {AUR_FILE}")
 
 # ────────────────────── Git-часть ──────────────────────
 def commit_and_push():
