@@ -8,6 +8,7 @@
   "autostart":"/home/seva/.config/hypr/custom/autostart.conf",
   "kitty":"/home/seva/.config/kitty/kitty.conf",
   "nvim":"/home/seva/.config/nvim/init.lua",
-  "fish":"/home/seva/.config/fish/config.fish"
+  "fish":"/home/seva/.config/fish/config.fish",
+  "windowrule":"/home/seva/.config/hypr/custom/windowrule.conf"
 }
 
