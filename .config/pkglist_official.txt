@@ -66,6 +66,7 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 google-chrome-dev
+gpu-usage-waybar-git
 grilo-plugins
 grim
 grub
@@ -119,7 +120,6 @@ libksysguard
 libplasma
 libreoffice-fresh
 linux
-linux-discord-rich-presence
 linux-firmware
 loupe
 lutris

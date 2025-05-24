@@ -3,6 +3,7 @@ ayugram-desktop-bin-debug
 brogue-ce-debug
 docker-desktop-debug
 google-chrome-dev
+gpu-usage-waybar-git
 grub-customizer
 grub-customizer-debug
 hyprsysteminfo
@@ -11,8 +12,6 @@ input-remapper-bin
 kew
 kew-debug
 legendary
-linux-discord-rich-presence
-linux-discord-rich-presence-debug
 noisetorch
 noisetorch-debug
 pantum-driver
