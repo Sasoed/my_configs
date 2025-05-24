@@ -13,7 +13,7 @@ HOME          = Path.home()
 SRC_DIR       = HOME / ".config"                       # Что копируем
 DEST_REPO     = HOME / "git" / "backup"               # Корень репозитория
 DEST_DIR      = DEST_REPO / ".config"                 # Куда копируем
-EXCLUDES      = ["*chrome*", "discord"]               # Шаблоны исключений
+EXCLUDES      = ["*chrome*", "discord", '.copyq_s', '.bin/']               # Шаблоны исключений
 PACMAN_FILE   = DEST_DIR / "pkglist_official.txt"
 AUR_FILE      = DEST_DIR / "pkglist_aur.txt"
 
