@@ -48,6 +48,7 @@ vim.g.tokyonight_enable_italic = 1
 vim.cmd("colorscheme tokyonight")
 
 -- 📟 lightline с отображением полного пути
+-- lightlinefilename.lua
 _G.lightlinefilename = function()
   local path = vim.fn.expand('%:p')
   local home = vim.fn.expand('$HOME')
@@ -62,9 +63,16 @@ vim.g.lightline = {
     }
   },
   component_function = {
-    filename = 'lightlinefilename'
+    filename = 'LightlineFilename'
   }
 }
+
+-- Регистрируем функцию как VimL-функцию, которую lightline сможет вызвать
+vim.cmd [[
+  function! LightlineFilename() abort
+    return v:lua.lightlinefilename()
+  endfunction
+]]
 
 -- 🧠 coc.nvim — автодополнение
 local keyset = vim.keymap.set
