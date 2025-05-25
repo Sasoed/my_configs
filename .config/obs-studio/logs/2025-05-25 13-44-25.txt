@@ -1,0 +1,564 @@
+13:44:25.305: [Safe Mode] Unclean shutdown detected!
+13:44:29.821: [Safe Mode] User elected to launch normally.
+13:44:29.821: Command Line Arguments: --minimize-to-tray
+13:44:29.821: Platform: Wayland
+13:44:29.821: CPU Name: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz
+13:44:29.821: CPU Speed: 4100.003MHz
+13:44:29.821: Physical Cores: 6, Logical Cores: 6
+13:44:29.821: Physical Memory: 15830MB Total, 10192MB Free
+13:44:29.821: Kernel Version: Linux 6.14.7-arch2-1
+13:44:29.821: Distribution: "Arch Linux" Unknown
+13:44:29.821: Desktop Environment: Hyprland (hyprland)
+13:44:29.821: Session Type: wayland
+13:44:29.829: Qt Version: 6.9.0 (runtime), 6.9.0 (compiled)
+13:44:29.829: Portable mode: false
+13:44:29.981: OBS 31.0.3 (linux)
+13:44:29.981: ---------------------------------
+13:44:29.987: ---------------------------------
+13:44:29.987: audio settings reset:
+13:44:29.987: 	samples per sec: 48000
+13:44:29.987: 	speakers:        2
+13:44:29.987: 	max buffering:   960 milliseconds
+13:44:29.987: 	buffering type:  dynamically increasing
+13:44:29.991: ---------------------------------
+13:44:29.991: Initializing OpenGL...
+13:44:29.991: Using EGL/Wayland
+13:44:30.133: Initialized EGL 1.5
+13:44:30.206: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+13:44:30.206: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.153.02, shading language 3.30 NVIDIA via Cg compiler
+13:44:30.329: ---------------------------------
+13:44:30.329: video settings reset:
+13:44:30.329: 	base resolution:   1920x1080
+13:44:30.329: 	output resolution: 1280x720
+13:44:30.329: 	downscale filter:  Bicubic
+13:44:30.329: 	fps:               30/1
+13:44:30.329: 	format:            NV12
+13:44:30.329: 	YUV mode:          Rec. 709/Partial
+13:44:30.329: NV12 texture support enabled
+13:44:30.329: P010 texture support not available
+13:44:30.364: Audio monitoring device:
+13:44:30.364: 	name: По умолчанию
+13:44:30.364: 	id: default
+13:44:30.366: ---------------------------------
+13:44:30.386: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:44:30.409: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:44:30.430: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:44:30.430: Failed to initialize module 'decklink.so'
+13:44:30.731: [pipewire] Available capture sources:
+13:44:30.731: [pipewire]     - Monitor source
+13:44:30.731: [pipewire]     - Window source
+13:44:30.757: v4l2loopback not installed, virtual camera not registered
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:44:30.819: FFmpeg VAAPI H264 encoding not supported
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:44:30.819: FFmpeg VAAPI AV1 encoding not supported
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:44:30.819: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:44:30.819: FFmpeg VAAPI HEVC encoding not supported
+13:44:31.316: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+13:44:31.494: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+13:44:31.494: 
+13:44:31.498: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+13:44:31.498: 
+13:44:31.498: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:44:31.540: ---------------------------------
+13:44:31.540:   Loaded Modules:
+13:44:31.540:     text-freetype2.so
+13:44:31.540:     rtmp-services.so
+13:44:31.540:     obs-x264.so
+13:44:31.540:     obs-webrtc.so
+13:44:31.540:     obs-vst.so
+13:44:31.540:     obs-transitions.so
+13:44:31.540:     obs-qsv11.so
+13:44:31.540:     obs-outputs.so
+13:44:31.540:     obs-nvenc.so
+13:44:31.540:     obs-libfdk.so
+13:44:31.540:     obs-filters.so
+13:44:31.540:     obs-ffmpeg.so
+13:44:31.540:     linux-v4l2.so
+13:44:31.540:     linux-pulseaudio.so
+13:44:31.540:     linux-pipewire.so
+13:44:31.540:     linux-jack.so
+13:44:31.540:     linux-capture.so
+13:44:31.540:     linux-alsa.so
+13:44:31.540:     image-source.so
+13:44:31.540:     frontend-tools.so
+13:44:31.540:     decklink-output-ui.so
+13:44:31.540:     decklink-captions.so
+13:44:31.540: ---------------------------------
+13:44:31.541: ---------------------------------
+13:44:31.541: Available Encoders:
+13:44:31.541:   Video Encoders:
+13:44:31.541: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:44:31.541: 	- ffmpeg_aom_av1 (AOM AV1)
+13:44:31.541: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:44:31.541: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:44:31.541: 	- obs_x264 (x264)
+13:44:31.541:   Audio Encoders:
+13:44:31.541: 	- ffmpeg_aac (FFmpeg AAC)
+13:44:31.541: 	- ffmpeg_opus (FFmpeg Opus)
+13:44:31.541: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+13:44:31.541: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+13:44:31.541: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+13:44:31.541: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+13:44:31.541: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+13:44:31.541: 	- libfdk_aac (libfdk AAC)
+13:44:31.541: ==== Startup complete ===============================================
+13:44:31.612: All scene data cleared
+13:44:31.612: ------------------------------------------------
+13:44:31.619: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:44:31.619: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:44:31.619: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+13:44:31.620: [Loaded global audio device]: 'Звук раб. стола'
+13:44:31.636: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:44:31.636: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:44:31.636: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+13:44:31.636: [Loaded global audio device]: 'Микр/доп'
+13:44:31.636: PipeWire initialized
+13:44:31.639: PipeWire initialized
+13:44:31.648: Switched to scene 'Сцена'
+13:44:31.649: ------------------------------------------------
+13:44:31.650: Loaded scenes:
+13:44:31.650: - scene 'Сцена':
+13:44:31.650:     - source: 'Захват экрана (PipeWire) 0' (pipewire-screen-capture-source)
+13:44:31.650: - scene 'Сцена 2':
+13:44:31.650:     - source: 'Захват экрана (PipeWire)' (pipewire-screen-capture-source)
+13:44:31.650: ------------------------------------------------
+13:44:31.736: [pipewire] Screencast session created
+13:44:31.736: [pipewire] Screencast session created
+13:44:31.745: [pipewire] Asking for monitor and window
+13:44:31.748: [pipewire] Asking for monitor and window
+13:44:31.756: [pipewire] source selected, setting up screencast
+13:44:31.757: [pipewire] source selected, setting up screencast
+13:44:31.777: [pipewire] Server version: 1.4.2
+13:44:31.777: [pipewire] Library version: 1.4.2
+13:44:31.777: [pipewire] Header version: 1.4.2
+13:44:31.778: [pipewire] Created stream 0x56027d45d020
+13:44:31.778: [pipewire] Stream 0x56027d45d020 state: "connecting" (error: none)
+13:44:31.779: [pipewire] Playing stream 0x56027d45d020
+13:44:31.780: [pipewire] Stream 0x56027d45d020 state: "paused" (error: none)
+13:44:31.789: [pipewire] Server version: 1.4.2
+13:44:31.789: [pipewire] Library version: 1.4.2
+13:44:31.789: [pipewire] Header version: 1.4.2
+13:44:31.790: [pipewire] Created stream 0x56027d49eef0
+13:44:31.790: [pipewire] Stream 0x56027d49eef0 state: "connecting" (error: none)
+13:44:31.790: [pipewire] Playing stream 0x56027d49eef0
+13:44:31.790: [pipewire] Stream 0x56027d49eef0 state: "paused" (error: none)
+13:44:31.797: [pipewire] Negotiated format:
+13:44:31.797: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:31.798: [pipewire]     Modifier: 0x0
+13:44:31.798: [pipewire]     Size: 1920x1080
+13:44:31.798: [pipewire]     Framerate: 0/1
+13:44:31.799: [pipewire] Negotiated format:
+13:44:31.799: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:31.799: [pipewire]     Modifier: 0x300000000cdb014
+13:44:31.799: [pipewire]     Size: 1920x1080
+13:44:31.799: [pipewire]     Framerate: 0/1
+13:44:31.799: [pipewire] Stream 0x56027d45d020 state: "streaming" (error: none)
+13:44:31.815: [pipewire] Negotiated format:
+13:44:31.815: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:31.815: [pipewire]     Modifier: 0x0
+13:44:31.815: [pipewire]     Size: 1920x1080
+13:44:31.815: [pipewire]     Framerate: 0/1
+13:44:31.815: [pipewire] Negotiated format:
+13:44:31.815: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:31.815: [pipewire]     Modifier: 0x300000000cdb014
+13:44:31.815: [pipewire]     Size: 1920x1080
+13:44:31.815: [pipewire]     Framerate: 0/1
+13:44:31.822: [pipewire] Stream 0x56027d49eef0 state: "streaming" (error: none)
+13:44:32.207: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Звук раб. стола)
+13:44:32.207: 
+13:44:35.499: User switched to scene 'Сцена 2'
+13:44:35.661: [pipewire] Stream 0x56027d49eef0 state: "paused" (error: none)
+13:44:35.661: [pipewire] Negotiated format:
+13:44:35.661: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:35.661: [pipewire]     Modifier: 0x300000000cdb014
+13:44:35.661: [pipewire]     Size: 1920x1080
+13:44:35.661: [pipewire]     Framerate: 0/1
+13:44:35.667: [pipewire] Negotiated format:
+13:44:35.667: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:35.667: [pipewire]     Modifier: 0x300000000cdb014
+13:44:35.667: [pipewire]     Size: 1920x1080
+13:44:35.667: [pipewire]     Framerate: 0/1
+13:44:35.667: [pipewire] Negotiated format:
+13:44:35.667: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:44:35.667: [pipewire]     Modifier: 0x300000000cdb014
+13:44:35.667: [pipewire]     Size: 1920x1080
+13:44:35.667: [pipewire]     Framerate: 0/1
+13:44:35.670: [pipewire] Stream 0x56027d49eef0 state: "streaming" (error: none)
+13:44:35.865: [pipewire] Stream 0x56027d49eef0 state: "paused" (error: none)
+13:44:37.931: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x56027b392ed0 with focusing surface 0x56027d3dd3a0
+13:44:39.243: User added scene 'Сцена 3'
+13:44:39.244: User switched to scene 'Сцена 3'
+13:44:39.598: [pipewire] Stream 0x56027d45d020 state: "paused" (error: none)
+13:44:44.620: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x56027b392ed0 with focusing surface 0x56027cbeb710
+13:44:45.890: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+13:44:45.890: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+13:44:45.893: User added source 'Устройство захвата видео (PipeWire) (БЕТА)' (pipewire-camera-source) to scene 'Сцена 3'
+13:44:45.905: [camera-portal] Selected resolution for ''
+13:44:45.905: [camera-portal] Selected format for ''
+13:44:45.905: [camera-portal] selected camera ''
+13:44:48.003: [camera-portal] Successfully accessed cameras
+13:44:48.007: [pipewire] Server version: 1.4.2
+13:44:48.007: [pipewire] Library version: 1.4.2
+13:44:48.008: [pipewire] Header version: 1.4.2
+13:44:48.008: [pipewire] Created registry 0x56027cc1a750
+13:44:48.008: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_10_1.0
+13:44:48.008: [camera-portal] Selected resolution for ''
+13:44:48.008: [camera-portal] Selected format for ''
+13:44:48.008: [camera-portal] selected camera ''
+13:44:49.610: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_10_1.0'
+13:44:49.610: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_10_1.0'
+13:44:49.610: [pipewire] Created stream 0x56027cb89660
+13:44:49.610: [pipewire] Stream 0x56027cb89660 state: "connecting" (error: none)
+13:44:49.610: [pipewire] Playing stream 0x56027cb89660
+13:44:49.610: [camera-portal] Updating pixel formats
+13:44:49.610: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_10_1.0'
+13:44:49.611: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+13:44:49.614: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_10_1.0'
+13:44:49.616: [camera-portal] Selected resolution for 'v4l2_input.pci-0000_00_14.0-usb-0_10_1.0'
+13:44:49.616: [pipewire] Renegotiating stream
+13:44:49.618: [pipewire] Renegotiating stream
+13:44:49.630: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_10_1.0
+13:44:49.640: [pipewire] Negotiated format:
+13:44:49.640: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+13:44:49.640: [pipewire]     Size: 640x360
+13:44:49.640: [pipewire]     Framerate: 30/1
+13:44:49.641: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+13:44:53.727: Creating a popup with a parent, QWidgetWindow(0x56027af67840, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56027cdb2290, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:44:59.953: Creating a popup with a parent, QWidgetWindow(0x56027af67840, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56027cb6cb30, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:45:01.778: Creating a popup with a parent, QWidgetWindow(0x56027af67840, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56027cb6cb30, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:45:21.636: [obs-nvenc: 'simple_video_stream'] settings:
+13:45:21.636: 	codec:        H264
+13:45:21.636: 	rate_control: CBR
+13:45:21.636: 	bitrate:      2500
+13:45:21.636: 	keyint:       250
+13:45:21.636: 	preset:       p5
+13:45:21.636: 	tuning:       hq
+13:45:21.636: 	multipass:    qres
+13:45:21.636: 	profile:      high
+13:45:21.636: 	width:        1280
+13:45:21.636: 	height:       720
+13:45:21.636: 	b-frames:     2
+13:45:21.636: 	b-ref-mode:   0
+13:45:21.636: 	lookahead:    true (8 frames)
+13:45:21.636: 	aq:           true
+13:45:21.636: 
+13:45:21.664: libfdk_aac encoder created
+13:45:21.664: libfdk_aac bitrate: 160, channels: 2
+13:45:21.688: ==== Recording Start ===============================================
+13:45:21.688: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/seva/Videos/obs/05-25 13-45-21.mkv'...
+13:47:41.446: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/seva/Videos/obs/05-25 13-45-21.mkv' stopped
+13:47:41.446: Output 'simple_file_output': stopping
+13:47:41.446: Output 'simple_file_output': Total frames output: 4176
+13:47:41.446: Output 'simple_file_output': Total drawn frames: 4193
+13:47:41.447: ==== Recording Stop ================================================
+13:47:41.548: libfdk_aac encoder destroyed
+13:48:39.428: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+13:48:39.429: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_10_1.0
+13:48:45.558: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+13:48:45.599: [pipewire] Negotiated format:
+13:48:45.599: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+13:48:45.599: [pipewire]     Size: 640x360
+13:48:45.599: [pipewire]     Framerate: 30/1
+13:48:45.604: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+13:48:49.928: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+13:48:49.928: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+13:48:51.313: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+13:48:51.327: [pipewire] Negotiated format:
+13:48:51.327: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+13:48:51.327: [pipewire]     Size: 640x360
+13:48:51.327: [pipewire]     Framerate: 30/1
+13:48:51.328: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+13:57:51.995: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:57:51.996: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+13:57:51.996: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+13:57:51.996: User changed audio monitoring for source 'Микр/доп' to: monitor and output
+13:57:56.070: User changed audio monitoring for source 'Микр/доп' to: monitor only
+13:58:36.790: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+13:58:36.790: pulse-am: Got 1789 packets with 2146800 frames
+13:58:36.791: User changed audio monitoring for source 'Микр/доп' to: none
+13:58:36.815: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Микр/доп)
+13:58:36.815: 
+14:04:19.057: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+14:04:19.058: pulse-am: Audio format: s24le, 48000 Hz, 2 channels
+14:04:19.058: pulse-am: Sample format s24le not supported by OBS,using float32le instead for recording
+14:04:19.058: pulse-am: Started Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+14:04:19.058: User changed audio monitoring for source 'Микр/доп' to: monitor only
+14:05:28.935: pulse-am: Stopped Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+14:05:28.935: pulse-am: Got 2795 packets with 3354000 frames
+14:05:28.936: User changed audio monitoring for source 'Микр/доп' to: none
+14:10:57.612: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+14:10:57.612: pulse-am: Audio format: s24le, 48000 Hz, 2 channels
+14:10:57.613: pulse-am: Sample format s24le not supported by OBS,using float32le instead for recording
+14:10:57.613: pulse-am: Started Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+14:10:57.613: User changed audio monitoring for source 'Микр/доп' to: monitor only
+14:10:59.532: pulse-am: Stopped Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+14:10:59.532: pulse-am: Got 77 packets with 92400 frames
+14:10:59.532: User changed audio monitoring for source 'Микр/доп' to: none
+14:15:41.164: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+14:15:41.165: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+14:15:41.165: pulse-am: Started Monitoring in 'alsa_output.pci-0000_01_00.1.hdmi-stereo'
+14:15:41.165: User changed audio monitoring for source 'Микр/доп' to: monitor only
+14:16:19.562: User changed audio monitoring for source 'Микр/доп' to: monitor and output
+14:16:50.866: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_01_00.1.hdmi-stereo'
+14:16:50.866: pulse-am: Got 2788 packets with 3345600 frames
+14:16:50.866: User changed audio monitoring for source 'Микр/доп' to: none
+14:29:41.801: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+14:29:41.801: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+14:29:43.197: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+14:29:43.237: [pipewire] Negotiated format:
+14:29:43.237: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:29:43.237: [pipewire]     Size: 640x360
+14:29:43.237: [pipewire]     Framerate: 30/1
+14:29:43.238: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+15:23:39.615: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+15:23:39.615: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+15:23:40.998: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+15:23:41.063: [pipewire] Negotiated format:
+15:23:41.063: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+15:23:41.063: [pipewire]     Size: 640x360
+15:23:41.063: [pipewire]     Framerate: 30/1
+15:23:41.071: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+21:23:35.635: User switched to scene 'Сцена'
+21:23:35.663: [pipewire] Negotiated format:
+21:23:35.663: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+21:23:35.663: [pipewire]     Size: 640x360
+21:23:35.663: [pipewire]     Framerate: 30/1
+21:23:35.664: [pipewire] Stream 0x56027d49eef0 state: "streaming" (error: none)
+21:23:35.691: [pipewire] unsupported buffer format: 4
+21:23:35.740: [pipewire] unsupported buffer format: 4
+21:23:35.792: [pipewire] unsupported buffer format: 4
+21:23:35.844: [pipewire] unsupported buffer format: 4
+21:23:35.892: [pipewire] unsupported buffer format: 4
+21:23:35.944: [pipewire] unsupported buffer format: 4
+21:23:35.992: [pipewire] unsupported buffer format: 4
+21:23:35.997: [pipewire] Stream 0x56027cb89660 state: "paused" (error: none)
+21:23:36.044: [pipewire] unsupported buffer format: 4
+21:23:36.092: [pipewire] unsupported buffer format: 4
+21:23:36.144: [pipewire] unsupported buffer format: 4
+21:23:36.192: [pipewire] unsupported buffer format: 4
+21:23:36.244: [pipewire] unsupported buffer format: 4
+21:23:36.296: [pipewire] unsupported buffer format: 4
+21:23:36.344: [pipewire] unsupported buffer format: 4
+21:23:36.396: [pipewire] unsupported buffer format: 4
+21:23:36.444: [pipewire] unsupported buffer format: 4
+21:23:36.495: [pipewire] unsupported buffer format: 4
+21:23:36.543: [pipewire] unsupported buffer format: 4
+21:23:36.595: [pipewire] unsupported buffer format: 4
+21:23:36.643: [pipewire] unsupported buffer format: 4
+21:23:36.696: [pipewire] unsupported buffer format: 4
+21:23:36.744: [pipewire] unsupported buffer format: 4
+21:23:36.796: [pipewire] unsupported buffer format: 4
+21:23:36.848: [pipewire] unsupported buffer format: 4
+21:23:36.896: [pipewire] unsupported buffer format: 4
+21:23:36.948: [pipewire] unsupported buffer format: 4
+21:23:36.996: [pipewire] unsupported buffer format: 4
+21:23:37.047: [pipewire] unsupported buffer format: 4
+21:23:37.096: [pipewire] unsupported buffer format: 4
+21:23:37.148: [pipewire] unsupported buffer format: 4
+21:23:37.196: [pipewire] unsupported buffer format: 4
+21:23:37.248: [pipewire] unsupported buffer format: 4
+21:23:37.300: [pipewire] unsupported buffer format: 4
+21:23:37.348: [pipewire] unsupported buffer format: 4
+21:23:37.400: [pipewire] unsupported buffer format: 4
+21:23:37.448: [pipewire] unsupported buffer format: 4
+21:23:37.500: [pipewire] unsupported buffer format: 4
+21:23:37.548: [pipewire] unsupported buffer format: 4
+21:23:55.718: Last log entry repeated for 361 more lines
+21:23:55.718: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+21:23:55.719: pulse-am: Audio format: s24le, 48000 Hz, 2 channels
+21:23:55.719: pulse-am: Sample format s24le not supported by OBS,using float32le instead for recording
+21:23:55.719: pulse-am: Started Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+21:23:55.719: User changed audio monitoring for source 'Микр/доп' to: monitor and output
+21:23:55.723: [pipewire] unsupported buffer format: 4
+21:23:55.771: [pipewire] unsupported buffer format: 4
+21:23:55.823: [pipewire] unsupported buffer format: 4
+21:23:55.871: [pipewire] unsupported buffer format: 4
+21:23:55.923: [pipewire] unsupported buffer format: 4
+21:23:55.971: [pipewire] unsupported buffer format: 4
+21:23:56.024: [pipewire] unsupported buffer format: 4
+21:23:56.071: [pipewire] unsupported buffer format: 4
+21:23:56.123: [pipewire] unsupported buffer format: 4
+21:23:56.175: [pipewire] unsupported buffer format: 4
+21:23:56.223: [pipewire] unsupported buffer format: 4
+21:23:56.275: [pipewire] unsupported buffer format: 4
+21:23:56.323: [pipewire] unsupported buffer format: 4
+21:23:56.375: [pipewire] unsupported buffer format: 4
+21:23:56.423: [pipewire] unsupported buffer format: 4
+21:23:56.475: [pipewire] unsupported buffer format: 4
+21:23:56.523: [pipewire] unsupported buffer format: 4
+21:23:56.575: [pipewire] unsupported buffer format: 4
+21:23:56.627: [pipewire] unsupported buffer format: 4
+21:23:56.675: [pipewire] unsupported buffer format: 4
+21:23:56.727: [pipewire] unsupported buffer format: 4
+21:23:56.775: [pipewire] unsupported buffer format: 4
+21:23:56.827: [pipewire] unsupported buffer format: 4
+21:23:56.875: [pipewire] unsupported buffer format: 4
+21:23:56.927: [pipewire] unsupported buffer format: 4
+21:23:56.975: [pipewire] unsupported buffer format: 4
+21:23:57.027: [pipewire] unsupported buffer format: 4
+21:23:57.075: [pipewire] unsupported buffer format: 4
+21:23:57.127: [pipewire] unsupported buffer format: 4
+21:23:57.179: [pipewire] unsupported buffer format: 4
+21:23:57.227: [pipewire] unsupported buffer format: 4
+21:26:27.346: Last log entry repeated for 2990 more lines
+21:26:27.346: User changed audio monitoring for source 'Микр/доп' to: monitor only
+21:26:27.379: [pipewire] unsupported buffer format: 4
+21:26:27.427: [pipewire] unsupported buffer format: 4
+21:26:27.479: [pipewire] unsupported buffer format: 4
+21:26:27.527: [pipewire] unsupported buffer format: 4
+21:26:27.579: [pipewire] unsupported buffer format: 4
+21:26:27.626: [pipewire] unsupported buffer format: 4
+21:26:27.678: [pipewire] unsupported buffer format: 4
+21:26:27.731: [pipewire] unsupported buffer format: 4
+21:26:27.779: [pipewire] unsupported buffer format: 4
+21:26:27.833: [pipewire] unsupported buffer format: 4
+21:26:27.878: [pipewire] unsupported buffer format: 4
+21:26:27.931: [pipewire] unsupported buffer format: 4
+21:26:27.979: [pipewire] unsupported buffer format: 4
+21:26:28.032: [pipewire] unsupported buffer format: 4
+21:26:28.078: [pipewire] unsupported buffer format: 4
+21:26:28.132: [pipewire] unsupported buffer format: 4
+21:26:28.182: [pipewire] unsupported buffer format: 4
+21:26:28.233: [pipewire] unsupported buffer format: 4
+21:26:28.283: [pipewire] unsupported buffer format: 4
+21:26:28.332: [pipewire] unsupported buffer format: 4
+21:26:28.382: [pipewire] unsupported buffer format: 4
+21:26:28.432: [pipewire] unsupported buffer format: 4
+21:26:28.483: [pipewire] unsupported buffer format: 4
+21:26:28.532: [pipewire] unsupported buffer format: 4
+21:26:28.582: [pipewire] unsupported buffer format: 4
+21:26:28.632: [pipewire] unsupported buffer format: 4
+21:26:28.682: [pipewire] unsupported buffer format: 4
+21:26:28.734: [pipewire] unsupported buffer format: 4
+21:26:28.782: [pipewire] unsupported buffer format: 4
+21:26:28.834: [pipewire] unsupported buffer format: 4
+21:26:28.883: [pipewire] unsupported buffer format: 4
+21:29:35.598: Last log entry repeated for 3719 more lines
+21:29:35.598: pulse-am: Stopped Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+21:29:35.598: pulse-am: Got 13596 packets with 16315200 frames
+21:29:35.599: User changed audio monitoring for source 'Микр/доп' to: none
+21:29:35.629: [pipewire] unsupported buffer format: 4
+21:29:35.677: [pipewire] unsupported buffer format: 4
+21:29:35.729: [pipewire] unsupported buffer format: 4
+21:29:35.781: [pipewire] unsupported buffer format: 4
+21:29:35.829: [pipewire] unsupported buffer format: 4
+21:29:35.881: [pipewire] unsupported buffer format: 4
+21:29:35.929: [pipewire] unsupported buffer format: 4
+21:29:35.981: [pipewire] unsupported buffer format: 4
+21:29:36.029: [pipewire] unsupported buffer format: 4
+21:29:36.081: [pipewire] unsupported buffer format: 4
+21:29:36.129: [pipewire] unsupported buffer format: 4
+21:29:36.181: [pipewire] unsupported buffer format: 4
+21:29:36.236: [pipewire] unsupported buffer format: 4
+21:29:36.281: [pipewire] unsupported buffer format: 4
+21:29:36.335: [pipewire] unsupported buffer format: 4
+21:29:36.381: [pipewire] unsupported buffer format: 4
+21:29:36.436: [pipewire] unsupported buffer format: 4
+21:29:36.481: [pipewire] unsupported buffer format: 4
+21:29:36.536: [pipewire] unsupported buffer format: 4
+21:29:36.581: [pipewire] unsupported buffer format: 4
+21:29:36.636: [pipewire] unsupported buffer format: 4
+21:29:36.681: [pipewire] unsupported buffer format: 4
+21:29:36.734: [pipewire] unsupported buffer format: 4
+21:29:36.785: [pipewire] unsupported buffer format: 4
+21:29:36.836: [pipewire] unsupported buffer format: 4
+21:29:36.885: [pipewire] unsupported buffer format: 4
+21:29:36.933: [pipewire] unsupported buffer format: 4
+21:29:36.985: [pipewire] unsupported buffer format: 4
+21:29:37.037: [pipewire] unsupported buffer format: 4
+21:29:37.085: [pipewire] unsupported buffer format: 4
+21:29:37.136: [pipewire] unsupported buffer format: 4
+21:36:25.874: Last log entry repeated for 8142 more lines
+21:36:25.874: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+21:36:25.875: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+21:36:25.875: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+21:36:25.875: User changed audio monitoring for source 'Микр/доп' to: monitor only
+21:36:25.917: [pipewire] unsupported buffer format: 4
+21:36:25.968: [pipewire] unsupported buffer format: 4
+21:36:26.021: [pipewire] unsupported buffer format: 4
+21:36:26.069: [pipewire] unsupported buffer format: 4
+21:36:26.121: [pipewire] unsupported buffer format: 4
+21:36:26.169: [pipewire] unsupported buffer format: 4
+21:36:26.221: [pipewire] unsupported buffer format: 4
+21:36:26.269: [pipewire] unsupported buffer format: 4
+21:36:26.321: [pipewire] unsupported buffer format: 4
+21:36:26.369: [pipewire] unsupported buffer format: 4
+21:36:26.421: [pipewire] unsupported buffer format: 4
+21:36:26.469: [pipewire] unsupported buffer format: 4
+21:36:26.521: [pipewire] unsupported buffer format: 4
+21:36:26.573: [pipewire] unsupported buffer format: 4
+21:36:26.621: [pipewire] unsupported buffer format: 4
+21:36:26.673: [pipewire] unsupported buffer format: 4
+21:36:26.721: [pipewire] unsupported buffer format: 4
+21:36:26.773: [pipewire] unsupported buffer format: 4
+21:36:26.821: [pipewire] unsupported buffer format: 4
+21:36:26.873: [pipewire] unsupported buffer format: 4
+21:36:26.921: [pipewire] unsupported buffer format: 4
+21:36:26.973: [pipewire] unsupported buffer format: 4
+21:36:27.025: [pipewire] unsupported buffer format: 4
+21:36:27.073: [pipewire] unsupported buffer format: 4
+21:36:27.125: [pipewire] unsupported buffer format: 4
+21:36:27.173: [pipewire] unsupported buffer format: 4
+21:36:27.224: [pipewire] unsupported buffer format: 4
+21:36:27.272: [pipewire] unsupported buffer format: 4
+21:36:27.325: [pipewire] unsupported buffer format: 4
+21:36:27.373: [pipewire] unsupported buffer format: 4
+21:36:27.425: [pipewire] unsupported buffer format: 4
+21:37:17.614: Last log entry repeated for 999 more lines
+21:37:17.614: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+21:37:17.614: pulse-am: Got 2070 packets with 2484000 frames
+21:37:17.615: User changed audio monitoring for source 'Микр/доп' to: none
+21:37:17.623: [pipewire] unsupported buffer format: 4
+21:37:17.675: [pipewire] unsupported buffer format: 4
+21:37:17.723: [pipewire] unsupported buffer format: 4
+21:37:17.775: [pipewire] unsupported buffer format: 4
+21:37:17.827: [pipewire] unsupported buffer format: 4
+21:37:17.875: [pipewire] unsupported buffer format: 4
+21:37:17.927: [pipewire] unsupported buffer format: 4
+21:37:17.975: [pipewire] unsupported buffer format: 4
+21:37:18.027: [pipewire] unsupported buffer format: 4
+21:37:18.075: [pipewire] unsupported buffer format: 4
+21:37:18.127: [pipewire] unsupported buffer format: 4
+21:37:18.175: [pipewire] unsupported buffer format: 4
+21:37:18.227: [pipewire] unsupported buffer format: 4
+21:37:18.279: [pipewire] unsupported buffer format: 4
+21:37:18.327: [pipewire] unsupported buffer format: 4
+21:37:18.379: [pipewire] unsupported buffer format: 4
+21:37:18.427: [pipewire] unsupported buffer format: 4
+21:37:18.479: [pipewire] unsupported buffer format: 4
+21:37:18.527: [pipewire] unsupported buffer format: 4
+21:37:18.579: [pipewire] unsupported buffer format: 4
+21:37:18.627: [pipewire] unsupported buffer format: 4
+21:37:18.679: [pipewire] unsupported buffer format: 4
+21:37:18.727: [pipewire] unsupported buffer format: 4
+21:37:18.779: [pipewire] unsupported buffer format: 4
+21:37:18.834: [pipewire] unsupported buffer format: 4
+21:37:18.881: [pipewire] unsupported buffer format: 4
+21:37:18.931: [pipewire] unsupported buffer format: 4
+21:37:18.979: [pipewire] unsupported buffer format: 4
+21:37:19.032: [pipewire] unsupported buffer format: 4
+21:37:19.079: [pipewire] unsupported buffer format: 4
+21:37:19.137: [pipewire] unsupported buffer format: 4
+21:44:07.702: Last log entry repeated for 8138 more lines
+21:44:07.702: User switched to scene 'Сцена 3'
+21:44:07.715: [pipewire] unsupported buffer format: 4
+21:44:07.730: [pipewire] Stream 0x56027cb89660 state: "streaming" (error: none)
+21:44:07.763: [pipewire] unsupported buffer format: 4
+21:44:07.815: [pipewire] unsupported buffer format: 4
+21:44:07.867: [pipewire] unsupported buffer format: 4
+21:44:07.915: [pipewire] unsupported buffer format: 4
+21:44:07.967: [pipewire] unsupported buffer format: 4
+21:44:08.015: [pipewire] unsupported buffer format: 4
+21:44:08.063: [pipewire] Stream 0x56027d49eef0 state: "paused" (error: none)
+21:44:17.842: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+21:44:17.843: pulse-am: Audio format: s24le, 48000 Hz, 2 channels
+21:44:17.843: pulse-am: Sample format s24le not supported by OBS,using float32le instead for recording
+21:44:17.843: pulse-am: Started Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+21:44:17.843: User changed audio monitoring for source 'Микр/доп' to: monitor only
+21:45:07.872: pulse-am: Stopped Monitoring in 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+21:45:07.872: pulse-am: Got 2001 packets with 2401200 frames
+21:45:07.873: User changed audio monitoring for source 'Микр/доп' to: none

@@ -1,3 +1,4 @@
+alsa-utils
 android-file-transfer
 arch-install-scripts
 audacity
@@ -81,6 +82,7 @@ gvfs-nfs
 gvfs-onedrive
 gvfs-smb
 gvfs-wsdd
+helvum
 hyprland
 hyprsysteminfo
 input-remapper-bin
