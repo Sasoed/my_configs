@@ -1,41 +1,50 @@
--- 📦 Установка и инициализация vim-plug через VimScript
-vim.cmd([[
-  call plug#begin('~/.local/share/nvim/plugged')
+-- 📦 Установка lazy.nvim (если не установлен)
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git", "clone", "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    lazypath
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
-  Plug 'lambdalisue/suda.vim'                        " Запись без прав
-  Plug 'preservim/nerdtree'                          " Файловый менеджер
-  Plug 'tpope/vim-fugitive'                          " Git-интеграция
-  Plug 'airblade/vim-gitgutter'                      " Git-метки
-  Plug 'itchyny/lightline.vim'                       " Статусная строка
-  Plug 'junegunn/fzf', { 'do': './install --all' }   " Поиск fzf
-  Plug 'junegunn/fzf.vim'                            " Интеграция fzf
-  Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " Автодополнение
-  Plug 'ryanoasis/vim-devicons'                      " Иконки
-  Plug 'morhetz/gruvbox'                             " Цветовая схема gruvbox
-  Plug 'ghifarit53/tokyonight-vim'                   " Цветовая схема tokyonight
-  Plug 'jiangmiao/auto-pairs'                        " Автоскобки
-  Plug 'fladson/vim-kitty'                           " Kitty синтаксис
-  call plug#end()
-]])
+-- 📦 Инициализация плагинов
+require("lazy").setup({
+  { "lambdalisue/suda.vim" },                          -- Запись без прав
+  { "preservim/nerdtree" },                            -- Файловый менеджер
+  { "tpope/vim-fugitive" },                            -- Git-интеграция
+  { "airblade/vim-gitgutter" },                        -- Git-метки
+  { "itchyny/lightline.vim" },                         -- Статусная строка
+  { "junegunn/fzf", build = "./install --all" },       -- FZF
+  { "junegunn/fzf.vim", dependencies = { "junegunn/fzf" } }, -- FZF интеграция
+  { "neoclide/coc.nvim", branch = "release" },         -- Автодополнение
+  { "ryanoasis/vim-devicons" },                        -- Иконки
+  { "morhetz/gruvbox" },                               -- Цветовая схема
+  { "ghifarit53/tokyonight-vim" },                     -- Цветовая схема
+  { "jiangmiao/auto-pairs" },                          -- Автоскобки
+  { "fladson/vim-kitty" },                             -- Поддержка kitty
+})
 
 -- ⚙️ Основные настройки
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-vim.opt.smartindent = true
-vim.opt.autoindent = true
-vim.opt.cursorline = true
-vim.opt.hidden = true
-vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
-vim.opt.termguicolors = true
-vim.opt.mouse = ""
-vim.opt.completeopt = { "menuone", "noinsert", "noselect" }
-vim.opt.clipboard:append("unnamedplus")
+local opt = vim.opt
+opt.number = true
+opt.relativenumber = true
+opt.tabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = true
+opt.smartindent = true
+opt.autoindent = true
+opt.cursorline = true
+opt.hidden = true
+opt.scrolloff = 8
+opt.signcolumn = "yes"
+opt.termguicolors = true
+opt.mouse = ""
+opt.completeopt = { "menuone", "noinsert", "noselect" }
+opt.clipboard:append("unnamedplus")
 
--- 🛡️ suda.vim — редактирование от root
+-- 🛡️ suda.vim
 vim.g.suda_smart_edit = 1
 
 -- 🌈 Синтаксис и поведение
@@ -48,7 +57,6 @@ vim.g.tokyonight_enable_italic = 1
 vim.cmd("colorscheme tokyonight")
 
 -- 📟 lightline с отображением полного пути
--- lightlinefilename.lua
 _G.lightlinefilename = function()
   local path = vim.fn.expand('%:p')
   local home = vim.fn.expand('$HOME')
@@ -67,14 +75,13 @@ vim.g.lightline = {
   }
 }
 
--- Регистрируем функцию как VimL-функцию, которую lightline сможет вызвать
-vim.cmd [[
+vim.cmd([[
   function! LightlineFilename() abort
     return v:lua.lightlinefilename()
   endfunction
-]]
+]])
 
--- 🧠 coc.nvim — автодополнение
+-- 🧠 coc.nvim
 local keyset = vim.keymap.set
 local opts = { silent = true, noremap = true, expr = true, replace_keycodes = false }
 
@@ -88,7 +95,7 @@ keyset("i", "<S-TAB>", 'coc#pum#visible() ? coc#pum#prev(1) : "<C-h>"', opts)
 keyset("i", "<CR>", 'coc#pum#visible() ? coc#pum#confirm() : "\\<C-g>u\\<CR>\\<c-r>=coc#on_enter()\\<CR>"', opts)
 keyset("i", "<C-Space>", "coc#refresh()", { silent = true, expr = true })
 
--- 🗃️ NERDTree — автозапуск при запуске без аргументов
+-- 🗃️ NERDTree автозапуск при запуске без аргументов
 vim.cmd([[
   autocmd StdinReadPre * let s:std_in = 1
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

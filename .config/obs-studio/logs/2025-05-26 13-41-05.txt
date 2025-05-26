@@ -1,0 +1,140 @@
+13:41:05.324: [Safe Mode] Unclean shutdown detected!
+13:41:13.243: [Safe Mode] User elected to launch normally.
+13:41:13.244: Command Line Arguments: --minimize-to-tray
+13:41:13.244: Platform: Wayland
+13:41:13.244: CPU Name: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz
+13:41:13.244: CPU Speed: 4099.998MHz
+13:41:13.245: Physical Cores: 6, Logical Cores: 6
+13:41:13.245: Physical Memory: 15830MB Total, 9710MB Free
+13:41:13.245: Kernel Version: Linux 6.14.7-arch2-1
+13:41:13.245: Distribution: "Arch Linux" Unknown
+13:41:13.245: Desktop Environment: Hyprland (hyprland)
+13:41:13.245: Session Type: wayland
+13:41:13.248: Qt Version: 6.9.0 (runtime), 6.9.0 (compiled)
+13:41:13.248: Portable mode: false
+13:41:13.296: OBS 31.0.3 (linux)
+13:41:13.296: ---------------------------------
+13:41:13.310: ---------------------------------
+13:41:13.311: audio settings reset:
+13:41:13.311: 	samples per sec: 48000
+13:41:13.311: 	speakers:        2
+13:41:13.311: 	max buffering:   960 milliseconds
+13:41:13.311: 	buffering type:  dynamically increasing
+13:41:13.319: ---------------------------------
+13:41:13.319: Initializing OpenGL...
+13:41:13.319: Using EGL/Wayland
+13:41:13.445: Initialized EGL 1.5
+13:41:13.465: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+13:41:13.466: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.153.02, shading language 3.30 NVIDIA via Cg compiler
+13:41:13.502: ---------------------------------
+13:41:13.502: video settings reset:
+13:41:13.502: 	base resolution:   1920x1080
+13:41:13.502: 	output resolution: 1280x720
+13:41:13.502: 	downscale filter:  Bicubic
+13:41:13.502: 	fps:               30/1
+13:41:13.502: 	format:            NV12
+13:41:13.502: 	YUV mode:          Rec. 709/Partial
+13:41:13.502: NV12 texture support enabled
+13:41:13.502: P010 texture support not available
+13:41:13.514: Audio monitoring device:
+13:41:13.514: 	name: По умолчанию
+13:41:13.514: 	id: default
+13:41:13.515: ---------------------------------
+13:41:13.526: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:41:13.538: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:41:13.551: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:41:13.551: Failed to initialize module 'decklink.so'
+13:41:13.794: [pipewire] Available capture sources:
+13:41:13.794: [pipewire]     - Monitor source
+13:41:13.794: [pipewire]     - Window source
+13:41:13.831: v4l2loopback not installed, virtual camera not registered
+13:41:13.936: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:41:13.937: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:41:13.937: FFmpeg VAAPI H264 encoding not supported
+13:41:13.937: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:41:13.939: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:41:13.939: FFmpeg VAAPI AV1 encoding not supported
+13:41:13.939: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:41:13.939: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:41:13.939: FFmpeg VAAPI HEVC encoding not supported
+13:41:14.509: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+13:41:14.605: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+13:41:14.605: 
+13:41:14.609: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+13:41:14.609: 
+13:41:14.609: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:41:14.647: ---------------------------------
+13:41:14.647:   Loaded Modules:
+13:41:14.647:     text-freetype2.so
+13:41:14.647:     rtmp-services.so
+13:41:14.647:     obs-x264.so
+13:41:14.647:     obs-webrtc.so
+13:41:14.647:     obs-vst.so
+13:41:14.647:     obs-transitions.so
+13:41:14.647:     obs-qsv11.so
+13:41:14.647:     obs-outputs.so
+13:41:14.647:     obs-nvenc.so
+13:41:14.647:     obs-libfdk.so
+13:41:14.647:     obs-filters.so
+13:41:14.647:     obs-ffmpeg.so
+13:41:14.647:     linux-v4l2.so
+13:41:14.647:     linux-pulseaudio.so
+13:41:14.647:     linux-pipewire.so
+13:41:14.647:     linux-jack.so
+13:41:14.647:     linux-capture.so
+13:41:14.647:     linux-alsa.so
+13:41:14.647:     image-source.so
+13:41:14.647:     frontend-tools.so
+13:41:14.647:     decklink-output-ui.so
+13:41:14.647:     decklink-captions.so
+13:41:14.647: ---------------------------------
+13:41:14.647: ---------------------------------
+13:41:14.647: Available Encoders:
+13:41:14.647:   Video Encoders:
+13:41:14.647: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:41:14.647: 	- ffmpeg_aom_av1 (AOM AV1)
+13:41:14.647: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:41:14.647: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:41:14.647: 	- obs_x264 (x264)
+13:41:14.647:   Audio Encoders:
+13:41:14.647: 	- ffmpeg_aac (FFmpeg AAC)
+13:41:14.647: 	- ffmpeg_opus (FFmpeg Opus)
+13:41:14.647: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+13:41:14.647: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+13:41:14.647: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+13:41:14.647: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+13:41:14.647: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+13:41:14.647: 	- libfdk_aac (libfdk AAC)
+13:41:14.647: ==== Startup complete ===============================================
+13:41:14.746: All scene data cleared
+13:41:14.746: ------------------------------------------------
+13:41:14.755: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:41:14.755: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:41:14.755: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:41:14.756: pulse-input: Started recording from 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo.monitor' (default)
+13:41:14.772: [Loaded global audio device]: 'Звук раб. стола'
+13:41:14.780: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:41:14.781: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:41:14.781: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:41:14.781: pulse-input: Started recording from 'alsa_input.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo' (default)
+13:41:14.781: [Loaded global audio device]: 'Микр/доп'
+13:41:14.782: PipeWire initialized
+13:41:14.787: PipeWire initialized
+13:41:14.797: Switched to scene 'Сцена 3'
+13:41:14.797: ------------------------------------------------
+13:41:14.797: Loaded scenes:
+13:41:14.797: - scene 'Сцена':
+13:41:14.797:     - source: 'Захват экрана (PipeWire) 0' (pipewire-screen-capture-source)
+13:41:14.797: - scene 'Сцена 2':
+13:41:14.797:     - source: 'Захват экрана (PipeWire)' (pipewire-screen-capture-source)
+13:41:14.797: - scene 'Сцена 3':
+13:41:14.797:     - source: 'Устройство захвата видео (PipeWire) (БЕТА)' (pipewire-camera-source)
+13:41:14.797: ------------------------------------------------
+13:41:14.893: [pipewire] Screencast session created
+13:41:14.893: [pipewire] Screencast session created
+13:41:14.894: [camera-portal] Successfully accessed cameras
+13:41:14.903: [pipewire] Asking for monitor and window
+13:41:14.919: [pipewire] Server version: 1.4.2
+13:41:14.919: [pipewire] Library version: 1.4.2
+13:41:14.919: [pipewire] Header version: 1.4.2
+13:41:14.919: [pipewire] Created registry 0x5641e52f6770

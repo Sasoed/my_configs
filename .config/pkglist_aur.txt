@@ -1,5 +1,4 @@
 alsamixergui-debug
-ayugram-desktop-bin
 ayugram-desktop-bin-debug
 brogue-ce-debug
 docker-desktop-debug

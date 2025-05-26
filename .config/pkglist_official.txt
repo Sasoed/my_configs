@@ -2,7 +2,6 @@ alsa-utils
 android-file-transfer
 arch-install-scripts
 audacity
-ayugram-desktop-bin
 baobab
 base
 base-devel
