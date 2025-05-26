@@ -13,6 +13,7 @@ breeze-gtk
 breeze-plymouth
 btop
 copyq
+cpio
 cups
 decibels
 deja-dup
@@ -87,6 +88,7 @@ hyprsysteminfo
 input-remapper-bin
 jq
 kactivitymanagerd
+kalarm
 kcron
 kde-cli-tools
 kde-gtk-config
@@ -127,6 +129,7 @@ lutris
 ly
 malcontent
 man-db
+meson
 milou
 mtools
 nautilus
