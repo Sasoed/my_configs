@@ -24,9 +24,13 @@ require("lazy").setup({
   { "ghifarit53/tokyonight-vim" },                     -- Цветовая схема
   { "jiangmiao/auto-pairs" },                          -- Автоскобки
   { "fladson/vim-kitty" },                             -- Поддержка kitty
-  {"sitkevij/nvim-hyprlang"},
-  ft = "hyprlang",
+  {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
 })
+
+vim.filetype.add({
+  pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+})
+
 
 -- ⚙️ Основные настройки
 local opt = vim.opt
@@ -103,15 +107,4 @@ vim.cmd([[
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 ]])
 
-vim.filetype.add({
-  filename = {
-    ["hyprland.conf"] = "hyprlang",
-    ["autostart.conf"] = "hyprlang",
-    ["keybindings.conf"] = "hyprlang",
-    ["windowrule.conf"] = "hyprlang",
-  },
-  pattern = {
-    [".*/hypr/.*/.*%.conf"] = "hyprlang",
-  }
-})
 
