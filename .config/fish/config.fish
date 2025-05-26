@@ -13,7 +13,7 @@ set -U fish_greeting ""
 set -x EDITOR nvim
 
 # Добавляем пути в переменную PATH
-export PATH="$HOME/.cargo/bin:/home/seva/.local/bin:home/seva/go/bin:$PATH"
+export PATH="$HOME/.cargo/bin:/home/seva/.local/bin:/home/seva/go/bin:$PATH"
 
 # Алиасы
 alias l="ls -lh"
