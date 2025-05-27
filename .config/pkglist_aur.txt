@@ -12,6 +12,7 @@ input-remapper-bin
 kew
 kew-debug
 legendary
+libvlc-luajit
 noisetorch
 noisetorch-debug
 pantum-driver

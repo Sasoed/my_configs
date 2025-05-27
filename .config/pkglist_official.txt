@@ -139,7 +139,6 @@ nodejs
 noisetorch
 npm
 nvidia
-obs-studio
 ocean-sound-theme
 orca
 oxygen
@@ -204,6 +203,7 @@ totem
 ttf-monoid-nerd
 usb_modeswitch
 usbutils
+v4l2loopback-dkms
 via-bin
 vim
 wacomtablet

@@ -61,8 +61,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Сцена 3",
-    "current_program_scene": "Сцена 3",
+    "current_scene": "Сцена",
+    "current_program_scene": "Сцена",
     "scene_order": [
         {
             "name": "Сцена"
@@ -78,32 +78,6 @@
     "sources": [
         {
             "prev_ver": 520093699,
-            "name": "Захват экрана (PipeWire)",
-            "uuid": "0bfdbbfe-48a6-4325-9fbb-8d0193bde798",
-            "id": "pipewire-screen-capture-source",
-            "versioned_id": "pipewire-screen-capture-source",
-            "settings": {
-                "RestoreToken": "30ced89a-9aa5-4384-ac24-e95b39511a27"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Сцена 2",
             "uuid": "442f229f-b797-421d-94e5-d0f46b087dd6",
             "id": "scene",
@@ -113,7 +87,7 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Захват экрана (PipeWire)",
+                        "name": "Второй экран",
                         "source_uuid": "0bfdbbfe-48a6-4325-9fbb-8d0193bde798",
                         "visible": true,
                         "locked": false,
@@ -192,42 +166,16 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Захват экрана (PipeWire) 0",
-            "uuid": "9f4f3c3f-4c38-41b6-a011-c2e63c540fd6",
-            "id": "pipewire-screen-capture-source",
-            "versioned_id": "pipewire-screen-capture-source",
-            "settings": {
-                "RestoreToken": "0e81a6fe-25d1-4729-8bac-e0ecd593b35a"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
             "name": "Сцена",
             "uuid": "a540902a-35c2-4e3d-8204-88302e21baa5",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
+                "id_counter": 5,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Захват экрана (PipeWire) 0",
+                        "name": "Основной экран",
                         "source_uuid": "9f4f3c3f-4c38-41b6-a011-c2e63c540fd6",
                         "visible": true,
                         "locked": false,
@@ -315,7 +263,7 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Устройство захвата видео (PipeWire) (БЕТА)",
+                        "name": "Вебка",
                         "source_uuid": "b49b64e0-8f33-4af9-b5df-c27674aec67b",
                         "visible": true,
                         "locked": false,
@@ -394,15 +342,68 @@
         },
         {
             "prev_ver": 520093699,
-            "name": "Устройство захвата видео (PipeWire) (БЕТА)",
+            "name": "Основной экран",
+            "uuid": "9f4f3c3f-4c38-41b6-a011-c2e63c540fd6",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": "92bdba7a-0157-4d86-9d9b-7fdc375cef7f"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "Второй экран",
+            "uuid": "0bfdbbfe-48a6-4325-9fbb-8d0193bde798",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": "30ced89a-9aa5-4384-ac24-e95b39511a27"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "Вебка",
             "uuid": "b49b64e0-8f33-4af9-b5df-c27674aec67b",
             "id": "pipewire-camera-source",
             "versioned_id": "pipewire-camera-source",
             "settings": {
-                "device_id": "v4l2_input.pci-0000_00_14.0-usb-0_10_1.0",
                 "pixelformat": 4,
                 "resolution": "{\"width\":640,\"height\":360}",
-                "framerate": "{\"framerate\":{\"numerator\":30.0,\"denominator\":1.0}}"
+                "framerate": "{\"framerate\":{\"numerator\":30.0,\"denominator\":1.0}}",
+                "Brightness": 11,
+                "device_id": "v4l2_input.pci-0000_00_14.0-usb-0_9_1.0"
             },
             "mixers": 0,
             "sync": 0,
