@@ -5,6 +5,7 @@
 (pattern "Pine")
 (palette "Предыдущие цвета")
 (brush-size 17)
+(brush-hardness 0.5)
 (brush-force 1)
 (dynamics-enabled no)
 
