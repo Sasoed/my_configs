@@ -14,7 +14,6 @@ set -x EDITOR nvim
 
 # Добавляем пути в переменную PATH
 export PATH="$HOME/.cargo/bin:/home/seva/.local/bin:/home/seva/go/bin:$PATH"
-export LD_LIBRARY_PATH=./build_ubuntu/rundir:$LD_LIBRARY_PATH ./build_ubuntu/rundir/obs
 # Алиасы
 alias l="ls -lh"
 alias ls="eza --tree --level=1 --icons=always"
