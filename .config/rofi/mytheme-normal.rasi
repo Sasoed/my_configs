@@ -13,7 +13,7 @@ window {
     border-color: #89b4fa;
     border-radius: 10px;
     width: 600px;
-    height: 500px;
+    height: 570px;
     location: center;
     anchor: center;
     padding: 20px;
@@ -44,7 +44,7 @@ prompt {
 
 entry {
     enabled: true;
-    placeholder: "Wyszukaj";
+    placeholder: "Search";
     placeholder-color: #6c7086;
     text-color: inherit;
     font: "JetBrains Mono Bold 11";
