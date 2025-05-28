@@ -1,6 +1,7 @@
 alsamixergui-debug
 ayugram-desktop-bin-debug
 brogue-ce-debug
+cef-minimal-obs-bin
 docker-desktop-debug
 google-chrome-dev
 gpu-usage-waybar-git
@@ -12,6 +13,7 @@ input-remapper-bin
 kew
 kew-debug
 legendary
+libajantv2-debug
 libvlc-luajit
 noisetorch
 noisetorch-debug
@@ -26,6 +28,8 @@ tint-tetris
 tint-tetris-debug
 via-bin
 via-bin-debug
+vlc-luajit
+vlc-luajit-debug
 xwaylandvideobridge
 xwaylandvideobridge-debug
 yay-bin

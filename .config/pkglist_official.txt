@@ -1,6 +1,8 @@
 alsa-utils
+amf-headers
 android-file-transfer
 arch-install-scripts
+asio
 audacity
 baobab
 base
@@ -12,6 +14,7 @@ breeze
 breeze-gtk
 breeze-plymouth
 btop
+cef-minimal-obs-bin
 copyq
 cpio
 cups
@@ -135,11 +138,13 @@ mtools
 nautilus
 neovim
 network-manager-applet
+nlohmann-json
 nodejs
 noisetorch
 npm
 nvidia
 ocean-sound-theme
+opencl-headers
 orca
 oxygen
 oxygen-sounds
@@ -194,6 +199,7 @@ steam
 strace
 sudo
 sushi
+swig
 system-config-printer
 systemsettings
 tecla
@@ -208,6 +214,7 @@ via-bin
 vim
 wacomtablet
 waybar
+websocketpp
 wev
 wine
 winetricks

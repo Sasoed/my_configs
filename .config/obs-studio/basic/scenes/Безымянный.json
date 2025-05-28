@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520093699,
+        "prev_ver": 520159232,
         "name": "Звук раб. стола",
         "uuid": "89cc92de-0cc9-4f19-9e3a-def62e3614a4",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520093699,
+        "prev_ver": 520159232,
         "name": "Микр/доп",
         "uuid": "99c642e2-0156-41e9-8655-e56e004ac522",
         "id": "pulse_input_capture",
@@ -77,7 +77,7 @@
     "name": "Безымянный",
     "sources": [
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Сцена 2",
             "uuid": "442f229f-b797-421d-94e5-d0f46b087dd6",
             "id": "scene",
@@ -162,10 +162,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Сцена",
             "uuid": "a540902a-35c2-4e3d-8204-88302e21baa5",
             "id": "scene",
@@ -250,10 +251,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Сцена 3",
             "uuid": "23cb8895-0cd7-4b0c-b4b9-1ccc4c81342b",
             "id": "scene",
@@ -338,10 +340,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Основной экран",
             "uuid": "9f4f3c3f-4c38-41b6-a011-c2e63c540fd6",
             "id": "pipewire-screen-capture-source",
@@ -367,7 +370,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Второй экран",
             "uuid": "0bfdbbfe-48a6-4325-9fbb-8d0193bde798",
             "id": "pipewire-screen-capture-source",
@@ -393,7 +396,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520159232,
             "name": "Вебка",
             "uuid": "b49b64e0-8f33-4af9-b5df-c27674aec67b",
             "id": "pipewire-camera-source",
@@ -449,13 +452,17 @@
     ],
     "transitions": [],
     "saved_projectors": [],
+    "canvases": [],
     "current_transition": "Затухание",
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
         "scripts-tool": [],
         "output-timer": {
