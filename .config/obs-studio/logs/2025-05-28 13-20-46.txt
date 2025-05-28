@@ -1,0 +1,305 @@
+13:20:46.146: Platform: Wayland
+13:20:46.146: CPU Name: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz
+13:20:46.146: CPU Speed: 4099.120MHz
+13:20:46.146: Physical Cores: 6, Logical Cores: 6
+13:20:46.146: Physical Memory: 15830MB Total, 751MB Free
+13:20:46.146: Kernel Version: Linux 6.14.7-arch2-1
+13:20:46.146: Distribution: "Arch Linux" Unknown
+13:20:46.146: Desktop Environment: Hyprland (hyprland)
+13:20:46.146: Session Type: wayland
+13:20:46.148: Current Date/Time: 2025-05-28, 13:20:46
+13:20:46.148: Browser Hardware Acceleration: true
+13:20:46.148: Qt Version: 6.9.0 (runtime), 6.9.0 (compiled)
+13:20:46.148: Portable mode: false
+13:20:46.187: OBS 31.0.0-306-gf614064eb (linux)
+13:20:46.187: ---------------------------------
+13:20:46.188: ---------------------------------
+13:20:46.188: audio settings reset:
+13:20:46.188: 	samples per sec: 48000
+13:20:46.188: 	speakers:        2
+13:20:46.188: 	max buffering:   960 milliseconds
+13:20:46.188: 	buffering type:  dynamically increasing
+13:20:46.190: ---------------------------------
+13:20:46.190: Initializing OpenGL...
+13:20:46.190: Using EGL/Wayland
+13:20:46.234: Initialized EGL 1.5
+13:20:46.254: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+13:20:46.254: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.153.02, shading language 3.30 NVIDIA via Cg compiler
+13:20:46.313: ---------------------------------
+13:20:46.313: video settings reset:
+13:20:46.313: 	base resolution:   1920x1080
+13:20:46.313: 	output resolution: 1280x720
+13:20:46.313: 	downscale filter:  Bicubic
+13:20:46.313: 	fps:               30/1
+13:20:46.313: 	format:            NV12
+13:20:46.313: 	YUV mode:          Rec. 709/Partial
+13:20:46.313: NV12 texture support enabled
+13:20:46.313: P010 texture support not available
+13:20:46.313: Audio monitoring device:
+13:20:46.313: 	name: По умолчанию
+13:20:46.313: 	id: default
+13:20:46.321: ---------------------------------
+13:20:46.328: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:20:46.334: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:20:46.339: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:20:46.339: Failed to initialize module 'decklink.so'
+13:20:46.517: [pipewire] Available capture sources:
+13:20:46.517: [pipewire]     - Monitor source
+13:20:46.517: [pipewire]     - Window source
+13:20:46.546: [obs-browser]: Version 2.25.0
+13:20:46.546: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g9d68db8+chromium-127.0.6533.120 (compiled)
+13:20:46.546: [obs-browser]: Blacklisted driver detected, disabling browser source hardware acceleration.
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:20:46.611: FFmpeg VAAPI H264 encoding not supported
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:20:46.611: FFmpeg VAAPI AV1 encoding not supported
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:20:46.611: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:20:46.611: FFmpeg VAAPI HEVC encoding not supported
+13:20:47.013: [obs-nvenc] NVENC version: 12.1 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+13:20:47.080: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.0 | RPC Version: 1)
+13:20:47.080: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.0 | Qt version (run-time): 6.9.0
+13:20:47.080: [obs-websocket] [obs_module_load] Linked ASIO Version: 103402
+13:20:47.080: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+13:20:47.088: [obs-websocket] [obs_module_load] Module loaded.
+13:20:47.126: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+13:20:47.126: ---------------------------------
+13:20:47.126:   Loaded Modules:
+13:20:47.126:     vlc-video.so
+13:20:47.126:     text-freetype2.so
+13:20:47.126:     rtmp-services.so
+13:20:47.126:     obs-x264.so
+13:20:47.126:     obs-websocket.so
+13:20:47.126:     obs-webrtc.so
+13:20:47.126:     obs-vst.so
+13:20:47.126:     obs-transitions.so
+13:20:47.126:     obs-qsv11.so
+13:20:47.126:     obs-outputs.so
+13:20:47.126:     obs-nvenc.so
+13:20:47.126:     obs-filters.so
+13:20:47.126:     obs-ffmpeg.so
+13:20:47.126:     obs-browser.so
+13:20:47.126:     linux-v4l2.so
+13:20:47.126:     linux-pulseaudio.so
+13:20:47.126:     linux-pipewire.so
+13:20:47.126:     linux-capture.so
+13:20:47.126:     linux-alsa.so
+13:20:47.126:     image-source.so
+13:20:47.126:     frontend-tools.so
+13:20:47.126:     decklink-output-ui.so
+13:20:47.126:     decklink-captions.so
+13:20:47.126: ---------------------------------
+13:20:47.126: ---------------------------------
+13:20:47.126: Available Encoders:
+13:20:47.126:   Video Encoders:
+13:20:47.126: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:20:47.126: 	- ffmpeg_aom_av1 (AOM AV1)
+13:20:47.126: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:20:47.126: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:20:47.126: 	- obs_x264 (x264)
+13:20:47.126:   Audio Encoders:
+13:20:47.126: 	- ffmpeg_aac (FFmpeg AAC)
+13:20:47.126: 	- ffmpeg_opus (FFmpeg Opus)
+13:20:47.126: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+13:20:47.126: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+13:20:47.126: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+13:20:47.126: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+13:20:47.126: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+13:20:47.126: ==== Startup complete ===============================================
+13:20:47.150: All scene data cleared
+13:20:47.151: ------------------------------------------------
+13:20:47.155: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:20:47.156: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:20:47.156: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:20:47.156: pulse-input: Started recording from 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo.monitor' (default)
+13:20:47.156: [Loaded global audio device]: 'Звук раб. стола'
+13:20:47.156: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:20:47.157: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:20:47.157: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:20:47.157: pulse-input: Started recording from 'alsa_input.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo' (default)
+13:20:47.157: [Loaded global audio device]: 'Микр/доп'
+13:20:47.158: PipeWire initialized
+13:20:47.158: PipeWire initialized
+13:20:47.160: Switched to scene 'Сцена'
+13:20:47.160: ------------------------------------------------
+13:20:47.161: Loaded scenes:
+13:20:47.161: - scene 'Сцена':
+13:20:47.161:     - source: 'Основной экран' (pipewire-screen-capture-source)
+13:20:47.161: - scene 'Сцена 2':
+13:20:47.161:     - source: 'Второй экран' (pipewire-screen-capture-source)
+13:20:47.161: - scene 'Сцена 3':
+13:20:47.161:     - source: 'Вебка' (pipewire-camera-source)
+13:20:47.161: ------------------------------------------------
+13:20:47.226: [pipewire] Screencast session created
+13:20:47.226: [camera-portal] Successfully accessed cameras
+13:20:47.226: [pipewire] Screencast session created
+13:20:47.287: [pipewire] Server version: 1.4.2
+13:20:47.287: [pipewire] Library version: 1.4.2
+13:20:47.287: [pipewire] Header version: 1.4.2
+13:20:47.287: [pipewire] Created registry 0x559cfcfaecd0
+13:20:47.287: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+13:20:47.287: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_9_1.0'
+13:20:47.287: [pipewire] Created stream 0x7fe1d8002770
+13:20:47.288: [pipewire] Stream 0x7fe1d8002770 state: "connecting" (error: none)
+13:20:47.288: [pipewire] Playing stream 0x7fe1d8002770
+13:20:47.288: [pipewire] Asking for monitor and window
+13:20:47.288: [pipewire] Asking for monitor and window
+13:20:47.288: [pipewire] Stream 0x7fe1d8002770 state: "paused" (error: none)
+13:20:47.292: [pipewire] source selected, setting up screencast
+13:20:47.293: [pipewire] source selected, setting up screencast
+13:20:47.296: [pipewire] Server version: 1.4.2
+13:20:47.296: [pipewire] Library version: 1.4.2
+13:20:47.296: [pipewire] Header version: 1.4.2
+13:20:47.296: [pipewire] Created stream 0x559cfeb23ed0
+13:20:47.296: [pipewire] Stream 0x559cfeb23ed0 state: "connecting" (error: none)
+13:20:47.296: [pipewire] Playing stream 0x559cfeb23ed0
+13:20:47.297: [pipewire] Stream 0x559cfeb23ed0 state: "paused" (error: none)
+13:20:47.297: [pipewire] Server version: 1.4.2
+13:20:47.297: [pipewire] Library version: 1.4.2
+13:20:47.297: [pipewire] Header version: 1.4.2
+13:20:47.297: [pipewire] Created stream 0x559cfeb64e40
+13:20:47.297: [pipewire] Stream 0x559cfeb64e40 state: "connecting" (error: none)
+13:20:47.298: [pipewire] Playing stream 0x559cfeb64e40
+13:20:47.301: [pipewire] Negotiated format:
+13:20:47.301: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+13:20:47.301: [pipewire]     Size: 640x360
+13:20:47.301: [pipewire]     Framerate: 30/1
+13:20:47.302: [pipewire] Stream 0x559cfeb64e40 state: "paused" (error: none)
+13:20:47.307: [pipewire] Stream 0x7fe1d8002770 state: "streaming" (error: none)
+13:20:47.323: [pipewire] Negotiated format:
+13:20:47.323: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:20:47.323: [pipewire]     Modifier: 0x0
+13:20:47.323: [pipewire]     Size: 1920x1080
+13:20:47.323: [pipewire]     Framerate: 0/1
+13:20:47.323: [pipewire] Negotiated format:
+13:20:47.323: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:20:47.323: [pipewire]     Modifier: 0x300000000cdb014
+13:20:47.323: [pipewire]     Size: 1920x1080
+13:20:47.323: [pipewire]     Framerate: 0/1
+13:20:47.324: [pipewire] Stream 0x559cfeb23ed0 state: "streaming" (error: none)
+13:20:47.336: [pipewire] Negotiated format:
+13:20:47.336: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:20:47.336: [pipewire]     Modifier: 0x0
+13:20:47.336: [pipewire]     Size: 1920x1080
+13:20:47.336: [pipewire]     Framerate: 0/1
+13:20:47.336: [pipewire] Negotiated format:
+13:20:47.336: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:20:47.336: [pipewire]     Modifier: 0x300000000cdb014
+13:20:47.336: [pipewire]     Size: 1920x1080
+13:20:47.336: [pipewire]     Framerate: 0/1
+13:20:47.337: [pipewire] Stream 0x559cfeb64e40 state: "streaming" (error: none)
+13:20:47.725: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Микр/доп)
+13:20:47.725: 
+13:20:49.779: Creating a popup with a parent, QWidgetWindow(0x559cfcd3a2e0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x559cfeb86790, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:20:54.499: Creating a popup with a parent, QWidgetWindow(0x559cfcd3a2e0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x559cfeba2ae0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:20:55.649: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfec02120 with focusing surface 0x559cfd339ea0
+13:20:55.700: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfec02120
+13:20:56.778: User added source 'Браузер' (browser_source) to scene 'Сцена'
+13:20:56.816: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfecb2560 with focusing surface 0x559cfd339ea0
+13:21:37.300: Creating a popup with a parent, QWidgetWindow(0x559cfcd3a2e0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x559cfebe32d0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:21:38.375: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfec5ded0 with focusing surface 0x559cfd339ea0
+13:21:38.382: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfec5ded0
+13:21:39.970: User added source 'Браузер 2' (browser_source) to scene 'Сцена'
+13:21:40.009: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfeca8b30 with focusing surface 0x559cfd339ea0
+13:21:43.006: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfd339ea0 with focusing surface 0x559cfeca8b30
+13:21:43.304: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfeca8b30 with focusing surface 0x559cfd339ea0
+13:24:03.375: Creating a popup with a parent, QWidgetWindow(0x559cfcd3a2e0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x559cfe9f7380, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:24:04.412: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfebd4e90 with focusing surface 0x559cfd339ea0
+13:24:04.559: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfebd4e90
+13:24:05.563: User added source 'Браузер 3' (browser_source) to scene 'Сцена'
+13:24:05.609: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfecd4f00 with focusing surface 0x559cfd339ea0
+13:24:11.947: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfec78d30 with focusing surface 0x559cfd339ea0
+13:24:26.300: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfecd4f00 with focusing surface 0x559cfd339ea0
+13:24:27.036: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfd339ea0 with focusing surface 0x559cfecd4f00
+13:24:27.314: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfecd4f00 with focusing surface 0x559cfd339ea0
+13:24:33.470: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfd339ea0
+13:25:22.734: This plugin supports grabbing the mouse only for popup windows
+13:25:22.943: This plugin supports grabbing the mouse only for popup windows
+13:25:26.600: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cff465460 with focusing surface 0x559cfd339ea0
+13:25:28.703: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cfd339ea0 with focusing surface 0x559cff465460
+13:25:28.958: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x559cff465460 with focusing surface 0x559cfd339ea0
+13:25:32.531: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfd339ea0
+13:25:48.490: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfedcec60 with focusing surface 0x559cfd339ea0
+13:25:48.885: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfedcec60 with focusing surface 0x559cfd339ea0
+13:26:26.745: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x559cfd34d2a0 with focusing surface 0x559cfd339ea0
+13:26:31.148: ==== Shutting down ==================================================
+13:26:31.163: pulse-input: Stopped recording from 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo.monitor'
+13:26:31.163: pulse-input: Got 13759 packets with 16510800 frames
+13:26:31.163: pulse-input: Stopped recording from 'alsa_input.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo'
+13:26:31.163: pulse-input: Got 13760 packets with 16512000 frames
+13:26:31.164: [pipewire] Stream 0x559cfeb64e40 state: "paused" (error: none)
+13:26:31.164: [pipewire] Stream 0x559cfeb64e40 state: "unconnected" (error: none)
+13:26:31.174: [pipewire] Stream 0x559cfeb23ed0 state: "paused" (error: none)
+13:26:31.174: [pipewire] Stream 0x559cfeb23ed0 state: "unconnected" (error: none)
+13:26:31.181: [pipewire] Stream 0x7fe1d8002770 state: "paused" (error: none)
+13:26:31.181: [pipewire] Stream 0x7fe1d8002770 state: "unconnected" (error: none)
+13:26:31.195: All scene data cleared
+13:26:31.195: ------------------------------------------------
+13:26:31.257: [obs-websocket] [obs_module_unload] Shutting down...
+13:26:31.257: Tried to call obs_frontend_remove_event_callback with no callbacks!
+13:26:31.257: [obs-websocket] [obs_module_unload] Finished shutting down.
+13:26:31.280: [Scripting] Total detached callbacks: 0
+13:26:31.280: Freeing OBS context data
+13:26:31.290: == Profiler Results =============================
+13:26:31.290: run_program_init: 1140.94 ms
+13:26:31.290:  ┣OBSApp::AppInit: 33.01 ms
+13:26:31.290:  ┃ ┗OBSApp::InitLocale: 2.712 ms
+13:26:31.290:  ┗OBSApp::OBSInit: 1072.71 ms
+13:26:31.290:    ┣obs_startup: 2.137 ms
+13:26:31.290:    ┗OBSBasic::OBSInit: 1031.35 ms
+13:26:31.290:      ┣OBSBasic::InitBasicConfig: 0.95 ms
+13:26:31.290:      ┣OBSBasic::ResetAudio: 0.238 ms
+13:26:31.290:      ┣OBSBasic::ResetVideo: 124.479 ms
+13:26:31.290:      ┃ ┗obs_init_graphics: 123.981 ms
+13:26:31.290:      ┃   ┗shader compilation: 58.474 ms
+13:26:31.290:      ┣OBSBasic::InitOBSCallbacks: 0.007 ms
+13:26:31.290:      ┣OBSBasic::InitHotkeys: 0.022 ms
+13:26:31.290:      ┣obs_load_all_modules2: 804.48 ms
+13:26:31.290:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+13:26:31.290:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+13:26:31.290:      ┃ ┣obs_init_module(decklink.so): 0.093 ms
+13:26:31.290:      ┃ ┣obs_init_module(frontend-tools.so): 69.667 ms
+13:26:31.290:      ┃ ┣obs_init_module(image-source.so): 0.013 ms
+13:26:31.290:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+13:26:31.290:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+13:26:31.290:      ┃ ┣obs_init_module(linux-pipewire.so): 5.214 ms
+13:26:31.290:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+13:26:31.290:      ┃ ┣obs_init_module(linux-v4l2.so): 4.637 ms
+13:26:31.290:      ┃ ┣obs_init_module(obs-browser.so): 0.258 ms
+13:26:31.290:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.905 ms
+13:26:31.290:      ┃ ┣obs_init_module(obs-filters.so): 0.031 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-nvenc.so): 385.082 ms
+13:26:31.291:      ┃ ┃ ┗nvenc_check: 385.065 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-qsv11.so): 1.701 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-vst.so): 0.006 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-webrtc.so): 0.014 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-websocket.so): 8.191 ms
+13:26:31.291:      ┃ ┣obs_init_module(obs-x264.so): 0.004 ms
+13:26:31.291:      ┃ ┣obs_init_module(rtmp-services.so): 1.044 ms
+13:26:31.291:      ┃ ┣obs_init_module(text-freetype2.so): 0.016 ms
+13:26:31.291:      ┃ ┗obs_init_module(vlc-video.so): 2.241 ms
+13:26:31.291:      ┣OBSBasic::InitService: 1.455 ms
+13:26:31.291:      ┣OBSBasic::ResetOutputs: 0.411 ms
+13:26:31.291:      ┣OBSBasic::CreateHotkeys: 0.032 ms
+13:26:31.291:      ┣OBSBasic::InitPrimitives: 0.278 ms
+13:26:31.291:      ┗OBSBasic::Load: 32.121 ms
+13:26:31.291: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.084 ms, 99th percentile=0.002 ms, 100% below 25 ms
+13:26:31.291: audio_thread(Audio): min=0.006 ms, median=0.153 ms, max=9.112 ms, 99th percentile=0.419 ms
+13:26:31.291: obs_graphics_thread(33.3333 ms): min=0.249 ms, median=4.19 ms, max=28.264 ms, 99th percentile=11.201 ms, 100% below 33.333 ms
+13:26:31.291:  ┣tick_sources: min=0 ms, median=0.039 ms, max=25.478 ms, 99th percentile=0.937 ms
+13:26:31.291:  ┣output_frame: min=0.092 ms, median=0.647 ms, max=4.486 ms, 99th percentile=1.794 ms
+13:26:31.291:  ┃ ┗gs_context(video->graphics): min=0.091 ms, median=0.645 ms, max=4.485 ms, 99th percentile=1.792 ms
+13:26:31.291:  ┃   ┣render_video: min=0.048 ms, median=0.422 ms, max=4.35 ms, 99th percentile=0.959 ms
+13:26:31.291:  ┃   ┃ ┗render_main_texture: min=0.041 ms, median=0.388 ms, max=2.569 ms, 99th percentile=0.909 ms
+13:26:31.291:  ┃   ┗gs_flush: min=0.006 ms, median=0.033 ms, max=2.474 ms, 99th percentile=0.124 ms
+13:26:31.291:  ┗render_displays: min=0.03 ms, median=3.062 ms, max=24.017 ms, 99th percentile=9.655 ms
+13:26:31.291: =================================================
+13:26:31.291: == Profiler Time Between Calls ==================
+13:26:31.291: obs_hotkey_thread(25 ms): min=25.015 ms, median=25.112 ms, max=29.915 ms, 98.9879% within ±2% of 25 ms (0% lower, 1.01209% higher)
+13:26:31.291: obs_graphics_thread(33.3333 ms): min=28.68 ms, median=33.334 ms, max=37.924 ms, 98.7919% within ±2% of 33.333 ms (0.608872% lower, 0.599207% higher)
+13:26:31.291: =================================================
+13:26:31.308: Number of memory leaks: 0

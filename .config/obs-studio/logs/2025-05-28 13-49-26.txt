@@ -1,0 +1,197 @@
+13:49:26.153: Platform: Wayland
+13:49:26.153: CPU Name: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz
+13:49:26.153: CPU Speed: 4098.550MHz
+13:49:26.153: Physical Cores: 6, Logical Cores: 6
+13:49:26.153: Physical Memory: 15830MB Total, 1344MB Free
+13:49:26.153: Kernel Version: Linux 6.14.7-arch2-1
+13:49:26.153: Distribution: "Arch Linux" Unknown
+13:49:26.153: Desktop Environment: Hyprland (hyprland)
+13:49:26.153: Session Type: wayland
+13:49:26.155: Current Date/Time: 2025-05-28, 13:49:26
+13:49:26.155: Browser Hardware Acceleration: true
+13:49:26.155: Qt Version: 6.9.0 (runtime), 6.9.0 (compiled)
+13:49:26.155: Portable mode: false
+13:49:26.193: OBS 31.0.0-306-gf614064eb (linux)
+13:49:26.193: ---------------------------------
+13:49:26.194: ---------------------------------
+13:49:26.194: audio settings reset:
+13:49:26.194: 	samples per sec: 48000
+13:49:26.194: 	speakers:        2
+13:49:26.194: 	max buffering:   960 milliseconds
+13:49:26.194: 	buffering type:  dynamically increasing
+13:49:26.195: ---------------------------------
+13:49:26.195: Initializing OpenGL...
+13:49:26.195: Using EGL/Wayland
+13:49:26.239: Initialized EGL 1.5
+13:49:26.258: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+13:49:26.258: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.153.02, shading language 3.30 NVIDIA via Cg compiler
+13:49:26.316: ---------------------------------
+13:49:26.316: video settings reset:
+13:49:26.316: 	base resolution:   1920x1080
+13:49:26.316: 	output resolution: 1920x1080
+13:49:26.316: 	downscale filter:  Bicubic
+13:49:26.316: 	fps:               30/1
+13:49:26.316: 	format:            NV12
+13:49:26.316: 	YUV mode:          Rec. 709/Partial
+13:49:26.316: NV12 texture support enabled
+13:49:26.316: P010 texture support not available
+13:49:26.317: Audio monitoring device:
+13:49:26.317: 	name: По умолчанию
+13:49:26.317: 	id: default
+13:49:26.325: ---------------------------------
+13:49:26.332: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:49:26.338: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:49:26.343: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:49:26.343: Failed to initialize module 'decklink.so'
+13:49:26.525: [pipewire] Available capture sources:
+13:49:26.525: [pipewire]     - Monitor source
+13:49:26.525: [pipewire]     - Window source
+13:49:26.554: [obs-browser]: Version 2.25.0
+13:49:26.554: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g9d68db8+chromium-127.0.6533.120 (compiled)
+13:49:26.554: [obs-browser]: Blacklisted driver detected, disabling browser source hardware acceleration.
+13:49:26.619: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:49:26.619: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:49:26.619: FFmpeg VAAPI H264 encoding not supported
+13:49:26.619: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:49:26.619: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:49:26.619: FFmpeg VAAPI AV1 encoding not supported
+13:49:26.619: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:49:26.620: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:49:26.620: FFmpeg VAAPI HEVC encoding not supported
+13:49:27.031: [obs-nvenc] NVENC version: 12.1 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+13:49:27.093: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.0 | RPC Version: 1)
+13:49:27.093: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.0 | Qt version (run-time): 6.9.0
+13:49:27.093: [obs-websocket] [obs_module_load] Linked ASIO Version: 103402
+13:49:27.093: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+13:49:27.101: [obs-websocket] [obs_module_load] Module loaded.
+13:49:27.136: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+13:49:27.136: ---------------------------------
+13:49:27.136:   Loaded Modules:
+13:49:27.136:     vlc-video.so
+13:49:27.136:     text-freetype2.so
+13:49:27.136:     rtmp-services.so
+13:49:27.136:     obs-x264.so
+13:49:27.136:     obs-websocket.so
+13:49:27.136:     obs-webrtc.so
+13:49:27.136:     obs-vst.so
+13:49:27.136:     obs-transitions.so
+13:49:27.136:     obs-qsv11.so
+13:49:27.136:     obs-outputs.so
+13:49:27.136:     obs-nvenc.so
+13:49:27.136:     obs-filters.so
+13:49:27.136:     obs-ffmpeg.so
+13:49:27.136:     obs-browser.so
+13:49:27.136:     linux-v4l2.so
+13:49:27.136:     linux-pulseaudio.so
+13:49:27.136:     linux-pipewire.so
+13:49:27.136:     linux-capture.so
+13:49:27.136:     linux-alsa.so
+13:49:27.136:     image-source.so
+13:49:27.136:     frontend-tools.so
+13:49:27.136:     decklink-output-ui.so
+13:49:27.136:     decklink-captions.so
+13:49:27.136: ---------------------------------
+13:49:27.136: ---------------------------------
+13:49:27.136: Available Encoders:
+13:49:27.136:   Video Encoders:
+13:49:27.136: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:49:27.136: 	- ffmpeg_aom_av1 (AOM AV1)
+13:49:27.136: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:49:27.136: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:49:27.136: 	- obs_x264 (x264)
+13:49:27.136:   Audio Encoders:
+13:49:27.136: 	- ffmpeg_aac (FFmpeg AAC)
+13:49:27.136: 	- ffmpeg_opus (FFmpeg Opus)
+13:49:27.136: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+13:49:27.136: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+13:49:27.136: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+13:49:27.136: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+13:49:27.136: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+13:49:27.136: ==== Startup complete ===============================================
+13:49:27.205: All scene data cleared
+13:49:27.205: ------------------------------------------------
+13:49:27.227: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:49:27.228: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:49:27.228: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:49:27.228: pulse-input: Started recording from 'alsa_output.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo.monitor' (default)
+13:49:27.229: [Loaded global audio device]: 'Звук раб. стола'
+13:49:27.231: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+13:49:27.231: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+13:49:27.231: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+13:49:27.232: pulse-input: Started recording from 'alsa_input.usb-MV-SILICON_fifine_Microphone_20190808-00.analog-stereo' (default)
+13:49:27.232: [Loaded global audio device]: 'Микр/доп'
+13:49:27.238: PipeWire initialized
+13:49:27.239: PipeWire initialized
+13:49:27.251: Switched to scene 'Сцена'
+13:49:27.252: ------------------------------------------------
+13:49:27.252: Loaded scenes:
+13:49:27.252: - scene 'Сцена':
+13:49:27.252:     - source: 'Основной экран' (pipewire-screen-capture-source)
+13:49:27.252:     - source: 'Донаты' (browser_source)
+13:49:27.252: - scene 'Сцена 2':
+13:49:27.252:     - source: 'Второй экран' (pipewire-screen-capture-source)
+13:49:27.252: - scene 'Сцена 3':
+13:49:27.252:     - source: 'Вебка' (pipewire-camera-source)
+13:49:27.252: ------------------------------------------------
+13:49:27.358: [camera-portal] Successfully accessed cameras
+13:49:27.358: [pipewire] Screencast session created
+13:49:27.358: [pipewire] Screencast session created
+13:49:27.407: [pipewire] Server version: 1.4.2
+13:49:27.407: [pipewire] Library version: 1.4.2
+13:49:27.407: [pipewire] Header version: 1.4.2
+13:49:27.407: [pipewire] Created registry 0x557af6e4b0e0
+13:49:27.407: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_9_1.0
+13:49:27.407: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_9_1.0'
+13:49:27.407: [pipewire] Created stream 0x7fc4d0002770
+13:49:27.407: [pipewire] Stream 0x7fc4d0002770 state: "connecting" (error: none)
+13:49:27.407: [pipewire] Playing stream 0x7fc4d0002770
+13:49:27.407: [pipewire] Asking for monitor and window
+13:49:27.407: [pipewire] Asking for monitor and window
+13:49:27.408: [pipewire] Stream 0x7fc4d0002770 state: "paused" (error: none)
+13:49:27.414: [pipewire] source selected, setting up screencast
+13:49:27.415: [pipewire] source selected, setting up screencast
+13:49:27.422: [pipewire] Negotiated format:
+13:49:27.422: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+13:49:27.422: [pipewire]     Size: 640x360
+13:49:27.422: [pipewire]     Framerate: 30/1
+13:49:27.423: [pipewire] Stream 0x7fc4d0002770 state: "streaming" (error: none)
+13:49:27.424: [pipewire] Server version: 1.4.2
+13:49:27.425: [pipewire] Library version: 1.4.2
+13:49:27.425: [pipewire] Header version: 1.4.2
+13:49:27.425: [pipewire] Created stream 0x557af6ec0850
+13:49:27.425: [pipewire] Stream 0x557af6ec0850 state: "connecting" (error: none)
+13:49:27.425: [pipewire] Playing stream 0x557af6ec0850
+13:49:27.425: [pipewire] Stream 0x557af6ec0850 state: "paused" (error: none)
+13:49:27.427: [pipewire] Server version: 1.4.2
+13:49:27.427: [pipewire] Library version: 1.4.2
+13:49:27.427: [pipewire] Header version: 1.4.2
+13:49:27.427: [pipewire] Created stream 0x557af6f01530
+13:49:27.427: [pipewire] Stream 0x557af6f01530 state: "connecting" (error: none)
+13:49:27.427: [pipewire] Playing stream 0x557af6f01530
+13:49:27.427: [pipewire] Stream 0x557af6f01530 state: "paused" (error: none)
+13:49:27.459: [pipewire] Negotiated format:
+13:49:27.459: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:49:27.459: [pipewire]     Modifier: 0x0
+13:49:27.459: [pipewire]     Size: 1920x1080
+13:49:27.459: [pipewire]     Framerate: 0/1
+13:49:27.459: [pipewire] Negotiated format:
+13:49:27.459: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:49:27.459: [pipewire]     Modifier: 0x300000000cdb014
+13:49:27.459: [pipewire]     Size: 1920x1080
+13:49:27.459: [pipewire]     Framerate: 0/1
+13:49:27.462: [pipewire] Stream 0x557af6ec0850 state: "streaming" (error: none)
+13:49:27.475: [pipewire] Negotiated format:
+13:49:27.475: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:49:27.475: [pipewire]     Modifier: 0x0
+13:49:27.475: [pipewire]     Size: 1920x1080
+13:49:27.475: [pipewire]     Framerate: 0/1
+13:49:27.475: [pipewire] Negotiated format:
+13:49:27.475: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:49:27.475: [pipewire]     Modifier: 0x300000000cdb014
+13:49:27.475: [pipewire]     Size: 1920x1080
+13:49:27.475: [pipewire]     Framerate: 0/1
+13:49:27.476: [pipewire] Stream 0x557af6f01530 state: "streaming" (error: none)
+13:49:27.816: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Звук раб. стола)
+13:49:27.816: 
+13:49:27.880: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Микр/доп)
+13:49:27.880: 
