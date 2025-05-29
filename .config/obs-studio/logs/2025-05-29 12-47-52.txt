@@ -196,3 +196,5 @@
 12:47:55.058: 
 18:08:21.576: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Звук раб. стола)
 18:08:21.576: 
+19:53:03.453: adding 64 milliseconds of audio buffering, total audio buffering is now 106 milliseconds (source: Звук раб. стола)
+19:53:03.453: 
