@@ -1,0 +1,295 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "Glass Big - Break - Heavy01",
+                "Glass Big - Break - Heavy02",
+                "Glass Big - Break - Heavy03",
+                "Glass Liquid Big - Break - Heavy01",
+                "Glass Liquid Big - Break - Heavy02",
+                "Glass Liquid Big - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "BigGlass.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по тяжёлому стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Big - Break - Light01",
+                "Glass Liquid Big - Break - Light02",
+                "Glass Liquid Big - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "miniGlass.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по тяжёлому стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Big - Break - Medium01",
+                "Glass Liquid Big - Break - Medium02",
+                "Glass Liquid Big - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MediumGlass2.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по тяжёлому стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Medium - Break - Light01",
+                "Glass Liquid Medium - Break - Light02",
+                "Glass Liquid Medium - Break - Light03",
+                "Glass Liquid Medium - Break - Heavy01",
+                "Glass Liquid Medium - Break - Heavy02",
+                "Glass Liquid Medium - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MCGlassBreak.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый и сильный удар по среднему стеклу с водой"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Medium - Break - Medium01",
+                "Glass Liquid Medium - Break - Medium02",
+                "Glass Liquid Medium - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MediumGlassBreak.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по среднему стеклу с водой"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Medium - Break - Heavy01",
+                "Glass Medium - Break - Heavy02",
+                "Glass Medium - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MediumGlassBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по среднему стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Medium - Break - Light01",
+                "Glass Medium - Break - Light02",
+                "Glass Medium - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "miniGlass.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по среднему стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Medium - Break - Medium01",
+                "Glass Medium - Break - Medium02",
+                "Glass Medium - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MediumGlassBreakL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по среднему стеклу"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Medium - Destroy01",
+                "Glass Medium - Destroy02",
+                "Glass Medium - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "MediumGlassHeavy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Разбитое среднее стекло"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Medium - Destroy01",
+                "Glass Liquid Medium - Destroy02",
+                "Glass Liquid Medium - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "LiqGlassMediumDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Разбитое среднее стекло с водой"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Glass Liquid Big - Destroy01",
+                "Glass Liquid Big - Destroy02",
+                "Glass Liquid Big - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "BigLiquidGlassDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Разбитое большое стекло с водой"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Medium - Break - Heavy01",
+                "Ceramic Medium - Break - Heavy02",
+                "Ceramic Medium - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicMediumBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по средней керамике"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Medium - Break - Medium01",
+                "Ceramic Medium - Break - Medium02",
+                "Ceramic Medium - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicMediumBreakM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по средней керамике"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Medium - Break - Light01",
+                "Ceramic Medium - Break - Light02",
+                "Ceramic Medium - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicMediumBreakL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по средней керамике"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Medium - Destroy01",
+                "Ceramic Medium - Destroy02",
+                "Ceramic Medium - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicMediumDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Разбитая средняя керамика"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Small - Break - Heavy01",
+                "Ceramic Small - Break - Heavy02",
+                "Ceramic Small - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicSmallBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по мелкой керамике"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Small - Break - Medium01",
+                "Ceramic Small - Break - Medium02",
+                "Ceramic Small - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicSmallBreakM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по мелкой керамие"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Small - Break - Light01",
+                "Ceramic Small - Break - Light02",
+                "Ceramic Small - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicSmallBreakl.ogg",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по мелкой керамике"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Ceramic Small - Destroy01",
+                "Ceramic Small - Destroy02",
+                "Ceramic Small - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "CeramicSmallDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Мелкая керамика разбивается"
+                }
+            ]
+        }
+    ]
+}

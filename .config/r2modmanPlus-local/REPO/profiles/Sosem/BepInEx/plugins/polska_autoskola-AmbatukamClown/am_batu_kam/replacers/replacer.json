@@ -1,0 +1,66 @@
+{
+    "replacements": [
+        {
+            "matches":[
+			"*:enemy beamer laser loop"
+			],
+            "sounds": [
+                {
+                    "sound": "lasershoot.wav"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"*:enemy beamer laser grace01",
+			"*:enemy beamer laser grace02",
+			"*:enemy beamer laser grace03"
+			],
+            "sounds": [
+                {
+                    "sound": "laserloop.wav"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"*:enemy beamer attack intro"
+			],
+            "sounds": [
+                {
+                    "sound": "announce.wav"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"*:enemy beamer melee tell"
+			],
+            "sounds": [
+                {
+                    "sound": "kick.wav"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"*:enemy beamer laser end global"
+			],
+            "sounds": [
+                {
+                    "sound": "oshit.ogg"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"*:enemy beamer laser start global"
+			],
+            "sounds": [
+                {
+                    "sound": "ambasin.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -11,6 +11,7 @@ text/plain=nvim.desktop
 application/x-ms-dos-executable;application/x-wine-extension-msp;application/x-msi;application/x-msdos-program;text/win-bat;=PortProton.desktop
 x-scheme-handler/tg=userapp-AyuGram Desktop-5SD762.desktop
 x-scheme-handler/tonsite=userapp-AyuGram Desktop-MVI662.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
 
 [Added Associations]
 application/pdf=org.gnome.Evince.desktop;

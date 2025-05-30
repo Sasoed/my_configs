@@ -1,0 +1,9 @@
+{
+  "name": "ForHonorDuck",
+  "description": "Duck makes for honor sounds",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "Zehs-REPOLib-2.1.0"
+  ],
+  "website_url": "https://thunderstore.io"
+}

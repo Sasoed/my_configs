@@ -1,0 +1,552 @@
+- manifestVersion: 1
+  name: BlueAmulet-REPO_HD
+  authorName: BlueAmulet
+  websiteUrl: https://thunderstore.io/c/repo/p/BlueAmulet/REPO_HD/
+  displayName: REPO_HD
+  description: Removes the pixelation effect entirely
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616471925
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/BlueAmulet-REPO_HD/icon.png
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616471930
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/cache/BepInEx-BepInExPack/5.4.2100/icon.png
+- manifestVersion: 1
+  name: fedorabunnies-EvenMoreHats
+  authorName: fedorabunnies
+  websiteUrl: https://thunderstore.io/c/repo/p/fedorabunnies/EvenMoreHats/
+  displayName: EvenMoreHats
+  description: More Hats + Youtuber cosmetics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616471950
+  loaders: []
+  dependencies:
+    - Maygik-MoreHeadUtilities-1.0.6
+    - YMC_MHZ-MoreHead-1.4.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 9
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/fedorabunnies-EvenMoreHats/icon.png
+- manifestVersion: 1
+  name: nickklmao-MenuLib
+  authorName: nickklmao
+  websiteUrl: https://thunderstore.io/c/repo/p/nickklmao/MenuLib/
+  displayName: MenuLib
+  description: A library for creating UI!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472375
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/nickklmao-MenuLib/icon.png
+- manifestVersion: 1
+  name: YMC_MHZ-MoreHead
+  authorName: YMC_MHZ
+  websiteUrl: https://thunderstore.io/c/repo/p/YMC_MHZ/MoreHead/
+  displayName: MoreHead
+  description: Customizable cosmetics. 简单好玩的装饰模组，提供unitypackage，供玩家自行导入模型。
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472396
+  loaders: []
+  dependencies:
+    - nickklmao-MenuLib-2.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/YMC_MHZ-MoreHead/icon.png
+- manifestVersion: 1
+  name: Maygik-MoreHeadUtilities
+  authorName: Maygik
+  websiteUrl: https://thunderstore.io/c/repo/p/Maygik/MoreHeadUtilities/
+  displayName: MoreHeadUtilities
+  description: Allows MoreHead cosmetics to hide body parts and use groups.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472414
+  loaders: []
+  dependencies:
+    - YMC_MHZ-MoreHead-1.3.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/Maygik-MoreHeadUtilities/icon.png
+- manifestVersion: 1
+  name: Tansinator-Map_Value_Tracker
+  authorName: Tansinator
+  websiteUrl: https://thunderstore.io/c/repo/p/Tansinator/Map_Value_Tracker/
+  displayName: Map_Value_Tracker
+  description: Tracks all valuable items on the map. Updates in real-time.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472430
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/Tansinator-Map_Value_Tracker/icon.png
+- manifestVersion: 1
+  name: Jean_and_Atom-MinecraftDeathSound
+  authorName: Jean_and_Atom
+  websiteUrl: https://thunderstore.io/c/repo/p/Jean_and_Atom/MinecraftDeathSound/
+  displayName: MinecraftDeathSound
+  description: Replaces death sounds with Minecraft death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472456
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI_REPO-1.0.1
+    - loaforc-loaforcsSoundAPI-2.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/Jean_and_Atom-MinecraftDeathSound/icon.png
+- manifestVersion: 1
+  name: loaforc-loaforcsSoundAPI
+  authorName: loaforc
+  websiteUrl: https://thunderstore.io/c/repo/p/loaforc/loaforcsSoundAPI/
+  displayName: loaforcsSoundAPI
+  description: A general use library to replace sounds in Unity games.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472477
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/loaforc-loaforcsSoundAPI/icon.png
+- manifestVersion: 1
+  name: loaforc-loaforcsSoundAPI_REPO
+  authorName: loaforc
+  websiteUrl: https://thunderstore.io/c/repo/p/loaforc/loaforcsSoundAPI_REPO/
+  displayName: loaforcsSoundAPI_REPO
+  description: R.E.P.O. bindings for SoundAPI
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472494
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/loaforc-loaforcsSoundAPI_REPO/icon.png
+- manifestVersion: 1
+  name: Jean_and_Atom-ShotgunFartSound
+  authorName: Jean_and_Atom
+  websiteUrl: https://thunderstore.io/c/repo/p/Jean_and_Atom/ShotgunFartSound/
+  displayName: ShotgunFartSound
+  description: Replaces shothgun sounds with Fart.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472510
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.5
+    - loaforc-loaforcsSoundAPI_REPO-1.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/Jean_and_Atom-ShotgunFartSound/icon.png
+- manifestVersion: 1
+  name: JacuJ-SillyWeaponSounds
+  authorName: JacuJ
+  websiteUrl: https://thunderstore.io/c/repo/p/JacuJ/SillyWeaponSounds/
+  displayName: SillyWeaponSounds
+  description: Makes the weapons go haha funny meme
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472528
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/JacuJ-SillyWeaponSounds/icon.png
+- manifestVersion: 1
+  name: TitanVortex-BigNuke
+  authorName: TitanVortex
+  websiteUrl: https://thunderstore.io/c/repo/p/TitanVortex/BigNuke/
+  displayName: BigNuke
+  description: Big Nuke with big explosion!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472544
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/TitanVortex-BigNuke/icon.png
+- manifestVersion: 1
+  name: Zehs-REPOLib
+  authorName: Zehs
+  websiteUrl: https://thunderstore.io/c/repo/p/Zehs/REPOLib/
+  displayName: REPOLib
+  description: Library for adding content to R.E.P.O.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472560
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/Zehs-REPOLib/icon.png
+- manifestVersion: 1
+  name: Fenchik-FenchikMemeSounds
+  authorName: Fenchik
+  websiteUrl: https://thunderstore.io/c/repo/p/Fenchik/FenchikMemeSounds/
+  displayName: FenchikMemeSounds
+  description: Custom russian (And not only) meme sounds, created by me
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472597
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 2
+  enabled: false
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/cache/Fenchik-FenchikMemeSounds/3.0.2/icon.png
+- manifestVersion: 1
+  name: DirtyGames-REPOGambling
+  authorName: DirtyGames
+  websiteUrl: https://thunderstore.io/c/repo/p/DirtyGames/REPOGambling/
+  displayName: REPOGambling
+  description: REPO Gambling adds configurable casino to the shop! A wheel with
+    many prizes, death, upgrade, mystery, jackpot and more! Slot machines with
+    jackpots and bets! Configurable settings to ensure you play the way you want
+    too.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472720
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-2.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 7
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/DirtyGames-REPOGambling/icon.png
+- manifestVersion: 1
+  name: FebrAro-HeadManSound
+  authorName: FebrAro
+  websiteUrl: https://thunderstore.io/c/repo/p/FebrAro/HeadManSound/
+  displayName: HeadManSound
+  description: We found the mod replacing HeadMan with Shrek fun, but we thought
+    it could be even more fun if it chased the player while singing 'ALL STAR -
+    SMASH MOUTH'.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472774
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.5
+    - loaforc-loaforcsSoundAPI_REPO-1.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/FebrAro-HeadManSound/icon.png
+- manifestVersion: 1
+  name: kossnikita-Hikaru
+  authorName: kossnikita
+  websiteUrl: https://thunderstore.io/c/repo/p/kossnikita/Hikaru/
+  displayName: Hikaru
+  description: Replaces reaper sounds with GM Hikaru Nakamura
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748616472803
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/kossnikita-Hikaru/icon.png
+- manifestVersion: 1
+  name: EvilCheetah-KurwaHunter
+  authorName: EvilCheetah
+  websiteUrl: https://thunderstore.io/c/repo/p/EvilCheetah/KurwaHunter/
+  displayName: KurwaHunter
+  description: An old veteran has now learned to speak Polish
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748617729985
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/EvilCheetah-KurwaHunter/icon.png
+- manifestVersion: 1
+  name: DaanDeReus-GodMode
+  authorName: DaanDeReus
+  websiteUrl: https://thunderstore.io/c/repo/p/DaanDeReus/GodMode/
+  displayName: GodMode
+  description: A working GodMode mod for R.E.P.O. Toggle invincibility with G.
+    Always shows status on screen. Made because no other GodMode mod worked.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748617769427
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/DaanDeReus-GodMode/icon.png
+- manifestVersion: 1
+  name: nickklmao-REPOConfig
+  authorName: nickklmao
+  websiteUrl: https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/
+  displayName: REPOConfig
+  description: Edit mod configs in-game!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748618467743
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - nickklmao-MenuLib-2.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/nickklmao-REPOConfig/icon.png
+- manifestVersion: 1
+  name: eth9n-Mimic
+  authorName: eth9n
+  websiteUrl: https://thunderstore.io/c/repo/p/eth9n/Mimic/
+  displayName: Mimic
+  description: Mimic is a Skinwalker (Lethal Company Mod) inspired mod for R.E.P.O
+    that allows the creatures of the game to sound like you or your friends!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748618667747
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - nickklmao-REPOConfig-1.1.8
+    - Zehs-REPOLib-2.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 6
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/eth9n-Mimic/icon.png
+- manifestVersion: 1
+  name: steridini-ForHonorDuck
+  authorName: steridini
+  websiteUrl: https://thunderstore.io/c/repo/p/steridini/ForHonorDuck/
+  displayName: ForHonorDuck
+  description: Duck makes for honor sounds
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748618726629
+  loaders: []
+  dependencies:
+    - Zehs-REPOLib-2.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/profiles/Sosem/BepInEx/plugins/steridini-ForHonorDuck/icon.png
+- manifestVersion: 1
+  name: polska_autoskola-AmbatukamClown
+  authorName: polska_autoskola
+  websiteUrl: https://thunderstore.io/c/repo/p/polska_autoskola/AmbatukamClown/
+  displayName: AmbatukamClown
+  description: Guys watch out, he is about to blow
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1748618738958
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI_REPO-1.0.1
+    - loaforc-loaforcsSoundAPI-2.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: /home/seva/.config/r2modmanPlus-local/REPO/cache/polska_autoskola-AmbatukamClown/1.0.1/icon.png

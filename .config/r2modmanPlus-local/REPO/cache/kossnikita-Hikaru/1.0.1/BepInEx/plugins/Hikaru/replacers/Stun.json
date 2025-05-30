@@ -1,0 +1,23 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Stun"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner stun loop"
+            ],
+            "sounds": [
+                {
+                    "sound": "NoNoNo.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "RUKiddingMeWTF.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

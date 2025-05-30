@@ -1,0 +1,279 @@
+{
+    "replacements": [
+        {
+            "matches": ["explosion generic big01",
+                "explosion generic big02",
+                "explosion generic big03",
+                "explosion generic medium01",
+                "explosion generic medium02",
+                "explosion generic medium03",
+                "explosion generic small01",
+                "explosion generic small02",
+                "explosion generic small03",
+                "grenade duct taped cluster01",
+                "grenade duct taped cluster02",
+                "grenade duct taped cluster03",
+                "grenade duct taped initial explosion"],
+            "sounds": [
+				{
+					"sound": "Fart01.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж1"
+				},
+				{
+					"sound": "Fart02.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж2" 
+				},
+				{
+					"sound": "Fart03.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж3" 
+				},
+				{
+					"sound": "Fart04.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж4" 
+				},
+				{
+					"sound": "Fart06.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж6" 
+				},
+				{
+					"sound": "Fart07.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж7" 
+				},
+				{
+					"sound": "Fart08.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж8" 
+				},
+				{
+					"sound": "Fart09.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж9" 
+				},
+				{
+					"sound": "Fart10.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж10" 
+				},
+				{
+					"sound": "Fart11.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Пердёж11" 
+				}
+            ]
+        },
+		{
+            "matches": ["explosion generic big global01",
+                "explosion generic big global02",
+                "explosion generic big global03",
+                "explosion generic medium global01",
+                "explosion generic medium global02",
+                "explosion generic medium global03",
+                "explosion generic small global01",
+                "explosion generic small global02",
+                "explosion generic small global03",
+                "grenade duct taped cluster global01",
+                "grenade duct taped cluster global02",
+                "grenade duct taped cluster global03",
+                "grenade duct taped initial explosion global"],
+            "sounds": [
+				{
+					"sound": "Fartglobal01.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж1"
+				},
+				{
+					"sound": "Fartglobal02.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж2" 
+				},
+				{
+					"sound": "Fartglobal03.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж3"
+				},
+				{
+					"sound": "Fartglobal04.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж4"
+				},
+				{
+					"sound": "Fartglobal06.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж6"
+				},
+				{
+					"sound": "Fartglobal07.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж7"
+				},
+				{
+					"sound": "Fartglobal08.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж8"
+				},
+				{
+					"sound": "Fartglobal09.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж9"
+				},
+				{
+					"sound": "Fartglobal10.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж10"
+				},
+				{
+					"sound": "Fartglobal11.ogg",
+					"weight": 1,
+					"category": "GrenadesAndOther",
+					"displayName": "Глобальный пердёж11"
+				}
+            ]
+        },
+		{
+            "matches": ["sledgehammer hit01",
+			    "sledgehammer hit02",
+			    "sledgehammer hit03"],
+            "sounds": [
+                {
+                    "sound": "armatura1.mp3",
+                    "weight": 5,
+					"category": "Weapons",
+					"displayName": "Звук арматуры1"
+                },
+                {
+                    "sound": "armatura2.mp3",
+                    "weight": 5,
+					"category": "Weapons",
+					"displayName": "Звук арматуры2"
+                },
+                {
+                    "sound": "armatura3.mp3",
+                    "weight": 5,
+					"category": "Weapons",
+					"displayName": "Звук арматуры3"
+                }
+            ]
+        },
+		{
+			"matches": ["inflatable hammer hit01",
+                "inflatable hammer hit02",
+                "inflatable hammer hit03"],
+
+			"sounds": [
+				{
+					"sound": "StretchDuck.ogg",
+					"weight": 1,
+					"category": "Weapons",
+					"displayName": "Резиновая утка для молотка"
+				}
+			]
+		},
+		{
+            "matches": ["grenade stun explosion"],
+            "sounds": [
+            {
+                "sound": "Flashbang.ogg",
+				"weight": 1,
+				"category": "GrenadesAndOther",
+				"displayName": "Взрыв флешки"
+            }
+            ]
+        },
+        {
+            "matches": ["grenade shockwave explosion01",
+            "grenade shockwave explosion02",
+            "grenade shockwave explosion03",
+            "grenade shockwave explosion global01",
+            "grenade shockwave explosion global02",
+            "grenade shockwave explosion global03"],
+            "sounds": [
+            {
+                "sound": "SebalosChudishe.ogg",
+				"weight": 1,
+				"category": "GrenadesAndOther",
+				"displayName": "Граната оглушения"
+            }
+            ]
+        },
+		{
+            "matches": ["grenade stun countdown"],
+            "sounds": [
+            {
+                "sound": "FlashTimer.ogg",
+				"weight": 1,
+				"category": "GrenadesAndOther",
+				"displayName": "Таймер флешки"
+            }
+            ]
+        },
+		{
+            "matches": ["grenade stun tinnitus"],
+            "sounds": [
+            {
+                "sound": "FlashOst.ogg",
+				"weight": 1,
+				"category": "GrenadesAndOther",
+				"displayName": "Оглушение флешки"
+            }
+            ]
+        },
+		{
+            "matches": ["item laser cannon laser hit start"],
+            "sounds": [
+            {
+                "sound": "GmanStart.ogg",
+				"weight": 1,
+				"category": "Weapons",
+				"displayName": "Начало лазерной пушки"
+            }
+            ]
+        },
+		{
+            "matches": ["item laser cannon laser hit loop"],
+            "sounds": [
+            {
+                "sound": "GmanLoop.ogg",
+				"weight": 1,
+				"category": "Weapons",
+				"displayName": "Начало лазерной пушки"
+            }
+            ]
+        },
+		{
+            "matches": ["item laser cannon laser hit stop"],
+            "sounds": [
+            {
+                "sound": "GmanEnd.ogg",
+				"weight": 1,
+				"category": "Weapons",
+				"displayName": "Начало лазерной пушки"
+            }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"replacements": [
+		{
+			"matches": [
+				"*:headman chase loop"
+			],
+
+			"sounds": [
+				{
+					"sound": "ALL_STAR_SMASH_MOUTH1.ogg"
+				}
+			]
+		
+		},
+
+		{
+			"matches": [
+				"*:headman chase loop 2"
+			],
+
+			"sounds": [
+				{
+					"sound": "ALL_STAR_SMASH_MOUTH2.ogg"
+				}
+			]
+		
+		}
+	]
+}

@@ -1,0 +1,1794 @@
+[Message:   BepInEx] BepInEx 5.4.21.0 - REPO (5/29/2025 7:51:52 PM)
+[Info   :   BepInEx] Running under Unity v2022.3.21.12519882
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 13 plugins to load
+[Info   :   BepInEx] Loading [REPO_HD 1.0.3]
+[Info   :   REPO_HD] Applying Harmony patches
+[Info   :   REPO_HD] Patched ExtractionPoint.Start
+[Info   :   REPO_HD] Patched GraphicsManager.UpdateRenderSize
+[Info   :   REPO_HD] Patched RenderTextureMain.Start
+[Info   :   REPO_HD] Patched RenderTextureMain.Update
+[Info   :   REPO_HD] 4 patches applied
+[Info   :   BepInEx] Loading [MoreHeadUtilities 1.0.0]
+[Info   :MoreHeadUtilities] Harmony patches applied.
+[Info   :   BepInEx] Loading [REPOLib 2.1.0]
+[Info   :   REPOLib] REPOLib has awoken!
+[Debug  :   REPOLib] EnemyGnomeDirectorPatch: AwakeTranspiler replaced Setup call with PreSetup.
+[Debug  :   REPOLib] EnemyBangDirectorPatch: AwakeTranspiler replaced Setup call with PreSetup.
+[Info   :   BepInEx] Loading [GodMode 1.0]
+[Info   :   GodMode] DaanDeReus.GodMode v1.0 has loaded!
+[Info   :   GodMode] Press 'G' to toggle GodMode.
+[Info   :   BepInEx] Loading [REPOGambling 1.5.7]
+[Info   :REPOGambling] Embedded resource: REPOGambling.gamblingbundle
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - gambling room.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo slot.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo wheel.prefab
+[Info   :REPOGambling] Registering Module - Shop - DE - Gambling Room
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Level/Shop/Modules/Module - Shop - DE - Gambling Room"
+[Info   :REPOGambling] Registering Module - Shop - DE - Solo Slot
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Level/Shop/Modules/Module - Shop - DE - Solo Slot"
+[Info   :REPOGambling] Registering Module - Shop - DE - Solo Wheel
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Level/Shop/Modules/Module - Shop - DE - Solo Wheel"
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Slot Machine"
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Wheel Machine"
+[Info   :REPOGambling] DirtyGames.REPOGambling v1.5.7 has loaded!
+[Info   :   BepInEx] Loading [MapValueTracker 1.3.0]
+[Info   :MapValueTracker] Plugin MapValueTracker is loaded!
+[Info   :   BepInEx] Loading [loaforcsSoundAPI 2.0.6]
+[Info   :me.loaforc.soundapi] Setting up config
+[Debug  :me.loaforc.soundapi] no DebugLogSource for AudioSourceAdditionalData.
+[Debug  :me.loaforc.soundapi] no DebugLogSource for SoundReplacementLoader.
+[Debug  :me.loaforc.soundapi] no DebugLogSource for SoundReplacementHandler.
+[Debug  :me.loaforc.soundapi] no DebugLogSource for MatchStrings.
+[Debug  :me.loaforc.soundapi] no DebugLogSource for ConditionsInfo.
+[Debug  :me.loaforc.soundapi] no DebugLogSource for UpdateEveryFrame.
+[Info   :me.loaforc.soundapi] Running patches
+[Info   :me.loaforc.soundapi] Registering data
+[Info   :me.loaforc.soundapi] Starting AudioManager.
+[Info   :me.loaforc.soundapi] me.loaforc.soundapi by loaforc has loaded :3
+[Info   :   BepInEx] Loading [loaforcsSoundAPI.REPO 1.0.1]
+[Info   :me.loaforc.soundapi.repo] me.loaforc.soundapi.repo has loaded :3
+[Info   :   BepInEx] Loading [MoreHead 1.4.1]
+[Message:  MoreHead] 
+
+ ███▄ ▄███▓ ▒█████   ██▀███  ▓█████  ██░ ██ ▓█████ ▄▄▄      ▓█████▄ 
+▓██▒▀█▀ ██▒▒██▒  ██▒▓██ ▒ ██▒▓█   ▀ ▓██░ ██▒▓█   ▀▒████▄    ▒██▀ ██▌
+▓██    ▓██░▒██░  ██▒▓██ ░▄█ ▒▒███   ▒██▀███░▒███  ▒██  ▀█▄  ░██   █▌
+▒██    ▒██ ▒██   ██░▒███▀█▄  ▒▓█  ▄ ░▓█ ░██ ▒▓█  ▄░██▄▄▄▄██ ░▓█▄   ▌
+▒██▒   ░██▒░ ████▓▒░░██▓ ▒██▒░▒████▒░▓█▒░██▓░▒████▒▓█   ▓██▒░▒████▓   v1.4.1
+░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░░ ▒░ ░ ▒ ░░▒░▒░░ ▒░ ░▒▒   ▓▒█░ ▒▒▓  ▒ 
+░  ░      ░  ░ ▒ ▒░   ░▒ ░ ▒░ ░ ░  ░ ▒ ░▒░ ░ ░ ░  ░ ▒   ▒▒ ░ ░ ▒  ▒ 
+░      ░   ░ ░ ░ ▒    ░░   ░    ░    ░  ░░ ░   ░    ░   ▒    ░ ░  ░ 
+       ░       ░ ░     ░        ░  ░ ░  ░  ░   ░  ░     ░  ░   ░    
+
+[Info   :  MoreHead] 黑名单管理器初始化完成，已加载 0 个黑名单项
+[Info   :  MoreHead] 正在初始化装饰物管理器...
+[Warning:  MoreHead] 检测到显示名称重复，将显示名称从 Wings3 修改为 Wings3(1)
+[Info   :  MoreHead] 装饰物管理器初始化完成，共加载了 203 个装饰物
+[Info   :  MoreHead] 已从JSON加载配置，包含 203 个装饰物状态
+[Info   :   BepInEx] Loading [Mimics 1.1.6]
+[Info   :    Mimics] Plugin Mimics is loaded!
+[Info   :    Mimics] EnemyDirectorStartPatch initialized with ConfigFile.
+[Info   :   BepInEx] Loading [Menu Lib 2.4.1]
+[Debug  :  Menu Lib] Hooking `MenuPageMain.Start`
+[Debug  :  Menu Lib] Hooking `MenuPageSettings.Start`
+[Debug  :  Menu Lib] Hooking `MenuPageColor.Start`
+[Debug  :  Menu Lib] Hooking `MenuPageEsc.Start`
+[Debug  :  Menu Lib] Hooking `MenuPageLobby.Start`
+[Debug  :  Menu Lib] Hooking `SemiFunc.UIMouseHover`
+[Debug  :  Menu Lib] Hooking `MenuPage.StateClosing`
+[Debug  :  Menu Lib] Hooking `MenuScrollBox.Update`
+[Debug  :  Menu Lib] Hooking `ChatManager.StateInactive`
+[Info   :   BepInEx] Loading [REPOConfig 1.2.2]
+[Debug  :REPOConfig] Hooking `MenuPageMain.Start`
+[Info   :   BepInEx] Loading [BigNuke 1.0.1]
+[Info   :   BigNuke] Vortex.BigNuke v1.0.1: Instance set.
+[Info   :   BigNuke] Vortex.BigNuke v1.0.1: Config loaded.
+[Debug  :   REPOLib] CustomPrefabPool: registered network prefab "Valuables/04 Big/Valuable Nuke"
+[Info   :   BigNuke] Vortex.BigNuke v1.0.1: Nuke registered.
+[Info   :me.loaforc.soundapi] Starting Sound-pack loading pipeline
+[Debug  :me.loaforc.soundapi] handling config
+[Debug  :me.loaforc.soundapi] handling config
+[Debug  :me.loaforc.soundapi] handling config
+[Debug  :me.loaforc.soundapi] handling config
+[Info   :me.loaforc.soundapi] (Step 1) Loading Sound-pack definitions took 43ms
+[Info   :me.loaforc.soundapi] (Step 2) Loading Sound-pack mappings ('0') took 0ms
+[Info   :me.loaforc.soundapi] (Step 3) Skipped 0 collection(s), 0 replacement(s), 0 sound(s)
+[Info   :me.loaforc.soundapi] (Step 3) Loading sound replacement collections took 50ms
+[Info   :me.loaforc.soundapi] (Step 4) Started loading 62 audio file(s)
+[Info   :me.loaforc.soundapi] Waiting for splash screens to complete to continue...
+[Message:   BepInEx] Chainloader startup complete
+[Debug  :me.loaforc.soundapi] manager disabled
+[Debug  :me.loaforc.soundapi] manager destroyed
+[Info   : Unity Log] Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+[Info   : Unity Log] Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+[Info   :   REPOLib] Initializing NetworkPrefabs.
+[Debug  :   REPOLib] PhotonNetwork.PrefabPool = Photon.Pun.DefaultPool
+[Info   :   REPOLib] Replaced PhotonNetwork.PrefabPool with CustomPrefabPool.
+[Debug  :   REPOLib] PhotonNetwork.PrefabPool = REPOLib.Objects.CustomPrefabPool
+[Info   :   REPOLib] Finished initializing NetworkPrefabs.
+[Info   :   REPOLib] Adding levels.
+[Info   :   REPOLib] Adding valuables to valuable presets.
+[Debug  :   REPOLib] Added valuable "Valuable Nuke" to valuable preset "Valuables - Generic"
+[Info   : Unity Log] VERSION: v0.1.2
+[Info   : Unity Log] STEAM ID: 76561199126134706
+[Info   :me.loaforc.soundapi] Starting AudioManager.
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPOLib] Adding items.
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Setting up enemy config...
+[Info   :    Mimics] Added config entry for enemy: Enemy - Ceiling Eye
+[Info   :    Mimics] Added config entry for enemy: Enemy - Thin Man
+[Info   :    Mimics] Added config entry for enemy: Enemy - Gnome
+[Info   :    Mimics] Added config entry for enemy: Enemy - Duck
+[Info   :    Mimics] Added config entry for enemy: Enemy - Slow Mouth
+[Info   :    Mimics] Added config entry for enemy: Enemy - Valuable Thrower
+[Info   :    Mimics] Added config entry for enemy: Enemy - Animal
+[Info   :    Mimics] Added config entry for enemy: Enemy - Upscream
+[Info   :    Mimics] Added config entry for enemy: Enemy - Hidden
+[Info   :    Mimics] Added config entry for enemy: Enemy - Tumbler
+[Info   :    Mimics] Added config entry for enemy: Enemy - Bowtie
+[Info   :    Mimics] Added config entry for enemy: Enemy - Floater
+[Info   :    Mimics] Added config entry for enemy: Enemy - Bang
+[Info   :    Mimics] Added config entry for enemy: Enemy - Head
+[Info   :    Mimics] Added config entry for enemy: Enemy - Robe
+[Info   :    Mimics] Added config entry for enemy: Enemy - Hunter
+[Info   :    Mimics] Added config entry for enemy: Enemy - Runner
+[Info   :    Mimics] Added config entry for enemy: Enemy - Beamer
+[Info   :    Mimics] Added config entry for enemy: Enemy - Slow Walker
+[Info   :  MoreHead] 数据缓存初始化完成
+[Info   :  MoreHead] MoreHead UI已初始化
+[Info   :  MoreHead] 已初始化装备方案快捷键监听器
+[Info   : Unity Log] Getting Steam Auth Ticket...
+[Info   :   GodMode] GodMode: godMode geactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: Gezondheid gereset naar maximum (100) voor Player Avatar Controller
+[Info   :   REPOLib] Finished loading bundles.
+[Debug  :   REPOLib] Registered command alias "spawnenemy" for method "REPOLib.Commands.SpawnEnemyCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "se" for method "REPOLib.Commands.SpawnEnemyCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "spawnitem" for method "REPOLib.Commands.SpawnItemCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "si" for method "REPOLib.Commands.SpawnItemCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "spawnvaluable" for method "REPOLib.Commands.SpawnValuableCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "spawnval" for method "REPOLib.Commands.SpawnValuableCommand.Execute".
+[Debug  :   REPOLib] Registered command alias "sv" for method "REPOLib.Commands.SpawnValuableCommand.Execute".
+[Info   :   REPOLib] Finished initializing custom commands.
+[Info   :me.loaforc.soundapi] Splash screens done! Continuing pipeline
+[Warning:me.loaforc.soundapi] The game will freeze for a moment!
+[Info   :me.loaforc.soundapi] (Step 5) Queued half of the needed operations!
+[Info   :me.loaforc.soundapi] (Step 5) All file reads are done, waiting for the audio clips conversions.
+[Info   :me.loaforc.soundapi] (Step 6) Took 275ms to finish loading audio clips from files
+[Debug  :me.loaforc.soundapi] Active Threads that are left over: 0
+[Info   :me.loaforc.soundapi] Entire load process took an effective 377ms
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] In ResetValues()
+[Debug  :MapValueTracker] Total Map Value: 0
+[Debug  :MapValueTracker] Room generation started. Now val is 0
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   : Unity Log] Steam: Game lobby join requested: 109775244824605248
+[Info   : Unity Log] Steam: Lobby entered with ID: 109775244824605248
+[Info   : Unity Log] Steam: Region: eu
+[Info   :   REPOLib] Adding items.
+[Info   : Unity Log] Changed level to: Level - Lobby Menu
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   : Unity Log] PunVoiceClientLogic Awake
+[Info   : Unity Log] Already in lobby on Network Connect. Connecting to region: eu
+[Info   : Unity Log] Sending Steam Auth Ticket...
+[Info   : Unity Log] Getting Steam Auth Ticket...
+[Info   : Unity Log] Connected to Master Server
+[Info   : Unity Log] I am not the owner.
+[Info   : Unity Log] Trying to join room: 109775244824605248
+[Info   : Unity Log] Joined room: 109775244824605248 eu
+[Info   : Unity Log] Game Mode: Multiplayer
+[Info   : Unity Log] NetworkConnect destroyed.
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   : Unity Log] [2025-05-30T15:27:34] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] [2025-05-30T15:27:34] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   : Unity Log] Calling OpJoinOrCreateRoom for room name '109775244824605248_voice_' region eu.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Warning: Unity Log] [2025-05-30T15:27:38] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 2
+[Info   :    Mimics] MimicsFinder initialized for Player 2
+[Info   : Unity Log] updated level to: Level - Wizard
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 600
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 1100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Love Potion(Clone) Val: 2100
+[Debug  :MapValueTracker] After dollar value set Total Val: 3200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ocarina(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 3800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Trophy(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 6300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Bottle(Clone) Val: 2400
+[Debug  :MapValueTracker] After dollar value set Total Val: 8700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Love Potion(Clone) Val: 2700
+[Debug  :MapValueTracker] After dollar value set Total Val: 11400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Love Potion(Clone) Val: 2900
+[Debug  :MapValueTracker] After dollar value set Total Val: 14300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Small(Clone) Val: 1500
+[Debug  :MapValueTracker] After dollar value set Total Val: 15800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Love Potion(Clone) Val: 2600
+[Debug  :MapValueTracker] After dollar value set Total Val: 18400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ocarina(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 18900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Toy Monkey(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 19900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Crown(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 20500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Crown(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 21100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 21700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1500
+[Debug  :MapValueTracker] After dollar value set Total Val: 23200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Big(Clone) Val: 6500
+[Debug  :MapValueTracker] After dollar value set Total Val: 29700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1800
+[Debug  :MapValueTracker] After dollar value set Total Val: 31500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Crown(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 32100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Toy Monkey(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 33100
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 33100
+[Debug  :MapValueTracker] Generation done. Now val is 33100. Init Value: 33100
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_513ed3fc-cfff-44d1-9195-aba33c15579c.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_564caf6b-a9e4-45aa-8462-cefe9de3e487.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Debug  :MapValueTracker] BreakRPC - Current Value: 33100
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 186
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2100
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 31000
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Love Potion(Clone) Val: 186
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 31000
+[Debug  :MapValueTracker] BreakRPC - Current Value: 31000
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 954
+[Debug  :MapValueTracker] BreakRPC - Value lost: 846
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 30154
+[Debug  :MapValueTracker] BreakRPC - Current Value: 30154
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 775
+[Debug  :MapValueTracker] BreakRPC - Value lost: 179
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29975
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29975
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 454
+[Debug  :MapValueTracker] BreakRPC - Value lost: 46
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29929
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29929
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 218
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2700
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 27229
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Love Potion(Clone) Val: 218
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 27229
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_d01ca989-5649-4cff-a9d7-31e5fa79f717.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] Created Valuable Object! Enemy Valuable - Small(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 29729
+[Debug  :MapValueTracker] Created Valuable Object! Enemy Valuable - Small(Clone) Val: 2400
+[Debug  :MapValueTracker] After dollar value set Total Val: 32129
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Mug(Clone) Val: 1500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 30629
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Vase Big(Clone) Val: 6500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 24129
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Trophy(Clone) Val: 2500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 21629
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Love Potion(Clone) Val: 2900
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 18729
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Love Potion(Clone) Val: 2600
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 16129
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Toy Monkey(Clone) Val: 1000
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 15129
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Vase Small(Clone) Val: 1500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 13629
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Toy Monkey(Clone) Val: 1000
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 12629
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Mug(Clone) Val: 775
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 11854
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Goblet(Clone) Val: 454
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 11400
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Enemy Valuable - Small(Clone) Val: 2400
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 9000
+[Debug  :MapValueTracker] Extraction Completed!
+[Debug  :MapValueTracker] Checked after Extraction. Val is 9000
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 9000
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2500
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 6500
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Enemy Valuable - Small(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 6500
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   : Unity Log] updated level to: Level - Shop
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - gambling room.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo slot.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo wheel.prefab
+[Warning:   REPOLib] CustomPrefabPool: failed to register network prefab "Level/Shop/Modules/Module - Shop - DE - Solo Slot". There is already a prefab registered with the same prefab id.
+[Info   : Unity Log] [REPOGambling] Injected gambling room: Module - Shop - DE - Solo Slot
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Wheel!
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] RPC_SpinSlot executed across network.
+[Info   : Unity Log] [REPOGambling] Applying prize 'Jackpot' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] RPC_SpinSlot executed across network.
+[Warning: Unity Log] [REPOGambling] SpecialPrize: 'Nade Origin' not found for machine: Nade Origin
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   :   GodMode] GodMode is now ENABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Death' to player NeMo_Svyaznoy_
+[Info   :   GodMode] GodMode is now ENABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   : Unity Log] updated level to: Level - Lobby
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   : Unity Log] updated level to: Level - Manor
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Plate(Clone) Val: 2300
+[Debug  :MapValueTracker] After dollar value set Total Val: 2800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1500
+[Debug  :MapValueTracker] After dollar value set Total Val: 4300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 4800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Gem Box(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 5800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 6300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 6800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Radio(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 9300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1600
+[Debug  :MapValueTracker] After dollar value set Total Val: 10900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Frog(Clone) Val: 1100
+[Debug  :MapValueTracker] After dollar value set Total Val: 12000
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 12600
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Frog(Clone) Val: 900
+[Debug  :MapValueTracker] After dollar value set Total Val: 13500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 14000
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Plate(Clone) Val: 2200
+[Debug  :MapValueTracker] After dollar value set Total Val: 16200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Small(Clone) Val: 1200
+[Debug  :MapValueTracker] After dollar value set Total Val: 17400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Television(Clone) Val: 5900
+[Debug  :MapValueTracker] After dollar value set Total Val: 23300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Frog(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 24300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ocarina(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 24900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Clown(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 27400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 27900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase(Clone) Val: 2300
+[Debug  :MapValueTracker] After dollar value set Total Val: 30200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Gem Box(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 31200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 31800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Doll(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 32400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Globe(Clone) Val: 1700
+[Debug  :MapValueTracker] After dollar value set Total Val: 34100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 34700
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 34700
+[Debug  :MapValueTracker] Generation done. Now val is 34700. Init Value: 34700
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34700
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 991
+[Debug  :MapValueTracker] BreakRPC - Value lost: 9
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34691
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34691
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 447
+[Debug  :MapValueTracker] BreakRPC - Value lost: 53
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34638
+[Info   :    Mimics] Recording started.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34638
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 495
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34633
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_9028ff1f-3e14-4e36-8f0b-8a83cedf06fa.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34633
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 472
+[Debug  :MapValueTracker] BreakRPC - Value lost: 23
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34610
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34610
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 419
+[Debug  :MapValueTracker] BreakRPC - Value lost: 53
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34557
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_41031d7f-e5b2-41a4-83e9-75f6b000cc01.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34557
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1454
+[Debug  :MapValueTracker] BreakRPC - Value lost: 146
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 34411
+[Debug  :MapValueTracker] BreakRPC - Current Value: 34411
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2300
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 32111
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Plate(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 32111
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_b591f33b-89a0-4b72-91c7-ea25d5f276b4.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] All chunks received, playing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 32111
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1682
+[Debug  :MapValueTracker] BreakRPC - Value lost: 18
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 32093
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Debug  :MapValueTracker] BreakRPC - Current Value: 32093
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2300
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29793
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Vase(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 29793
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_1f523481-3acd-450c-a849-9ad032eb7f6e.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Expecting filter.
+[Info   :    Mimics] Pitch shift applied.
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29793
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 364
+[Debug  :MapValueTracker] BreakRPC - Value lost: 55
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29738
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29738
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 448
+[Debug  :MapValueTracker] BreakRPC - Value lost: 52
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29686
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29686
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 454
+[Debug  :MapValueTracker] BreakRPC - Value lost: 46
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29640
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29640
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 893
+[Debug  :MapValueTracker] BreakRPC - Value lost: 107
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 29533
+[Debug  :MapValueTracker] BreakRPC - Current Value: 29533
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2200
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 27333
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Plate(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 27333
+[Debug  :MapValueTracker] BreakRPC - Current Value: 27333
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 310
+[Debug  :MapValueTracker] BreakRPC - Value lost: 54
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 27279
+[Debug  :MapValueTracker] BreakRPC - Current Value: 27279
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 1500
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 25779
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Mug(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 25779
+[Debug  :MapValueTracker] BreakRPC - Current Value: 25779
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 0
+[Debug  :MapValueTracker] BreakRPC - Value lost: 1454
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 24325
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Mug(Clone) Val: 0
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 24325
+[Debug  :MapValueTracker] BreakRPC - Current Value: 24325
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 893
+[Debug  :MapValueTracker] BreakRPC - Value lost: 98
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 24227
+[Debug  :MapValueTracker] BreakRPC - Current Value: 24227
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1524
+[Debug  :MapValueTracker] BreakRPC - Value lost: 158
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 24069
+[Debug  :MapValueTracker] BreakRPC - Current Value: 24069
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 397
+[Debug  :MapValueTracker] BreakRPC - Value lost: 51
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 24018
+[Debug  :MapValueTracker] BreakRPC - Current Value: 24018
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 393
+[Debug  :MapValueTracker] BreakRPC - Value lost: 54
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23964
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23964
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 992
+[Debug  :MapValueTracker] BreakRPC - Value lost: 108
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23856
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23856
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 815
+[Debug  :MapValueTracker] BreakRPC - Value lost: 85
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23771
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23771
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 407
+[Debug  :MapValueTracker] BreakRPC - Value lost: 47
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23724
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23724
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 448
+[Debug  :MapValueTracker] BreakRPC - Value lost: 52
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23672
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23672
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 540
+[Debug  :MapValueTracker] BreakRPC - Value lost: 60
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23612
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23612
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 793
+[Debug  :MapValueTracker] BreakRPC - Value lost: 100
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23512
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23512
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 305
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23507
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23507
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 884
+[Debug  :MapValueTracker] BreakRPC - Value lost: 9
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23498
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23498
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1507
+[Debug  :MapValueTracker] BreakRPC - Value lost: 17
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23481
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23481
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 392
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23476
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23476
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 388
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23471
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23471
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 806
+[Debug  :MapValueTracker] BreakRPC - Value lost: 9
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23462
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23462
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 402
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23457
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23457
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 443
+[Debug  :MapValueTracker] BreakRPC - Value lost: 5
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23452
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23452
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 782
+[Debug  :MapValueTracker] BreakRPC - Value lost: 11
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23441
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23441
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 882
+[Debug  :MapValueTracker] BreakRPC - Value lost: 110
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23331
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23331
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 342
+[Debug  :MapValueTracker] BreakRPC - Value lost: 46
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23285
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23285
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 776
+[Debug  :MapValueTracker] BreakRPC - Value lost: 106
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23179
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23179
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 294
+[Debug  :MapValueTracker] BreakRPC - Value lost: 48
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23131
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23131
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 665
+[Debug  :MapValueTracker] BreakRPC - Value lost: 111
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23020
+[Debug  :MapValueTracker] BreakRPC - Current Value: 23020
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 654
+[Debug  :MapValueTracker] BreakRPC - Value lost: 11
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 23009
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   : Unity Log] updated level to: Level - Arena
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ReceiveAudioChunk" for viewID 1034 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Doll(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 23509
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Television(Clone) Val: 7000
+[Debug  :MapValueTracker] After dollar value set Total Val: 30509
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ship in a bottle(Clone) Val: 4100
+[Debug  :MapValueTracker] After dollar value set Total Val: 34609
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Animal Crate(Clone) Val: 19500
+[Debug  :MapValueTracker] After dollar value set Total Val: 54109
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic Barrel(Clone) Val: 10900
+[Debug  :MapValueTracker] After dollar value set Total Val: 65009
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic Big Sample(Clone) Val: 2700
+[Debug  :MapValueTracker] After dollar value set Total Val: 67709
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 68209
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic Guitar(Clone) Val: 3900
+[Debug  :MapValueTracker] After dollar value set Total Val: 72109
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Trophy(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 74609
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ocarina(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 75209
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Grandfather Clock(Clone) Val: 23700
+[Debug  :MapValueTracker] After dollar value set Total Val: 98909
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Crown(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 99509
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Wizard Sword(Clone) Val: 11000
+[Debug  :MapValueTracker] After dollar value set Total Val: 110509
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic HDD(Clone) Val: 2700
+[Debug  :MapValueTracker] After dollar value set Total Val: 113209
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 90200
+[Debug  :MapValueTracker] Generation done. Now val is 90200. Init Value: 90200
+[Debug  :MapValueTracker] BreakRPC - Current Value: 90200
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 10001
+[Debug  :MapValueTracker] BreakRPC - Value lost: 999
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 89201
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 89201
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 21192
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2508
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 86693
+[Debug  :MapValueTracker] BreakRPC - Current Value: 86693
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2477
+[Debug  :MapValueTracker] BreakRPC - Value lost: 23
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 86670
+[Debug  :MapValueTracker] BreakRPC - Current Value: 86670
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 20975
+[Debug  :MapValueTracker] BreakRPC - Value lost: 217
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 86453
+[Debug  :MapValueTracker] BreakRPC - Current Value: 86453
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2220
+[Debug  :MapValueTracker] BreakRPC - Value lost: 257
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 86196
+[Debug  :MapValueTracker] BreakRPC - Current Value: 86196
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 18591
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2384
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 83812
+[Debug  :MapValueTracker] BreakRPC - Current Value: 83812
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 18340
+[Debug  :MapValueTracker] BreakRPC - Value lost: 251
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 83561
+[Debug  :MapValueTracker] BreakRPC - Current Value: 83561
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1979
+[Debug  :MapValueTracker] BreakRPC - Value lost: 241
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 83320
+[Debug  :MapValueTracker] BreakRPC - Current Value: 83320
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1711
+[Debug  :MapValueTracker] BreakRPC - Value lost: 268
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 83052
+[Debug  :MapValueTracker] BreakRPC - Current Value: 83052
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1684
+[Debug  :MapValueTracker] BreakRPC - Value lost: 27
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 83025
+[Debug  :MapValueTracker] BreakRPC - Current Value: 83025
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1455
+[Debug  :MapValueTracker] BreakRPC - Value lost: 229
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 82796
+[Debug  :MapValueTracker] BreakRPC - Current Value: 82796
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1206
+[Debug  :MapValueTracker] BreakRPC - Value lost: 249
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 82547
+[Debug  :MapValueTracker] BreakRPC - Current Value: 82547
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 10783
+[Debug  :MapValueTracker] BreakRPC - Value lost: 117
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 82430
+[Debug  :MapValueTracker] BreakRPC - Current Value: 82430
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 9672
+[Debug  :MapValueTracker] BreakRPC - Value lost: 1111
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 81319
+[Debug  :MapValueTracker] BreakRPC - Current Value: 81319
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 8608
+[Debug  :MapValueTracker] BreakRPC - Value lost: 1064
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 80255
+[Debug  :MapValueTracker] BreakRPC - Current Value: 80255
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 8092
+[Debug  :MapValueTracker] BreakRPC - Value lost: 516
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79739
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79739
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 594
+[Debug  :MapValueTracker] BreakRPC - Value lost: 6
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79733
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79733
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 530
+[Debug  :MapValueTracker] BreakRPC - Value lost: 64
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79669
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79669
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 469
+[Debug  :MapValueTracker] BreakRPC - Value lost: 61
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79608
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79608
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1179
+[Debug  :MapValueTracker] BreakRPC - Value lost: 27
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79581
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79581
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 945
+[Debug  :MapValueTracker] BreakRPC - Value lost: 234
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79347
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79347
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 406
+[Debug  :MapValueTracker] BreakRPC - Value lost: 63
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79284
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79284
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 342
+[Debug  :MapValueTracker] BreakRPC - Value lost: 64
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79220
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79220
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 6925
+[Debug  :MapValueTracker] BreakRPC - Value lost: 75
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 79145
+[Debug  :MapValueTracker] BreakRPC - Current Value: 79145
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 6252
+[Debug  :MapValueTracker] BreakRPC - Value lost: 673
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 78472
+[Debug  :MapValueTracker] BreakRPC - Current Value: 78472
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 6178
+[Debug  :MapValueTracker] BreakRPC - Value lost: 74
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 78398
+[Debug  :MapValueTracker] BreakRPC - Current Value: 78398
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2619
+[Debug  :MapValueTracker] BreakRPC - Value lost: 81
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 78317
+[Debug  :MapValueTracker] BreakRPC - Current Value: 78317
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1844
+[Debug  :MapValueTracker] BreakRPC - Value lost: 775
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 77542
+[Info   : Unity Log] updated level to: Level - Lobby Menu
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   : Unity Log] [2025-05-30T15:41:36] [Info] [LOGGER] [VoiceLogger] Disabling VoiceLogger duplicates at the scene root.
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] [2025-05-30T15:41:36] [Warning] [PhotonVoiceView] [Voice(Clone)] PhotonVoiceView.RecorderInUse.TransmitEnabled is false, don't forget to set it to true to enable transmission.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Warning: Unity Log] [2025-05-30T15:41:41] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for not inited voice #3 of player 1
+[Warning: Unity Log] [2025-05-30T15:41:41] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for not inited voice #3 of player 2
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   : Unity Log] Steam: Lobby member joined: fenDyson
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Warning: Unity Log] [2025-05-30T15:50:07] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for voice #1 of not inited player 3
+[Info   : Unity Log] updated level to: Level - Manor
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Small(Clone) Val: 1900
+[Debug  :MapValueTracker] After dollar value set Total Val: 1900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Music Box(Clone) Val: 4000
+[Debug  :MapValueTracker] After dollar value set Total Val: 5900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 6500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1700
+[Debug  :MapValueTracker] After dollar value set Total Val: 8200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 8800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1600
+[Debug  :MapValueTracker] After dollar value set Total Val: 10400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Music Box(Clone) Val: 4000
+[Debug  :MapValueTracker] After dollar value set Total Val: 14400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Radio(Clone) Val: 2300
+[Debug  :MapValueTracker] After dollar value set Total Val: 16700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1800
+[Debug  :MapValueTracker] After dollar value set Total Val: 18500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Clown(Clone) Val: 2200
+[Debug  :MapValueTracker] After dollar value set Total Val: 20700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Diamond(Clone) Val: 2400
+[Debug  :MapValueTracker] After dollar value set Total Val: 23100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Small(Clone) Val: 2000
+[Debug  :MapValueTracker] After dollar value set Total Val: 25100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Nuke(Clone) Val: 9700
+[Debug  :MapValueTracker] After dollar value set Total Val: 34800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 35300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 35800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 36400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Gem Box(Clone) Val: 900
+[Debug  :MapValueTracker] After dollar value set Total Val: 37300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Plate(Clone) Val: 2600
+[Debug  :MapValueTracker] After dollar value set Total Val: 39900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Diamond(Clone) Val: 2200
+[Debug  :MapValueTracker] After dollar value set Total Val: 42100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Money(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 42600
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 42600
+[Debug  :MapValueTracker] Generation done. Now val is 42600. Init Value: 42600
+[Warning: Unity Log] Item Item Cart Medium/1 already exists in the dictionary
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42600
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2000
+[Debug  :MapValueTracker] BreakRPC - Value lost: 200
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42400
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42400
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 570
+[Debug  :MapValueTracker] BreakRPC - Value lost: 30
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42370
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42370
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3964
+[Debug  :MapValueTracker] BreakRPC - Value lost: 36
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42334
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_8d9fb7b9-dc15-4708-b43b-e59cfaf4f9b1.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42334
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3543
+[Debug  :MapValueTracker] BreakRPC - Value lost: 421
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 41913
+[Debug  :MapValueTracker] BreakRPC - Current Value: 41913
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3141
+[Debug  :MapValueTracker] BreakRPC - Value lost: 402
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 41511
+[Debug  :MapValueTracker] BreakRPC - Current Value: 41511
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3104
+[Debug  :MapValueTracker] BreakRPC - Value lost: 37
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 41474
+[Debug  :MapValueTracker] BreakRPC - Current Value: 41474
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2671
+[Debug  :MapValueTracker] BreakRPC - Value lost: 433
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 41041
+[Debug  :MapValueTracker] BreakRPC - Current Value: 41041
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2479
+[Debug  :MapValueTracker] BreakRPC - Value lost: 192
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 40849
+[Debug  :MapValueTracker] BreakRPC - Current Value: 40849
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2063
+[Debug  :MapValueTracker] BreakRPC - Value lost: 416
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 40433
+[Debug  :MapValueTracker] BreakRPC - Current Value: 40433
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1658
+[Debug  :MapValueTracker] BreakRPC - Value lost: 405
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 40028
+[Debug  :MapValueTracker] BreakRPC - Current Value: 40028
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1277
+[Debug  :MapValueTracker] BreakRPC - Value lost: 381
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 39647
+[Debug  :MapValueTracker] BreakRPC - Current Value: 39647
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1236
+[Debug  :MapValueTracker] BreakRPC - Value lost: 41
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 39606
+[Warning: Unity Log] [2025-05-30T15:53:27] [Warning] [PunVoiceClient] [PunVoiceClient(Clone)] [PV] Frame event for not inited voice #3 of player 3
+[Debug  :MapValueTracker] BreakRPC - Current Value: 39606
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 799
+[Debug  :MapValueTracker] BreakRPC - Value lost: 437
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 39169
+[Debug  :MapValueTracker] BreakRPC - Current Value: 39169
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 761
+[Debug  :MapValueTracker] BreakRPC - Value lost: 38
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 39131
+[Debug  :MapValueTracker] BreakRPC - Current Value: 39131
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 725
+[Debug  :MapValueTracker] BreakRPC - Value lost: 36
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 39095
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 39095
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3818
+[Debug  :MapValueTracker] BreakRPC - Value lost: 182
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 38913
+[Debug  :MapValueTracker] BreakRPC - Current Value: 38913
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3381
+[Debug  :MapValueTracker] BreakRPC - Value lost: 437
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 38476
+[Debug  :MapValueTracker] BreakRPC - Current Value: 38476
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3164
+[Debug  :MapValueTracker] BreakRPC - Value lost: 217
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 38259
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_b70708fe-9405-4833-8550-75ec5fd4f1dd.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 38259
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 2772
+[Debug  :MapValueTracker] BreakRPC - Value lost: 392
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 37867
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Expecting filter.
+[Info   :    Mimics] Pitch shift applied.
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_e438c2e3-421f-4404-9fcb-cd3396251796.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Audio folder cleared.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 37867
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 513
+[Debug  :MapValueTracker] BreakRPC - Value lost: 57
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 37810
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_446b3df2-94ce-4a92-b9ee-16062c4bc209.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :    Mimics] All chunks sent.
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Clown(Clone) Val: 2000
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 35810
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Nuke(Clone) Val: 9700
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 26110
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Plate(Clone) Val: 2600
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 23510
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Money(Clone) Val: 500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 23010
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Uranium Mug(Clone) Val: 1600
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 21410
+[Debug  :MapValueTracker] Extraction Completed!
+[Debug  :MapValueTracker] Checked after Extraction. Val is 21410
+[Info   : Unity Log] updated level to: Level - Shop
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - gambling room.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo slot.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo wheel.prefab
+[Warning:   REPOLib] CustomPrefabPool: failed to register network prefab "Level/Shop/Modules/Module - Shop - DE - Solo Slot". There is already a prefab registered with the same prefab id.
+[Info   : Unity Log] [REPOGambling] Injected gambling room: Module - Shop - DE - Solo Slot
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Wheel!
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Warning: Unity Log] Item Item Health Pack Large/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Sprint Speed/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Power Crystal/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Health Pack Medium/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Power Crystal/2 already exists in the dictionary
+[Warning: Unity Log] Item Item Health Pack Small/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Grenade Explosive/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Energy/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Grab Range/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Drone Torque/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Health Pack Small/2 already exists in the dictionary
+[Warning: Unity Log] Item Item Grenade Stun/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Power Crystal/3 already exists in the dictionary
+[Warning: Unity Log] Item Item Health Pack Large/2 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Energy/2 already exists in the dictionary
+[Warning: Unity Log] Item Item Mine Explosive/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Melee Sledge Hammer/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Grab Strength/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Health/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Energy/3 already exists in the dictionary
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Warning: Unity Log] Item Item Grenade Explosive/2 already exists in the dictionary
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player Sevaed
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player Sevaed
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+REPOGambling.EnvironmentPlacementPatch.SpecialPrize (UnityEngine.Transform machineParent) (at REPOGambling/REPOGambling.cs:1405)
+REPOGambling.EnvironmentPlacementPatch.HandleWheelPrize (REPOGambling.PrizeEntry prize, System.Int32 cost, UnityEngine.Transform parent, PlayerAvatar avatar) (at REPOGambling/REPOGambling.cs:730)
+REPOGambling.EnvironmentPlacementPatch+<SpinWheelCoroutine>d__10.MoveNext () (at REPOGambling/REPOGambling.cs:686)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <70dfc3d6a20943b0ba4061b9aa5ea205>:0)
+
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Warning: Unity Log] Item Item Grenade Explosive/3 already exists in the dictionary
+[Warning: Unity Log] Item Item Grenade Explosive/4 already exists in the dictionary
+[Warning: Unity Log] Item Item Grenade Explosive/5 already exists in the dictionary
+[Warning: Unity Log] Item Item Grenade Explosive/6 already exists in the dictionary
+[Warning: Unity Log] Received RPC "ToggleItemRPC" for viewID 144 but this PhotonView does not exist! Was remote PV. Remote called. By: #03 'fenDyson' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ToggleItemRPC" for viewID 145 but this PhotonView does not exist! Was remote PV. Remote called. By: #03 'fenDyson' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ToggleItemRPC" for viewID 146 but this PhotonView does not exist! Was remote PV. Remote called. By: #03 'fenDyson' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ToggleItemRPC" for viewID 147 but this PhotonView does not exist! Was remote PV. Remote called. By: #03 'fenDyson' Maybe GO was destroyed but RPC not cleaned up.
+[Warning: Unity Log] Received RPC "ToggleItemRPC" for viewID 148 but this PhotonView does not exist! Was remote PV. Remote called. By: #03 'fenDyson' Maybe GO was destroyed but RPC not cleaned up.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Jackpot' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Death' to player NeMo_Svyaznoy_
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor PlayerAvatarMenu
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Bankruptcy' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] updated level to: Level - Lobby
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   : Unity Log] updated level to: Level - Arctic
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Mug(Clone) Val: 1500
+[Debug  :MapValueTracker] After dollar value set Total Val: 1500
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Money(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 2000
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ocarina(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 2600
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 3100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 3600
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Goblet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 4200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase(Clone) Val: 2000
+[Debug  :MapValueTracker] After dollar value set Total Val: 6200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic Barrel(Clone) Val: 11600
+[Debug  :MapValueTracker] After dollar value set Total Val: 17800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Diamond(Clone) Val: 2900
+[Debug  :MapValueTracker] After dollar value set Total Val: 20700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Globe(Clone) Val: 1700
+[Debug  :MapValueTracker] After dollar value set Total Val: 22400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Toy Monkey(Clone) Val: 900
+[Debug  :MapValueTracker] After dollar value set Total Val: 23300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Toy Monkey(Clone) Val: 900
+[Debug  :MapValueTracker] After dollar value set Total Val: 24200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Gem Box(Clone) Val: 1000
+[Debug  :MapValueTracker] After dollar value set Total Val: 25200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 25700
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Emerald Bracelet(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 26300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Uranium Plate(Clone) Val: 2000
+[Debug  :MapValueTracker] After dollar value set Total Val: 28300
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Gem Box(Clone) Val: 1100
+[Debug  :MapValueTracker] After dollar value set Total Val: 29400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Trophy(Clone) Val: 2700
+[Debug  :MapValueTracker] After dollar value set Total Val: 32100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Ice Saw(Clone) Val: 3800
+[Debug  :MapValueTracker] After dollar value set Total Val: 35900
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Pocket Watch(Clone) Val: 500
+[Debug  :MapValueTracker] After dollar value set Total Val: 36400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Vase Small(Clone) Val: 1700
+[Debug  :MapValueTracker] After dollar value set Total Val: 38100
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Diamond(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 40600
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Doll(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 41200
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Arctic Sample(Clone) Val: 2600
+[Debug  :MapValueTracker] After dollar value set Total Val: 43800
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Doll(Clone) Val: 600
+[Debug  :MapValueTracker] After dollar value set Total Val: 44400
+[Debug  :MapValueTracker] Created Valuable Object! Valuable Diamond(Clone) Val: 2300
+[Debug  :MapValueTracker] After dollar value set Total Val: 46700
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 46700
+[Debug  :MapValueTracker] Generation done. Now val is 46700. Init Value: 46700
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 46700
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 449
+[Debug  :MapValueTracker] BreakRPC - Value lost: 51
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 46649
+[Debug  :MapValueTracker] BreakRPC - Current Value: 46649
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 397
+[Debug  :MapValueTracker] BreakRPC - Value lost: 52
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 46597
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_af53ac36-d96b-46f3-a6cf-7ac8e5cc49af.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Expecting filter.
+[Info   :    Mimics] Pitch shift applied.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Expecting filter.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 46597
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 542
+[Debug  :MapValueTracker] BreakRPC - Value lost: 58
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 46539
+[Debug  :MapValueTracker] BreakRPC - Current Value: 46539
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 10986
+[Debug  :MapValueTracker] BreakRPC - Value lost: 614
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 45925
+[Debug  :MapValueTracker] BreakRPC - Current Value: 45925
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1540
+[Debug  :MapValueTracker] BreakRPC - Value lost: 160
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 45765
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 45765
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 108
+[Debug  :MapValueTracker] BreakRPC - Value lost: 2000
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43765
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Vase(Clone) Val: 108
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 43765
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43765
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 807
+[Debug  :MapValueTracker] BreakRPC - Value lost: 93
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43672
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_96f2ad6a-8a6b-47f5-a759-cfb78a7be881.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43672
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 3445
+[Debug  :MapValueTracker] BreakRPC - Value lost: 355
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43317
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43317
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 713
+[Debug  :MapValueTracker] BreakRPC - Value lost: 94
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43223
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43223
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 627
+[Debug  :MapValueTracker] BreakRPC - Value lost: 86
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43137
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43137
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 619
+[Debug  :MapValueTracker] BreakRPC - Value lost: 8
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 43129
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Recording started.
+[Info   :    Mimics] Speech detected, capturing audio.
+[Info   :    Mimics] Buffer full, saving audio.
+[Info   :    Mimics] Audio saved to: Z:/mnt/games/SteamLibrary/steamapps/common/REPO/REPO_Data\AudioFiles\audio_24f8493a-d309-4599-978c-5f0616e0c241.wav
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] All chunks sent.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   :    Mimics] Expecting filter.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 43129
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1536
+[Debug  :MapValueTracker] BreakRPC - Value lost: 164
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42965
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42965
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1520
+[Debug  :MapValueTracker] BreakRPC - Value lost: 16
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42949
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42949
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1356
+[Debug  :MapValueTracker] BreakRPC - Value lost: 164
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42785
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42785
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1176
+[Debug  :MapValueTracker] BreakRPC - Value lost: 180
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42605
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42605
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1159
+[Debug  :MapValueTracker] BreakRPC - Value lost: 17
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42588
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42588
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 1077
+[Debug  :MapValueTracker] BreakRPC - Value lost: 82
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42506
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42506
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 912
+[Debug  :MapValueTracker] BreakRPC - Value lost: 165
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42341
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Info   : Unity Log] Player left room: fenDyson
+[Warning: Unity Log] Received RPC "GrabPlayerRemoveRPC" for viewID 1047 but this PhotonView does not exist! Was remote PV. Owner called. By: #01 'NeMo_Svyaznoy_' Maybe GO was destroyed but RPC not cleaned up.
+[Info   : Unity Log] Steam: Lobby member left: fenDyson
+[Debug  :MapValueTracker] BreakRPC - Current Value: 42341
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 537
+[Debug  :MapValueTracker] BreakRPC - Value lost: 63
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 42278
+[Debug  :MapValueTracker] Created Valuable Object! Enemy Valuable - Small(Clone) Val: 2500
+[Debug  :MapValueTracker] After dollar value set Total Val: 44778
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44778
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 897
+[Debug  :MapValueTracker] BreakRPC - Value lost: 103
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44675
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44675
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 531
+[Debug  :MapValueTracker] BreakRPC - Value lost: 6
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44669
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44669
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 800
+[Debug  :MapValueTracker] BreakRPC - Value lost: 97
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44572
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44572
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 471
+[Debug  :MapValueTracker] BreakRPC - Value lost: 60
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44512
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44512
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 746
+[Debug  :MapValueTracker] BreakRPC - Value lost: 54
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44458
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44458
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 735
+[Debug  :MapValueTracker] BreakRPC - Value lost: 11
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44447
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   GodMode] GodMode is now ENABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44447
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 474
+[Debug  :MapValueTracker] BreakRPC - Value lost: 26
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44421
+[Debug  :MapValueTracker] BreakRPC - Current Value: 44421
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 452
+[Debug  :MapValueTracker] BreakRPC - Value lost: 48
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 44373
+[Info   :    Mimics] New audio transmission started, expecting 36 chunks at 48000 Hz.
+[Info   :    Mimics] All chunks received, playing audio.
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   GodMode] GodMode is now ENABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Toy Monkey(Clone) Val: 900
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 43473
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Arctic Sample(Clone) Val: 2600
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 40873
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Trophy(Clone) Val: 2700
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 38173
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Doll(Clone) Val: 542
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 37631
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Money(Clone) Val: 500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 37131
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Pocket Watch(Clone) Val: 452
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 36679
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Toy Monkey(Clone) Val: 619
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 36060
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Ice Saw(Clone) Val: 3445
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 32615
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Diamond(Clone) Val: 2500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 30115
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Gem Box(Clone) Val: 1100
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 29015
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Pocket Watch(Clone) Val: 474
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 28541
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Vase Small(Clone) Val: 1540
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 27001
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Emerald Bracelet(Clone) Val: 397
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 26604
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Diamond(Clone) Val: 2900
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 23704
+[Debug  :MapValueTracker] Extraction Completed!
+[Debug  :MapValueTracker] After CheckForItems Total Val: 23704
+[Debug  :MapValueTracker] Checked after Extraction. Val is 23704
+[Debug  :MapValueTracker] Created Valuable Object! Surplus Valuable - Big(Clone) Val: 10862
+[Debug  :MapValueTracker] After dollar value set Total Val: 34566
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Valuable Globe(Clone) Val: 912
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 33654
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Surplus Valuable - Big(Clone) Val: 10862
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 22792
+[Debug  :MapValueTracker] Destroying (DPGO)!
+[Debug  :MapValueTracker] Destroyed Valuable Object! Enemy Valuable - Small(Clone) Val: 2500
+[Debug  :MapValueTracker] After DPGO Map Remaining Val: 20292
+[Debug  :MapValueTracker] Extraction Completed!
+[Debug  :MapValueTracker] Checked after Extraction. Val is 20292
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20292
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 543
+[Debug  :MapValueTracker] BreakRPC - Value lost: 57
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 20235
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20235
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 488
+[Debug  :MapValueTracker] BreakRPC - Value lost: 55
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 20180
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20180
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 482
+[Debug  :MapValueTracker] BreakRPC - Value lost: 6
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 20174
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20174
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 417
+[Debug  :MapValueTracker] BreakRPC - Value lost: 65
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 20109
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20109
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 362
+[Debug  :MapValueTracker] BreakRPC - Value lost: 55
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 20054
+[Debug  :MapValueTracker] BreakRPC - Current Value: 20054
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 303
+[Debug  :MapValueTracker] BreakRPC - Value lost: 59
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 19995
+[Debug  :MapValueTracker] BreakRPC - Current Value: 19995
+[Debug  :MapValueTracker] BreakRPC - Valuable Object current value: 244
+[Debug  :MapValueTracker] BreakRPC - Value lost: 59
+[Debug  :MapValueTracker] BreakRPC - After Break Value: 19936
+[Debug  :MapValueTracker] Created Valuable Object! Enemy Valuable - Small(Clone) Val: 2600
+[Debug  :MapValueTracker] After dollar value set Total Val: 22536
+[Info   : Unity Log] updated level to: Level - Shop
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - gambling room.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo slot.prefab
+[Info   :REPOGambling] [REPOGambling] Loaded module prefab: assets/repo/game/resources/level/shop/modules/module - shop - de - solo wheel.prefab
+[Warning:   REPOLib] CustomPrefabPool: failed to register network prefab "Level/Shop/Modules/Module - Shop - DE - Solo Wheel". There is already a prefab registered with the same prefab id.
+[Info   : Unity Log] [REPOGambling] Injected gambling room: Module - Shop - DE - Solo Wheel
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :    Mimics] Set LocalMimics for local PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Info   :    Mimics] Filter not enabled. All enemies (custom included) will mimic voices.
+[Info   :    Mimics] Added Mimics component to PlayerAvatar: Player Avatar Controller
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   :   REPO_HD] Fixing extraction point text flicker
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Slot machine!
+[Info   : Unity Log] [REPOGambling] Setup Wheel!
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Warning: Unity Log] Item Item Upgrade Player Tumble Launch/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Cart Small/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Drone Battery/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Health Pack Small/3 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Map Player Count/1 already exists in the dictionary
+[Warning: Unity Log] Item Item Cart Small/2 already exists in the dictionary
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :    Mimics] PlayerVoiceChat successfully initialized.
+[Info   :   GodMode] GodMode is now ENABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now True.
+[Info   :   GodMode] GodMode is now DISABLED.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   :   GodMode] GodMode for Player Avatar Controller is now False.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Warning: Unity Log] Item Item Drone Battery/2 already exists in the dictionary
+[Warning: Unity Log] Item Item Upgrade Player Grab Strength/2 already exists in the dictionary
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Upgrade' to player NeMo_Svyaznoy_
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Mystery Prize' to player Sevaed
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 1. isLocal=False
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player NeMo_Svyaznoy_
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player Sevaed
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Upgrade' to player Sevaed
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] [REPOGambling] Found avatar for actor 2. isLocal=True
+[Info   : Unity Log] [REPOGambling] Applying prize 'Lose' to player Sevaed
+[Warning: Unity Log] [REPOGambling] Wheel rotator not cached — cannot play sound.
+[Info   : Unity Log] Steam: Lobby member left: NeMo_Svyaznoy_
+[Info   : Unity Log] Master client left...
+[Info   : Unity Log] Player left room: NeMo_Svyaznoy_
+[Info   : Unity Log] Leave Photon
+[Info   : Unity Log] Steam: Leaving lobby... and ruining it for others.
+[Info   : Unity Log] Cancelling Steam Auth Ticket...
+[Info   : Unity Log] Disconnected from server for reason DisconnectByClientLogic
+[Info   : Unity Log] Leave to Main Menu
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Debug  :me.loaforc.soundapi] cleaning up old audio source entries
+[Info   :   REPO_HD] Enabled TAA on Camera Main (UnityEngine.Camera)
+[Info   :   REPO_HD] Enabled SMAA on Camera Top (UnityEngine.Camera)
+[Info   :   GodMode] GodMode: godMode gedeactiveerd voor Player Avatar Controller
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] In ResetValues()
+[Debug  :MapValueTracker] Total Map Value: 0
+[Debug  :MapValueTracker] Room generation started. Now val is 0
+[Debug  :MapValueTracker] Generating Started. Resetting to zero.
+[Debug  :MapValueTracker] After CheckForItems Total Val: 0
+[Debug  :MapValueTracker] Generation done. Now val is 0. Init Value: 0
+[Info   : Unity Log] Cancelling Steam Auth Ticket...
+[Info   : Unity Log] [2025-05-30T16:16:14] [Info] [PunVoiceClient] [PunVoiceClient(Clone)] PunVoiceClient singleton instance is being reset because destroyed.
+[Debug  :me.loaforc.soundapi] manager disabled
+[Debug  :me.loaforc.soundapi] manager destroyed
+[Info   :    Mimics] MimicsFinder destroyed, clearing cache.

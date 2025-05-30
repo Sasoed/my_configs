@@ -1,0 +1,10 @@
+{
+    "name": "SillyWeaponSounds",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Makes the weapons go haha funny meme",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "loaforc-loaforcsSoundAPI-2.0.5"
+    ]
+}

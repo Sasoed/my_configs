@@ -1,0 +1,148 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "Enemy Valuable - Destroy01",
+                "Enemy Valuable - Destroy02",
+                "Enemy Valuable - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "OhMyGod.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Душа монстра уничтожена"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Enemy Valuable - Impact - Light01",
+                "Enemy Valuable - Impact - Light02",
+                "Enemy Valuable - Impact - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "EnemyValuableImpL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар души об поверхность"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Enemy Valuable - Impact - Medium01",
+                "Enemy Valuable - Impact - Medium02",
+                "Enemy Valuable - Impact - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "EnemyValuableImpM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар души об поверхность"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Enemy Valuable - Impact - Heavy01",
+                "Enemy Valuable - Impact - Heavy02",
+                "Enemy Valuable - Impact - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "EnemyValuableImpH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар души об поверхность"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Big - Destroy01",
+                "Wood hollow Big - Destroy02",
+                "Wood hollow Big - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHallowBigDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Большой деревянный предмет уничтожен"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Medium - Destroy01",
+                "Wood hollow Medium - Destroy02",
+                "Wood hollow Medium - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowMediumDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний деревянный предмет уничтожен"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood Hollow Small - Destroy01",
+                "Wood Hollow Small - Destroy02",
+                "Wood Hollow Small - Destroy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowSmallDestroy.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Мелкий деревянный предмет уничтожен"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Big - Break - Heavy01"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowBigBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по большой деревяшке1"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Big - Break - Heavy02"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowBigBreakH1.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по большоой деревяшке2"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Big - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowBigBreakH2.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по большой деревяшке3"
+                }
+            ]
+        }
+    ]
+}

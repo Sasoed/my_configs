@@ -1,0 +1,148 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "boombox music local"
+    ],
+    "sounds": [
+        {
+            "sound": "HardBass.mp3",
+            "weight": 1,
+            "category": "MusicItems",
+            "displayName": "Бумбокс"
+        }
+      ]
+    },
+    {
+    "matches":["Object:Audio:radio loop"
+    ],
+    "sounds": [
+        {
+            "sound": "SexShopSobez.ogg",
+            "weight": 50,
+            "category":"MusicItems",
+            "displayName": "Радио 1"
+        },
+        {
+            "sound": "SexShopOmut.ogg",
+            "weight": 50,
+            "category":"MusicItems",
+            "displayName": "Радио 2"
+        }
+    ]
+    },
+    {
+"matches": [
+				"trap musicbox music"
+			],
+			"sounds": [
+				{
+					"sound": "daymne.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 1" 
+				},
+				{
+					"sound": "9mm.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 2"
+				},
+				{
+					"sound": "Vodila.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 3"
+				},
+				{
+					"sound": "YaPotyanu.ogg",
+					"weight": 10,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 4"
+				},
+				{
+					"sound": "Autist.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 5"
+				},
+				{
+					"sound": "BeGone.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 6"
+				},
+				{
+					"sound": "Daleko.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 7"
+				},
+				{
+					"sound": "Grustno.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 8"
+				},
+				{
+					"sound": "PodoMnoy.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 9"
+				},
+				{
+					"sound": "Sinyak.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 10"
+				},
+				{
+					"sound": "Zerkalo.ogg",
+					"weight": 9,
+          "category":"MusicItems",
+          "displayName": "Музыкальная шкатулка 11"
+				}
+			]
+		},
+    {
+            "matches":[
+			"trap doll loop"
+			],
+            "sounds": [
+                {
+                    "sound": "RaspiliMenya.ogg",
+                    "weight": 1,
+                    "category":"MusicItems",
+                    "displayName": "Кричащая кукла"
+                }
+            ]
+        },
+        {
+        "matches": [
+            "chomp book bite01",
+            "chomp book bite02",
+            "chomp book bite03"
+        ],
+        "sounds": [
+            {
+            "sound": "GopGopGop.ogg",
+            "weight": 1,
+            "category":"MusicItems",
+            "displayName": "Атака книги 1"
+            },
+            {
+            "sound": "GopGopGop.ogg",
+            "weight": 1,
+            "category":"MusicItems",
+            "displayName": "Атака книги 2"
+            },
+            {
+            "sound": "GopGopGop.ogg",
+            "weight": 1,
+            "category":"MusicItems",
+            "displayName": "Атака книги 3"
+            }
+        ]
+        }
+  ]
+}

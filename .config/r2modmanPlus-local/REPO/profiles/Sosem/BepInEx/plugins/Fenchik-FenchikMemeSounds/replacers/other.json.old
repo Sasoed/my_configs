@@ -1,0 +1,219 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "charging station start"
+            ],
+            "sounds": [
+                {
+                    "sound": "ReloadingStart.mp3",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Начало зарядной станции"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "charging station loop"
+            ],
+            "sounds": [
+                {
+                    "sound": "ReloadingLoop.mp3",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Зарядная станция"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "charging station end"
+            ],
+            "sounds": [
+                {
+                    "sound": "ReloadingEnd.mp3",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Конец зарядкой станции"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "player heal"
+            ],
+            "sounds": [
+                {
+                    "sound": "Moan.ogg",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Хил игрока"
+                    
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "player fall loop"
+            ],
+            "sounds": [
+                {
+                    "sound": "ManDozd.ogg",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Падение игрока"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "player revive"
+            ],
+            "sounds": [
+                {
+                    "sound": "YaRodilsa.ogg",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Воскрешение игрока"
+                }
+            ]
+        },
+
+        {
+			"matches": [
+				"fire hit01",
+                "fire hit02",
+                "fire hit03"
+			],
+
+			"sounds": [
+				{
+					"sound": "JOPAGORIT.mp3",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Урон от огня по игроку"
+				}
+			]
+		},
+
+        {
+            "matches": [
+                "player upgrade"
+            ],
+            "sounds": [
+                {
+                    "sound": "LvlUpMinecraft.mp3",
+                    "weight": 50,
+                    "category": "Other",
+                    "displayName": "Применение улучшения"
+                },
+                {
+                    "sound": "LvlUpMario.mp3",
+                    "weight": 50,
+                    "category": "Other",
+                    "displayName": "Применение улучшения 1"
+                }
+            ]
+        },
+
+        {
+            "matches": [
+                "player death explosion01",
+                "player death explosion02",
+                "player death explosion03"
+            ],
+            "sounds": [
+                {
+                    "sound": "ALLAHAKBAR.mp3",
+                    "weight": 1,
+                    "category": "Other",
+                    "displayName": "Взрыв игрока"
+                }
+            ]
+        },
+
+        {
+        "matches": [
+            "player death01",
+            "player death02",
+            "player death03"
+        ],
+        "sounds": [
+            {
+            "sound": "Fart.ogg",
+            "weight": 60,
+            "category": "Other",
+            "displayName": "Смерть игрока 1"
+            },
+            {
+            "sound": "Uh_ti_blya.mp3",
+            "weight": 30,
+            "category": "Other",
+            "displayName": "Смерть игрока 2"
+            },
+            {
+            "sound": "Palka....mp3",
+            "weight": 10,
+            "category": "Other",
+            "displayName": "Смерть игрока 3"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "scare sighting01",
+            "scare sighting02",
+            "scare sighting03",
+            "scare sighting04",
+            "scare sighting05",
+            "scare sighting06",
+            "scare sighting07",
+            "scare sighting08",
+            "scare sighting09",
+            "scare sighting10",
+            "msc player death sighting"
+
+        ],
+        "sounds": [
+            {
+            "sound": "VineBoom.ogg",
+			"weight": 1,
+			"category": "Other",
+			"displayName": "Заметил мёртвого игрока/монстра"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "loading ui rev up"
+        ],
+        "sounds": [
+            {
+            "sound": "CarCrash.ogg",
+			"weight": 1,
+			"category": "Other",
+			"displayName": "Загрузка на уровень"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "loading ui crash"
+            ],
+            "sounds": [
+                {
+                "sound": "CarDestroy.ogg",
+                "weight": 1,
+                "category": "Other",
+                "displayName": "ДТП в загрузке"   
+                }
+            ]
+        }
+    ]
+}

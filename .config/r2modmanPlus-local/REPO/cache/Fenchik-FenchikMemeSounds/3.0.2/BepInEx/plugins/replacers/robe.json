@@ -1,0 +1,168 @@
+{
+	"replacements": [
+        {
+            "matches":[
+                "enemy robe attack_short"
+            ], 
+        "sounds":[
+            {
+        "sound": "ZlayaBabka.ogg",
+        "weight": 100,
+        "category": "Robe",
+        "displayName": "Быстрая атака"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe attack_short global"
+            ],
+        "sounds":[
+            {
+        "sound": "ZlayaBabkaGlobal.ogg",
+        "weight": 100,
+        "category": "Robe",
+        "displayName": "Глобальная быстрая атака"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe look under scream"
+            ],
+        "sounds":[
+            {
+        "sound": "Vstavay.ogg",
+        "weight": 100,
+        "category": "Robe",
+        "displayName": "Атака под столом"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe look under scream global"
+            ],
+        "sounds":[
+            {
+        "sound": "VstavayGlobal.ogg",
+        "weight": 100,
+        "category": "Robe",
+        "displayName": "Глобальная атака под столом"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe hurt01"
+            ],
+        "sounds":[
+            {
+        "sound": "BabkaHurt1.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName": "Урон по монашке"
+            },
+            {
+        "sound": "BabkaHurt3.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName": "Урон по монашке1"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe hurt02"
+            ],
+        "sounds":[
+            {
+        "sound": "BabkaHurt3.ogg",
+        "weight": 1,
+        "category": "Robe",
+        "displayName": "Урон по монашке2"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe hurt03"
+            ],
+        "sounds":[
+            {
+        "sound": "BabkaHurt1.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName" : "Урон по монашке3"
+            },
+            {
+        "sound": "BabkaHurt2.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName": "Урон по монашке4"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe stun start"
+            ],
+        "sounds":[
+            {
+        "sound": "TiNeMoy.ogg",
+        "weight": 1,
+        "category": "Robe",
+        "displayName": "Только оглушили монашку"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe stun loop"
+            ],
+        "sounds":[
+            {
+        "sound": "NeGovoriTak.ogg",
+        "weight": 1,
+        "category": "Robe",
+        "displayName": "Монашка оглушена"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe noise01",
+                "enemy robe noise02",
+                "enemy robe noise03",
+                "enemy robe noise04"
+            ],
+        "sounds":[
+            {
+        "sound": "BabkaNoise1.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName": "Монашка ищёт кого-нибудь"
+            },
+            {
+        "sound": "BabkaNoise2.ogg",
+        "weight": 50,
+        "category": "Robe",
+        "displayName": "Монашка ищёт кого-нибудь1"
+            }
+        ]
+        },
+        {
+            "matches": [
+                "enemy robe targeting"
+            ],
+        "sounds":[
+            {
+        "sound": "Skolko.ogg",
+        "weight": 1,
+        "category": "Robe",
+        "displayName": "Гонится за вами"
+            }
+        ]
+        }
+    ]
+}

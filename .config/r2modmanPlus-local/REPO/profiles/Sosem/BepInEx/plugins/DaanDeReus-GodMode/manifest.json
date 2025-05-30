@@ -1,0 +1,10 @@
+{
+    "name": "GodMode",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "A working GodMode mod for R.E.P.O. Toggle invincibility with G. Always shows status on screen. Made because no other GodMode mod worked.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Zehs-REPOLib-1.0.0"
+    ]
+}

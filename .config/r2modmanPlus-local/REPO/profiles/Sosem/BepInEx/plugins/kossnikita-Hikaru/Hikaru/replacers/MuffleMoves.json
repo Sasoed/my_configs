@@ -1,0 +1,23 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:MuffleMoves"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner move long01",
+                "*:enemy runner move long02",
+                "*:enemy runner move long03",
+                "*:enemy runner move01",
+                "*:enemy runner move02",
+                "*:enemy runner move03"
+            ],
+            "sounds": [
+                {
+                    "sound": "Silence.ogg"
+                }
+            ]
+        }
+    ]
+}

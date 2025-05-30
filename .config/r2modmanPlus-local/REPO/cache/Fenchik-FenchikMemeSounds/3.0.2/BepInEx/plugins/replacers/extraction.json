@@ -1,0 +1,259 @@
+    {
+        "replacements": [
+            {
+            "matches": ["extraction point alarm"],
+            "sounds":[
+                {
+            "sound": "Vnimanie.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Тревога после сдачи квоты",
+            "loop": true
+                }
+            ]
+        },
+        {
+            "matches": ["extraction point alarm global"],
+            "sounds":[
+                {
+            "sound": "VnimanieGlobal.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName":"Глобальная тревога после сдачи квоты",
+            "loop": true
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point alarm final"],
+            "sounds":[
+                {
+            "sound": "Augh.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Конец тревоги"
+                }
+            ]
+        },
+        
+        {
+            "matches": ["extraction point button press"],
+            "sounds":[
+                {
+            "sound": "Zvonok.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Звук нажатия кнопки"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point tube raise"],
+            "sounds":[
+                {
+            "sound": "OpenDoor.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Поднятие экстрактора"
+                }
+            ]
+        },
+        
+        {
+            "matches": ["extraction point tube raise global"],
+            "sounds":[
+                {
+            "sound": "OpenDoorGlobal.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Глобальное поднятие экстрактора"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point tube retract"],
+            "sounds":[
+                {
+            "sound": "Vtyagivanie.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Процесс поднятия"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point tube impact"],
+            "sounds":[
+                {
+            "sound": "CloseDoor.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Экстрактор закрывается"
+                }
+            ]
+        },
+        
+        {
+            "matches": ["extraction point tube impact global"],
+            "sounds":[
+                {
+            "sound": "CloseDoorGlobal.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Глобальное закрытие экстрактора"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus spawn"],
+            "sounds":[
+                {
+            "sound": "MoneyMoney.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Выпадение мешка с деньгами"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus state start"],
+            "sounds":[
+                {
+            "sound": "OpaCash.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Подтверждение подсчёта"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus increase loop"],
+            "sounds":[
+                {
+            "sound": "ChitaetBonus.mp3",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Считает кэшбэк или бонус",
+            "loop": true
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point cancel shutdown"],
+            "sounds":[
+                {
+            "sound": "Noooo.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Отмена сдачи экстрактора"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point number field in"],
+            "sounds":[
+                {
+            "sound": "DohodVhodit.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Звук подсчёта ценного предмета"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point number field out"],
+            "sounds":[
+                {
+            "sound": "Why.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Предмет достали из экстрактора"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus deduction start"],
+            "sounds":[
+                {
+            "sound": "Success.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Подтверждение подсчёта бонуса"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus deduction loop"],
+            "sounds":[
+                {
+            "sound": "ChitaetDohod.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Считает сколько заработали",
+            "loop": true
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point surplus deduction done"],
+            "sounds":[
+                {
+            "sound": "EndDohod.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Заканчивает считать"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point suck loop2"],
+            "sounds":[
+                {
+            "sound": "GlopGlop.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Всасывает предметы с экстрактора",
+            "loop": true
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point suck end"],
+            "sounds":[
+                {
+            "sound": "Delicious.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Закончил всасывать предметы с экстрактора"
+                }
+            ]
+        },
+
+        {
+            "matches": ["extraction point green lights on"],
+            "sounds":[
+                {
+            "sound": "Coin.ogg",
+            "weight": 1,
+            "category": "Extractor",
+            "displayName": "Подтверждение начала квоты"
+                }
+            ]
+        }
+    ]
+}

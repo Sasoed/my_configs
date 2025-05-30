@@ -1,0 +1,124 @@
+{
+    "replacements": [
+        {
+            "matches": [
+                "Wood hollow Big - Break - Medium01",
+                "Wood hollow Big - Break - Medium02",
+                "Wood hollow Big - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowBigBreakM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по большой деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Big - Break - Light01",
+                "Wood hollow Big - Break - Light02",
+                "Wood hollow Big - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowBigBreakL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по большой деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Medium - Break - Heavy01",
+                "Wood hollow Medium - Break - Heavy02",
+                "Wood hollow Medium - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowMediumBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по средней деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Medium - Break - Medium01",
+                "Wood hollow Medium - Break - Medium02",
+                "Wood hollow Medium - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowMediumBreakM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по средней деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood hollow Medium - Break - Light01",
+                "Wood hollow Medium - Break - Light02",
+                "Wood hollow Medium - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowMediumBreakL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по средней деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood Hollow Small - Break - Heavy01",
+                "Wood Hollow Small - Break - Heavy02",
+                "Wood Hollow Small - Break - Heavy03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowSmallBreakH.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Сильный удар по мелкой деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood Hollow Small - Break - Medium01",
+                "Wood Hollow Small - Break - Medium02",
+                "Wood Hollow Small - Break - Medium03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowSmallBreakM.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Средний удар по мелкой деревяшке"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Wood Hollow Small - Break - Light01",
+                "Wood Hollow Small - Break - Light02",
+                "Wood Hollow Small - Break - Light03"
+            ],
+            "sounds": [
+                {
+                    "sound": "WoodHollowSmallBreakL.mp3",
+                    "weight": 1,
+                    "category": "Valuables",
+                    "displayName": "Слабый удар по мелкой деревяшке"
+                }
+            ]
+        }
+    ]
+}

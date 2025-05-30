@@ -1,0 +1,9 @@
+{
+  "name": "FenchikMemeSounds",
+  "version_number": "3.0.2",
+  "description": "Custom russian (And not only) meme sounds, created by me",
+  "website_url": "",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

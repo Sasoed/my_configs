@@ -1,0 +1,304 @@
+{
+	"replacements": [
+        {
+			"matches": [ 
+				"enemy slow walker attack buildup vo" 
+        ],
+        "sounds":[
+            {
+        "sound": "GetOverHere.ogg",
+        "weight": 1,
+        "category": "Warrior",
+        "displayName": "Фраза перед атакой"
+            }
+        ]
+    },
+
+    {
+        "matches": [ 
+            "enemy slow walker attack impact" 
+        ],
+        "sounds":[
+            {
+                "sound": "AHHHHH.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Удар об землю"
+            }
+    ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker death"
+        ],
+
+        "sounds": [
+            {
+                "sound": "TiMenyaPoslal.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Смерть Рыцаря"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker attack implosion hit"
+        ],
+
+        "sounds": [
+            {
+                "sound": "Babah.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Взрыв после удара об землю"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker attack implosion hit global"
+        ],
+
+        "sounds": [
+            {
+                "sound": "BabahGlobal.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Глобальный взрыв после удара об землю"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker attack implosion buildup"
+        ],
+
+        "sounds": [
+            {
+                "sound": "Vacuum.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Притягивание атакой"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker attack implosion impact"
+        ],
+
+        "sounds": [
+            {
+                "sound": "BigBoom.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Взрыв в конце атаки"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker attack implosion impact global"
+        ],
+
+        "sounds": [
+            {
+                "sound": "BigBoomGlobal.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Глобальный взрыв в конце атаки"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker footstep01",
+            "enemy slow walker footstep02",
+            "enemy slow walker footstep03",
+            "enemy slow walker move short01",
+            "enemy slow walker move short02",
+            "enemy slow walker move short03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "HeavyStepR.ogg",
+                "weight": 50,
+                "category":"Warrior",
+                "displayName": "Тяжёлый правый топот"
+            },
+            {
+                "sound": "HeavyStepL.ogg",
+                "weight": 50,
+                "category":"Warrior",
+                "displayName": "Тяжёлый левый топот"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker move long01",
+            "enemy slow walker move long02",
+            "enemy slow walker move long03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "HeavyStepR.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Тяжёлый правый топот1"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker lookunder intro"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WarriorIntro.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Начал смотреть под столом"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker lookunder outro"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WarriorOutro.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Закончил смотреть под столом"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker lookunder biting"
+        ],
+
+        "sounds": [
+            {
+                "sound": "Bite.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Кусает под столом"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker hurt01",
+            "enemy slow walker hurt02",
+            "enemy slow walker hurt03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WarriorHurt.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Урон по рыцарю"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker stun"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WarriorStun.ogg",
+                "weight": 1,
+                "category": "Warrior",
+                "displayName": "Рыцарь оглушен"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker notice vo01",
+            "enemy slow walker notice vo02",
+            "enemy slow walker notice vo03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WarriorNotice.ogg",
+                "weight": 40,
+                "category":"Warrior",
+                "displayName": "Рыцарь заметил вас1"
+            },
+            {
+                "sound": "WarriorNotice1.ogg",
+                "weight": 30,
+                "category":"Warrior",
+                "displayName": "Рыцарь заметил вас2"
+            },
+            {
+                "sound": "WarriorNotice2.ogg",
+                "weight": 30,
+                "category":"Warrior",
+                "displayName": "Рыцарь заметил вас3"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker noise short01",
+            "enemy slow walker noise short02",
+            "enemy slow walker noise short03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WhereAreYou.ogg",
+                "weight": 1,
+                "category":"Warrior",
+                "displayName": "Рыцарь ищёт кого-нибудь (быстро)"
+            }
+        ]
+    },
+
+    {
+        "matches": [
+            "enemy slow walker noise long01",
+            "enemy slow walker noise long02",
+            "enemy slow walker noise long03"
+        ],
+
+        "sounds": [
+            {
+                "sound": "WhereAreYou1.ogg",
+                "weight": 1,
+                "category":"Warrior",
+                "displayName": "Рыцарь ищёт кого-нибудь (долго)"
+            }
+        ]
+    }
+  ]
+}

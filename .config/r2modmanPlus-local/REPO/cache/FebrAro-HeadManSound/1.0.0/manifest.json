@@ -1,0 +1,12 @@
+{
+	"name": "HeadManSound",
+	"author": "Febrile257",
+	"website_url": "",
+	"description": "We found the mod replacing HeadMan with Shrek fun, but we thought it could be even more fun if it chased the player while singing 'ALL STAR - SMASH MOUTH'.",
+	"version_number": "1.0.0",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"loaforc-loaforcsSoundAPI-2.0.5",
+		"loaforc-loaforcsSoundAPI_REPO-1.0.1"
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "replacements": [
+        {
+            "matches":[
+			"*:player death explosion01",
+			"*:player death explosion02",
+			"*:player death explosion03",
+			"*:player death01",
+			"*:player death02",
+			"*:player death03",
+			],
+            "sounds": [
+                {
+                    "sound": "Minecraftdeath.ogg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+	"replacements": [
+		{
+            "matches": [
+				"*:enemy hunter aim start01",
+				"*:enemy hunter aim start02",
+				"*:enemy hunter aim start03"
+		],
+			"sounds": [
+				{
+					"sound": "hunter_shoot.ogg"
+				}
+			]
+		},
+		{
+            "matches": [
+				"*:enemy hunter aim start global01",
+				"*:enemy hunter aim start global02",
+				"*:enemy hunter aim start global03"
+		],
+			"sounds": [
+				{
+					"sound": "hunter_shootglobal.ogg"
+				}
+			]
+		},
+        {
+			"matches": [
+				"*:enemy hunter hurt01",
+				"*:enemy hunter hurt02",
+				"*:enemy hunter hurt03"
+			],
+			"sounds": [
+				{
+					"sound": "hunter_damagereceived.ogg"
+				}
+			]
+		}
+	]
+}

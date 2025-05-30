@@ -1,0 +1,153 @@
+{
+	"replacements": [
+        {
+            "matches": [ 
+              "enemy gnome notice01",
+              "enemy gnome notice02",
+              "enemy gnome notice03" 
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeHaha.ogg",
+            "weight": 50,
+            "category": "Gnomes",
+            "displayName": "Гном заметил"
+                },
+                {
+            "sound": "GnomeHah.ogg",
+            "weight": 50,
+            "category": "Gnomes",
+            "displayName": "Гном заметил 1"        
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome death01",
+              "enemy gnome death02",
+              "enemy gnome death03" 
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeOhh.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Смерть гнома"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome hurt01",
+              "enemy gnome hurt02",
+              "enemy gnome hurt03"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeWoo.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Урон по гному"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome stun start01",
+              "enemy gnome stun start02",
+              "enemy gnome stun start03"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeHey.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Начало оглушения"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome stun end01",
+              "enemy gnome stun end02",
+              "enemy gnome stun end03"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomePhew.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Оглушение закончилось"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome stun fly"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomePolozhi.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Гном летит"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome footstep01",
+              "enemy gnome footstep02",
+              "enemy gnome footstep03",
+              "enemy gnome move short01",
+              "enemy gnome move short02",
+              "enemy gnome move short03",
+              "enemy gnome move long01",
+              "enemy gnome move long02",
+              "enemy gnome move long03"
+             ],
+            "sounds":[
+                {
+            "sound": "KrabsSteps.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Гном топает"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome pickaxe tell"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeAttack.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Гном говорит перед атакой"
+                }
+            ]
+        },
+
+        {
+            "matches": [ 
+              "enemy gnome pickaxe hit"
+             ],
+            "sounds":[
+                {
+            "sound": "GnomeHit.ogg",
+            "weight": 1,
+            "category": "Gnomes",
+            "displayName": "Удар киркой (ну или атака)"
+                }
+            ]
+        }
+    ]
+}

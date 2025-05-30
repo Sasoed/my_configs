@@ -1,0 +1,28 @@
+{
+    "replacements": [
+        {
+            "matches": [
+				"*:item shotgun shootl01",
+				"*:item shotgun shootl02",
+				"*:item shotgun shootl03"
+		],
+			"sounds": [
+				{
+					"sound": "shotgunfart.ogg"
+				}
+			]
+		},
+        {
+			"matches": [
+				"*:item shotgun shoot global01",
+				"*:item shotgun shoot global02",
+				"*:item shotgun shoot global03"
+			],
+			"sounds": [
+				{
+					"sound": "shotgunfartglobal.ogg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "SillyWeapons",
+    "config": {
+        "Settings:Baseball_Bat": {
+            "description": "Enable sound replacement for Baseball Bat item?",
+            "default": true
+        },
+        "Settings:Frying_Pan": {
+            "description": "Enable sound replacement for Frying Pan item?",
+            "default": true
+        },
+        "Settings:Sledgehammer": {
+            "description": "Enable sound replacement for Sledgehammer item?",
+            "default": true
+        },
+        "Settings:Inflatable_Hammer": {
+            "description": "Enable sound replacement for Inflatable Hammer item?",
+            "default": true
+        },
+    }
+}

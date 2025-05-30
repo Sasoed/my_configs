@@ -1,0 +1,89 @@
+{
+	"replacements": [
+		{
+            "matches":[
+			"enemy bowtie death"
+			],
+            "sounds": [
+                {
+                    "sound": "OtryzkaDie.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Смерть боути"
+                }
+            ]
+        },
+
+		{
+            "matches":[
+			"enemy bowtie scream loop global"
+			],
+            "sounds": [
+                {
+                    "sound": "OtryzkaGlobal.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Глобальная атака (С эхом из далека)"
+                }
+            ]
+        },
+
+		{
+            "matches":[
+			"enemy bowtie scream loop"
+			],
+            "sounds": [
+                {
+                    "sound": "Otryzka.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Атака"
+                }
+            ]
+        },
+
+		{
+            "matches":[
+			"enemy bowtie stun loop"
+			],
+            "sounds": [
+                {
+                    "sound": "OtryzkaStun.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Под станом"
+                }
+            ]
+        },
+
+		{
+            "matches":[
+			"enemy bowtie roaming loop"
+			],
+            "sounds": [
+                {
+                    "sound": "OtryzkaRoaming.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Издаёт рандомные звуки, когда нечего делать"
+                }
+            ]
+        },
+
+		{
+            "matches":[
+			"enemy bowtie hurt01",
+            "enemy bowtie hurt02",
+            "enemy bowtie hurt03"
+			],
+            "sounds": [
+                {
+                    "sound": "Otryzkahurt.ogg",
+                    "weight": 1,
+                    "category": "Bowtie",
+                    "displayName": "Урон по Боути"
+                }
+            ]
+        }
+	]
+}

@@ -1,0 +1,144 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Takes"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner attack grunt01",
+                "*:enemy runner attack grunt02",
+                "*:enemy runner attack grunt03",
+                "*:enemy runner attack grunt04",
+                "*:enemy runner attack grunt05"
+            ],
+            "sounds": [
+                {
+                    "sound": "Check/Check_01.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Check/Check_02.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Check/Check_03.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Take/Take_01.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Take/Take_02.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Take/Take_03.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Take/Take_04.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Take/Take_05.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Takes/Takes_01.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Takes/Takes_02.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Takes/Takes_03.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "Moves/Bh6.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/d5.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/e5_01.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/e5_02.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/fg3.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/Nb6.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/Ne5.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/Qh5.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                },
+                {
+                    "sound": "Moves/Rf5.ogg",
+                    "weight": 1,
+                    "condition": {
+                        "type": "config",
+                        "config": "Reaper:Moves",
+                        "value": true
+                    }
+                }
+            ]
+        }
+    ]
+}

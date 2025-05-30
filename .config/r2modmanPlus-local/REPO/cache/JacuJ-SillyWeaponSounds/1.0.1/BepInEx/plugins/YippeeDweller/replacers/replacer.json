@@ -1,0 +1,96 @@
+{
+    "replacements": [
+        {
+            "matches": "*:baseball bat hit",
+			"condition": {
+			"type": "config",
+			"config": "Settings:Baseball_Bat",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "REPOBaseballHit1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOBaseballHit2.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOBaseballHit3.ogg",
+					"weight": 5
+                },
+            ]
+        },
+        {
+            "matches": "*:frying pan hit",
+			"condition": {
+			"type": "config",
+			"config": "Settings:Frying_Pan",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "REPOPanHit1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOPanHit2.ogg",
+					"weight": 5
+                },
+            ]
+        },
+        {
+            "matches": [
+			"*:sledgehammer hit01",
+			"*:sledgehammer hit02",
+			"*:sledgehammer hit03",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Settings:Sledgehammer",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "REPOSledgeHit1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOSledgeHit2.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOSledgeHit3.ogg",
+					"weight": 5
+                },
+            ]
+        },
+        {
+            "matches": [
+			"*:inflatable hammer hit01",
+			"*:inflatable hammer hit02",
+			"*:inflatable hammer hit03",
+			],
+			"condition": {
+			"type": "config",
+			"config": "Settings:Inflatable_Hammer",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "REPOInflatableHit1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOInflatableHit2.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "REPOInflatableHit3.ogg",
+					"weight": 5
+                },
+            ]
+        }
+    ]
+}

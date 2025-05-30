@@ -1,0 +1,9 @@
+{
+	"name": "RELEASEDAHBABAH",
+    "config": {
+        "Settings:Robe": {
+            "description": "Enable sound replacement for Enemy Robe",
+            "default": true
+        }
+    }
+}

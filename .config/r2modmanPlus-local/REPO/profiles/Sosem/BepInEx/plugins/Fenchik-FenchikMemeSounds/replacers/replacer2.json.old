@@ -1,0 +1,337 @@
+{
+  "replacements": [
+        {
+			"matches": [
+				"headman bite start01",
+				"headman bite start02",
+				"headman bite start03"
+			],
+
+			"sounds": [
+				{
+					"sound": "Pin_Idi_Nahuy.ogg",
+          "weight": 1,
+          "category": "Headman",
+          "displayName": "Кусает"
+				}
+			]
+    },
+    {
+      "matches": [
+        "headman chase loop 1"
+      ],
+      "sounds": [
+        {
+          "sound": "smeshariki.ogg",
+          "weight": 1,
+          "category": "Headman",
+          "displayName": "Погоня 1"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "headman chase loop 2"
+      ],
+      "sounds": [
+        {
+          "sound": "smeshariki.ogg",
+          "weight": 1,
+          "category": "Headman",
+          "displayName": "Погоня 2"
+        }
+      ]
+    },
+    {
+    "matches": [
+      "enemy tumbler tumble loop global"
+    ],
+
+    "sounds": [
+      {
+        "sound": "crazy-frog.ogg",
+        "weight": 1,
+        "category": "Frog",
+        "displayName": "Атакует"
+      }
+    ]
+  },
+
+  {
+    "matches": [
+      "enemy tumbler hurt01",
+      "enemy tumbler hurt02",
+      "enemy tumbler hurt03"
+    ],
+
+    "sounds": [
+      {
+        "sound": "bing.ogg",
+        "weight": 1,
+        "category": "Frog",
+        "displayName": "Наносит урон"
+      }
+    ]
+  },
+  {
+    "matches": [
+      "enemy ceiling eye staring start"
+    ],
+
+    "sounds": [
+      {
+        "sound": "Tvoya_Popochka_Vozbuzdaet.ogg",
+        "weight": 1,
+        "category": "CeilingEye",
+        "displayName": "Глаз заметил"
+      }
+      
+    ]
+  },
+  {
+    "matches": [   
+"enemy thin man teleport out"
+   ],
+   "sounds": [
+    {
+     "sound": "RobloxBye.ogg",
+     "weight": 1,
+     "category": "ShadowChild",
+     "displayName": "Ушёл" 
+    }   
+   ]
+},
+{
+"matches": [
+"enemy thin man hurt01",
+"enemy thin man hurt02",
+"enemy thin man hurt03"  
+],
+"sounds": [
+   {
+    "sound": "RobloxOof.mp3",
+    "weight": 1,
+    "category": "ShadowChild",
+    "displayName": "Получает урон"
+   }
+]
+},
+{
+"matches": [
+  "enemy thin man death" 
+ ],
+"sounds": [
+   {
+    "sound": "DaBlya.ogg",
+    "weight": 1,
+    "category": "ShadowChild",
+    "displayName": "Умирает"   
+   }
+]
+},
+{
+ "matches": [
+   "enemy thin man attack scream01",
+   "enemy thin man attack scream02",
+   "enemy thin man attack scream03"
+ ],
+ "sounds": [
+   {
+    "sound": "OPA.mp3",
+    "weight": 1,
+    "category": "ShadowChild",
+    "displayName": "Атакует"   
+   }
+ ]   
+},
+{
+   "matches": [
+       "enemy thin man attack scream01 global",
+       "enemy thin man attack scream02 global",
+       "enemy thin man attack scream03 global"
+   ],
+   "sounds": [
+       {
+        "sound": "OPAGlobal.mp3",
+        "weight": 1,
+        "category": "ShadowChild",
+        "displayName": "Глобально атакует"  
+       }
+   ]
+  },
+    {
+      "matches": [
+        "enemy beamer footstep big01",
+        "enemy beamer footstep big02",
+        "enemy beamer footstep big03",
+        "enemy beamer footstep huge01",
+        "enemy beamer footstep huge02",
+        "enemy beamer footstep huge03"
+      ],
+      "sounds": [
+        {
+          "sound": "ClownSteps.ogg",
+          "weight": 1,
+          "category": "Clown",
+          "displayName": "Топает"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy beamer hurt01",
+        "enemy beamer hurt02",
+        "enemy beamer hurt03"
+      ],
+      "sounds": [
+        {
+          "sound": "ClownOh.ogg",
+          "weight": 1,
+          "category":"Clown",
+          "displayName": "Получил урон"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy beamer melee kick"
+      ],
+      "sounds": [
+        {
+          "sound": "ClownSlap.ogg",
+          "weight": 1,
+          "category":"Clown",
+          "displayName": "Бьёт ногой"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy beamer melee tell"
+      ],
+      "sounds": [
+        {
+          "sound": "ClownLaugh.ogg",
+          "weight": 1,
+          "category":"Clown",
+          "displayName": "Смех перед атакой"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal attack start"
+      ],
+      "sounds": [
+        {
+          "sound": "StartBark.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Начинает атаковать"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal attack loop"
+      ],
+      "sounds": [
+        {
+          "sound": "ContinueBark.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Атакует"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal attack stop"
+      ],
+      "sounds": [
+        {
+          "sound": "EndBark.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Перестаёт атаковать"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal death"
+      ],
+      "sounds": [
+        {
+          "sound": "DoggyDeath.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Умирает"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal hurt01",
+        "enemy animal hurt02",
+        "enemy animal hurt03"
+      ],
+      "sounds": [
+        {
+          "sound": "Skulit.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Получает урон"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy animal notice01",
+        "enemy animal notice02",
+        "enemy animal notice03"
+      ],
+      "sounds": [
+        {
+          "sound": "HappyBark.ogg",
+          "weight": 1,
+          "category": "Animal",
+          "displayName": "Замечает игрока"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy runner attack grunt01",
+        "enemy runner attack grunt02",
+        "enemy runner attack grunt03",
+        "enemy runner attack grunt04",
+        "enemy runner attack grunt05"
+      ],
+      "sounds": [
+        {
+          "sound": "Zarezhu.ogg",
+          "weight": 1,
+          "category": "Reaper",
+          "displayName": "Кричит"
+        }
+      ]
+    },
+    {
+      "matches": [
+        "enemy runner attack slash01",
+        "enemy runner attack slash02",
+        "enemy runner attack slash03"
+      ],
+      "sounds": [
+        {
+          "sound": "ShinkShinkShink.ogg",
+          "weight": 1,
+          "category": "Reaper",
+          "displayName": "Звук лезвий"
+        }
+      ]
+    }
+  ]
+}    
+

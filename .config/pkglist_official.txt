@@ -226,4 +226,5 @@ xwaylandvideobridge
 yay-bin
 yay-bin-debug
 yelp
+youtubemusic
 zoom

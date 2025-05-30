@@ -1,0 +1,37 @@
+{
+    "name": "TakesTakesTakesTakesTakes",
+    "config": {
+        "Reaper:Takes": {
+            "description": "TakesTakesTakesTakesTakes",
+            "default": true
+        },
+        "Reaper:Moves": {
+            "description": "e4 Qh5 Bc4 Qxf7#",
+            "default": true
+        },
+        "Reaper:Hurt": {
+            "description": "Replace the take damage sound",
+            "default": true
+        },
+        "Reaper:Death": {
+            "description": "Replace the death sound",
+            "default": true
+        },
+        "Reaper:Stun": {
+            "description": "Replace the stun sound",
+            "default": true
+        },
+        "Reaper:Footsteps": {
+            "description": "Replace the footstep sound with a chess move",
+            "default": true
+        },
+        "Reaper:Attack": {
+            "description": "Replace the blade sound with a chess take",
+            "default": true
+        },
+        "Reaper:MuffleMoves": {
+            "description": "Disable hay moving sound",
+            "default": true
+        }
+    }
+}

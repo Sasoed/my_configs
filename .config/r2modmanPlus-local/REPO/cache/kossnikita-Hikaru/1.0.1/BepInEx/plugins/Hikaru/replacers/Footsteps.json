@@ -1,0 +1,34 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Footsteps"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner footstep01",
+                "*:enemy runner footstep02",
+                "*:enemy runner footstep03"
+            ],
+            "sounds": [
+                {
+                    "sound": "Chess/MoveSelf.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:enemy runner footstep fast01",
+                "*:enemy runner footstep fast02",
+                "*:enemy runner footstep fast03"
+            ],
+            "sounds": [
+                {
+                    "sound": "Chess/MoveSelf.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

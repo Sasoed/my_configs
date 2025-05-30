@@ -1,0 +1,11 @@
+{
+    "name": "AmbatukamClown",
+    "version_number": "1.0.1",
+    "website_url": "https://www.youtube.com/watch?v=H6N-ZFT5pas",
+    "description": "Guys watch out, he is about to blow",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"loaforc-loaforcsSoundAPI-2.0.6",
+		"loaforc-loaforcsSoundAPI_REPO-1.0.1"
+	]
+}

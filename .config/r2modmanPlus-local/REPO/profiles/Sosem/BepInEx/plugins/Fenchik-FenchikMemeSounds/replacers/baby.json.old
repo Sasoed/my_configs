@@ -1,0 +1,137 @@
+{
+	"replacements": [
+		{
+			"matches": [
+			"enemy valuable thrower hurt01",
+            "enemy valuable thrower hurt02",
+            "enemy valuable thrower hurt03"
+			],
+
+			"sounds": [
+				{
+					"sound": "Babyhurt1.mp3",
+					"weight": 40,
+					"category": "Baby",
+					"displayName":"Удар по ребёнку 1"
+				},
+				{
+					"sound": "Babyhurt2.mp3",
+					"weight": 30,
+					"category":"Baby",
+					"displayName": "Удар по ребёнку 2"
+				},
+				{
+					"sound": "Babyhurt3.mp3",
+					"weight": 30,
+					"category":"Baby",
+					"displayName":"Удар по ребёнку 3"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower notice"
+			],
+
+			"sounds": [
+				{
+					"sound": "Neeee.mp3",
+					"weight": 1,
+					"category":"Baby",
+					"displayName": "Ребёнок заметил вас"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower pickup intro"
+			],
+
+			"sounds": [
+				{
+					"sound": "StartBabyLaugh.mp3",
+					"weight": 1,
+					"category":"Baby",
+					"displayName": "Ребёнок поднял предмет"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower pickup outro tell"
+			],
+
+			"sounds": [
+				{
+					"sound": "StartBabyLaugh.mp3",
+					"weight": 1,
+					"category":"Baby",
+					"displayName": "Держит в руках предмет"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower pickup outro throw"
+			],
+
+			"sounds": [
+				{
+					"sound": "Apchi.mp3",
+                    "weight": 1,
+					"category":"Baby",
+					"displayName": "Ребёнок кинул предмет"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower spawn"
+			],
+
+			"sounds": [
+				{
+					"sound": "BabySpawn.mp3",
+					"weight": 1,
+					"category":"Baby",
+					"displayName": "Ребёнок заспавнился"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower stun loop"
+			],
+
+			"sounds": [
+				{
+					"sound": "BabyCry.mp3",
+                    "weight": 1,
+					"category":"Baby",
+					"displayName": "Ребёнок под станом"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy valuable thrower death"
+			],
+
+			"sounds": [
+				{
+					"sound": "BabyDie.mp3",
+                    "weight": 1,
+					"category":"Baby",
+					"displayName": "Смерть ребёнка"
+				}
+			]
+		}
+	]
+}

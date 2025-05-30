@@ -1,0 +1,25 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Attack"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner attack slash01",
+                "*:enemy runner attack slash02",
+                "*:enemy runner attack slash03"
+            ],
+            "sounds": [
+                {
+                    "sound": "Chess/Capture.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Chess/MoveCheck.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

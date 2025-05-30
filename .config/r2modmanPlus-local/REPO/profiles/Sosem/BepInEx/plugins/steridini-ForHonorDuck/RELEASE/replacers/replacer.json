@@ -1,0 +1,18 @@
+{
+    "replacements": [
+        {
+            "matches": "*:enemy duck transition",
+            "condition": {
+                "type": "config",
+                "config": "Settings:Robe",
+                "value": true
+            },
+            "sounds": [
+                {
+                    "sound": "honor.ogg",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

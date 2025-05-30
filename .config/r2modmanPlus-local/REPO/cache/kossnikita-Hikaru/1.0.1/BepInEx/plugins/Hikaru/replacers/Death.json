@@ -1,0 +1,23 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Death"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner death"
+            ],
+            "sounds": [
+                {
+                    "sound": "OhNoNoNo.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "WrongSquare.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

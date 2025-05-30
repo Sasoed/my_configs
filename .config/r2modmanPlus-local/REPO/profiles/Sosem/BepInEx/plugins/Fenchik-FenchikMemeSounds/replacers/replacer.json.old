@@ -1,0 +1,82 @@
+{
+	"replacements": [
+		{
+			"matches": [
+				"enemy upscream scream01",
+				"enemy upscream scream02",
+				"enemy upscream scream03"
+			],
+
+			"sounds": [
+				{
+					"sound": "Fnaf2Scream.ogg",
+					"weight": 1,
+					"category": "Upscreamer",
+					"displayName": "Атака апскримера"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy upscream scream global01",
+				"enemy upscream scream global02",
+				"enemy upscream scream global03"
+			],
+
+			"sounds": [
+				{
+					"sound": "Fnaf2ScreamGlobal.ogg",
+					"weight": 1,
+					"category": "Upscreamer",
+					"displayName": "Глобальная атака апскримера"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"enemy slow mouth puke loop" 
+			],
+
+			"sounds": [
+				{
+					"sound": "Blevotina.ogg",
+					"weight": 1,
+					"category": "SlowMouth",
+					"displayName": "Атака блевотиной"
+				}
+			]
+		},
+
+        {    
+			"matches": [
+				"enemy slow mouth puke start" 
+			],
+
+			"sounds": [
+				{
+					"sound": "Blevotina.ogg",
+					"weight": 1,
+					"category": "SlowMouth",
+					"displayName": "Начало атаки блевотиной"
+				}
+			]
+		},
+
+        {    
+			"matches": [
+				"enemy slow mouth puke stop" 
+			],
+
+			"sounds": [
+				{
+					"sound": "Otryzkahurt1.ogg",
+					"weight": 1,
+					"category": "SlowMouth",
+					"displayName": "Конец атаки блевотиной"
+				}
+			]
+		}
+	]
+}

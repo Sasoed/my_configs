@@ -1,0 +1,112 @@
+{
+	"replacements": [
+        {
+            "matches":[
+                "arena_music_everyone_loser_temp"
+            ], 
+        "sounds":[
+            {
+        "sound": "WthArena.ogg",
+        "weight": 1,
+        "category": "Arena",
+        "displayName": "Все проиграли"
+            }
+        ]
+        },
+        {
+            "matches":[
+                "arena_music_temp"
+            ], 
+        "sounds":[
+            {
+        "sound": "ArenaMusic1.ogg",
+        "weight": 20,
+        "category": "Arena",
+        "displayName": "Музыка арены 1" 
+            },
+            {
+        "sound": "ArenaMusic2.ogg",
+        "weight": 15,
+        "category": "Arena",
+        "displayName": "Музыка арены 2"        
+            },
+            {
+        "sound": "ArenaMusic3.ogg",
+        "weight": 15,
+        "category": "Arena",
+        "displayName": "Музыка арены 3"        
+            },
+            {
+        "sound": "ArenaMusic4.ogg",
+        "weight": 20,
+        "category": "Arena",
+        "displayName": "Музыка арены 4" 
+            },
+            {
+        "sound": "ArenaMusic5.ogg",
+        "weight": 20,
+        "category": "Arena",
+        "displayName": "Музыка арены 5" 
+            },
+            {
+        "sound": "ArenaMusic6.ogg",
+        "weight": 10,
+        "category": "Arena",
+        "displayName": "Музыка арены 6" 
+            }
+        ]
+        },
+        {
+            "matches":[
+                "arena player death"
+            ], 
+        "sounds":[
+            {
+        "sound": "DeathArena.ogg",
+        "weight": 1,
+        "category": "Arena",
+        "displayName": "Смерть игрока на арене"
+            }
+        ]
+        },
+        {
+            "matches":[
+                "arena player death sound"
+            ], 
+        "sounds":[
+            {
+        "sound": "DeathArenaSound.ogg",
+        "weight": 1,
+        "category": "Arena",
+        "displayName": "Смерть игрока на арене 1"
+            }
+        ]
+        },
+        {
+            "matches":[
+                "arena crown open sound"
+            ], 
+        "sounds":[
+            {
+        "sound": "WeHaveAWinner.ogg",
+        "weight": 1,
+        "category": "Arena",
+        "displayName": "Корона открылась"
+            }
+        ]
+        },
+        {
+            "matches":[
+                "arena_music_victory_jingle_temp"
+            ], 
+        "sounds":[
+            {
+        "sound": "Yaaay.ogg",
+        "weight": 1,
+        "category": "Arena",
+        "displayName": "Победа на арене"
+            }
+        ]
+        }
+    ]
+}

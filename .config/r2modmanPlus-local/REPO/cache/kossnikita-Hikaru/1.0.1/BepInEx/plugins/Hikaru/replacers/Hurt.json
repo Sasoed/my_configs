@@ -1,0 +1,29 @@
+{
+    "condition": {
+        "type": "config",
+        "config": "Reaper:Hurt"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "*:enemy runner hurt01",
+                "*:enemy runner hurt02",
+                "*:enemy runner hurt03"
+            ],
+            "sounds": [
+                {
+                    "sound": "Hurt/Oh.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Hurt/MyGod.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "Hurt/OhComeOn.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

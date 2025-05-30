@@ -1,0 +1,9 @@
+﻿{
+  "name": "EvenMoreHats",
+  "version_number": "1.9.0",
+  "website_url": "https://github.com/FedoraBunny",
+  "description": "More Hats + Youtuber cosmetics",
+  "dependencies": [	
+    "YMC_MHZ-MoreHead-1.4.0", "Maygik-MoreHeadUtilities-1.0.6"
+  ]
+}

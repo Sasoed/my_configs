@@ -1,0 +1,339 @@
+{
+  "replacements": [
+        {
+        "matches": [  
+            "ambience breaker global14",  
+            "ambience breaker arctic01",
+            "ambience breaker wizard06"
+        ],
+        "sounds": [
+            {
+            "sound": "ARat.ogg",
+            "weight": 1,
+            "category": "Ambience",
+            "displayName": "OH, a rat!" 
+            }
+        ]
+        },
+        {
+        "matches": [
+            "ambience breaker manor08"
+        ],
+        "sounds": [
+            {
+            "sound": "BinauralKnocking.ogg",
+            "weight": 1,
+            "category": "Ambience",
+            "displayName": "Реалистичный стук в дверь"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "enemy thin man teleport in"
+        ],
+        "sounds": [
+            {
+            "sound": "DobroeUtro.ogg",
+            "weight": 1,
+            "category": "ShadowChild",
+            "displayName": "Телепортировался"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "enemy beamer attack intro"
+        ],
+        "sounds": [
+            {
+            "sound": "Sistema.ogg",
+            "weight": 1,
+            "category": "Clown",
+            "displayName": "Начал атаковать"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "enemy beamer attack loop"
+        ],
+        "sounds": [
+            {
+            "sound": "SistemaPoiskaLoop.ogg",
+            "weight": 1,
+            "category": "Clown",
+            "displayName": "Атакует"
+            }
+        ]
+        },
+        {
+        "matches": [
+            "enemy beamer attack intro global"
+        ],
+        "sounds": [
+            {
+            "sound": "SistemaGlobal.ogg",
+            "weight": 1,
+            "category": "Clown",
+            "displayName": "Глобально начал атаковать"
+            }
+        ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser loop"
+			],
+            "sounds": [
+                {
+                    "sound": "PoiskLoop.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Атака"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser loop global"
+			],
+            "sounds": [
+                {
+                    "sound": "PoiskLoopGlobal.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Глобальная атака"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser start"
+			],
+            "sounds": [
+                {
+                    "sound": "SistemaPoiska2.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Лазер проностится рядом"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser start global"
+			],
+            "sounds": [
+                {
+                    "sound": "SistemaPoiska2Global.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Лазер глобально проносится рядом"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser end"
+			],
+            "sounds": [
+                {
+                    "sound": "Nayden.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Конец лазера"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser end global"
+			],
+            "sounds": [
+                {
+                    "sound": "NaydenGlobal.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Глобальный конец лазера"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser hit start"
+			],
+            "sounds": [
+                {
+                    "sound": "GdeTiStart.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Начало хита лазером"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser hit loop"
+			],
+            "sounds": [
+                {
+                    "sound": "GdeTiLoop.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Хит лазером"
+                }
+            ]
+        },
+        {
+            "matches":[
+			"enemy beamer laser hit end"
+			],
+            "sounds": [
+                {
+                    "sound": "GdeTiEnd.ogg",
+                    "weight": 1,
+                    "category": "Clown",
+                    "displayName": "Конец хита лазером"
+                }
+            ]
+        },
+        {
+       "matches": [
+				"enemy hunter aim start01",
+				"enemy hunter aim start02",
+				"enemy hunter aim start03"
+		],
+			"sounds": [
+				{
+					"sound": "hunter_shoot.ogg",
+                    "weight": 1,
+                    "category": "Hunter",
+                    "displayName": "Стреляет"
+				}
+			]
+		},
+		{
+            "matches": [
+				"enemy hunter aim start global01",
+				"enemy hunter aim start global02",
+				"enemy hunter aim start global03"
+		],
+			"sounds": [
+				{
+					"sound": "hunter_shoot_global.ogg",
+                    "weight": 1,
+                    "category": "Hunter",
+                    "displayName": "Глобально стреляет"
+				}
+			]
+		},
+        {
+			"matches": [
+				"enemy hunter hurt01",
+				"enemy hunter hurt02",
+				"enemy hunter hurt03"
+			],
+			"sounds": [
+				{
+				"sound": "hunter_hurt.ogg",
+                    "weight": 1,
+                    "category": "Hunter",
+                    "displayName": "Получает урон"
+                }
+        ]
+        },
+        {
+        "matches": [
+            "enemy thin man notice01",
+            "enemy thin man notice02",
+            "enemy thin man notice03"
+        ],
+        "sounds": [
+            {
+            "sound": "HornyOhMy.ogg",
+            "weight": 1,
+            "category":"ShadowChild",
+            "displayName": "Заметил вас"
+            }
+        ]
+        },
+        {
+            "matches": [
+            "enemy hidden man player pickup"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVu.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Поймал игрока"
+            }
+            ]
+        },
+        {
+            "matches": [
+            "enemy hidden man player release"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVuIJustBeenThisPlaceBefore.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Отпустил игрока"
+            }
+            ]
+        },
+        {
+            "matches": [
+            "enemy hidden man footstep sprint01"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVu1.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Бежит с игроком 1"
+            }
+            ]
+        },
+        {
+            "matches": [
+            "enemy hidden man footstep sprint02"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVu2.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Бежит с игроком 2"
+            }
+            ]
+        },
+        {
+            "matches": [
+            "enemy hidden man footstep sprint03"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVuAha.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Бежит с игроком 3"
+            }
+            ]
+        },
+        {
+            "matches": [
+            "enemy hidden man player move loop"
+            ],
+            "sounds": [
+            {
+                "sound": "DejaVuSection.wav",
+                "weight": 1,
+                "category": "Hidden",
+                "displayName": "Бежит с игроком 4"
+            }
+            ]
+        }
+    ]
+}
