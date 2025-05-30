@@ -30,7 +30,7 @@ alias po="yay -Syu --noconfirm  && /home/seva/git/backup/env/bin/python /home/se
 alias config="/home/seva/projects/python/conf/main.py"
 alias syncr="/home/seva/git/backup/env/bin/python /home/seva/git/backup/main.py"
 alias mpv="mpv --vo=kitty"
-
+alias ncdu="echo gdu"
 
 
 function crp

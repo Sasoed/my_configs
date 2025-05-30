@@ -1,2 +1,3 @@
-2025/05/30-17:44:21.729 10e943 Creating DB /home/seva/.config/r2modman/Local Storage/leveldb since it was missing.
-2025/05/30-17:44:21.771 10e943 Reusing MANIFEST /home/seva/.config/r2modman/Local Storage/leveldb/MANIFEST-000001
+2025/05/31-02:03:51.760 243a61 Reusing MANIFEST /home/seva/.config/r2modman/Local Storage/leveldb/MANIFEST-000001
+2025/05/31-02:03:51.760 243a61 Recovering log #3
+2025/05/31-02:03:51.760 243a61 Reusing old log /home/seva/.config/r2modman/Local Storage/leveldb/000003.log 
