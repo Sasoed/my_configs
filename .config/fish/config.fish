@@ -16,7 +16,7 @@ set -x EDITOR nvim
 export PATH="$HOME/.cargo/bin:/home/seva/.local/bin:/home/seva/go/bin:$PATH"
 # Алиасы
 alias l="ls -lh"
-alias ls="eza --tree --level=1 --icons=always"
+alias ls="eza --tree --icons=always"
 alias Iam_femboy_UwU="fastfetch && ~/projects/python/notification/sound/bin/python ~/projects/python/notification/sound.py UwU"
 alias copy="wl-copy"
 alias tint="tint -d -n -l 1"

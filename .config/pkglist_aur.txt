@@ -22,6 +22,10 @@ noisetorch-debug
 pantum-driver
 pantum-driver-debug
 portproton
+protonup-qt
+python-inputs
+python-steam
+python-vdf
 r2modman-bin
 r2modman-bin-debug
 rtl8188gu-dkms-git

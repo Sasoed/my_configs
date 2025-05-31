@@ -462,8 +462,8 @@
                 "pixelformat": 4,
                 "resolution": "{\"width\":640,\"height\":360}",
                 "framerate": "{\"framerate\":{\"numerator\":30.0,\"denominator\":1.0}}",
-                "device_id": "v4l2_input.pci-0000_00_14.0-usb-0_9_1.0",
-                "Brightness": 11
+                "Brightness": 11,
+                "device_id": "v4l2_input.pci-0000_00_14.0-usb-0_9_1.0"
             },
             "mixers": 0,
             "sync": 0,
@@ -552,7 +552,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -8,
+    "scaling_level": -69,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

@@ -86,6 +86,7 @@ gvfs-onedrive
 gvfs-smb
 gvfs-wsdd
 helvum
+htop
 hyprland
 hyprsysteminfo
 input-remapper-bin
@@ -175,6 +176,7 @@ portproton
 powerdevil
 print-manager
 prismlauncher
+protonup-qt
 python-pip
 python-pipx
 qemu-full
